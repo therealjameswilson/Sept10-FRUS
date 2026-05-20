@@ -1,0 +1,93 @@
+# Sept10 FRUS Assist
+
+A GitHub Pages compiler workbench for source leads relevant to a prospective
+*Foreign Relations of the United States* volume on counterterrorism from
+January 20 to September 10, 2001.
+
+This repository follows the same static-site pattern as the other FRUS assist
+sites in the workspace. It is designed for source triage rather than general
+reading: records live in `data/records.json`, the browser mirror is
+`data/records.js`, and the public page renders a searchable chronology with
+source-note stubs, production gaps, local review state, and CSV export.
+
+No public Office of the Historian volume number is assigned in this site. The
+scope is named from the working brief: counterterrorism before the September 11
+attacks, beginning with the Bush administration transition on January 20, 2001
+and ending on September 10, 2001.
+
+## Provisional Arrangement
+
+1. Policy Inheritance and Review
+2. Threat Surge and Domestic Warning
+3. Aviation and Border Leads
+4. Strategy Decision and September 10
+
+Records inside each lane should be arranged by `sortDate`, using Washington
+time where available. Each record should make its status explicit: selected
+document candidate, context candidate, source collection, citation lead, or
+pending review.
+
+## Data Model
+
+The canonical file is `data/records.json`; `data/records.js` assigns the same
+array to `window.SEPT10_RECORDS` so the page can also render when opened from
+the filesystem. The schema is `data/records.schema.json`, and
+`data/records.sample.json` shows the preferred record shape.
+
+The initial dataset is deliberately conservative. It includes public source
+leads and declassified/cited items rather than pretending to be a complete
+FRUS selection set. Many records point to the 9/11 Commission, DOJ Inspector
+General, George W. Bush Library, FAS, and related public finding aids because
+those sources identify underlying records that still require archival
+verification.
+
+## Compiler Workflow
+
+The site supports:
+
+- search across titles, summaries, source paths, people, topics, URLs, and notes
+- filters for lane, record type, release status, selection decision, production
+  issue, and local review state
+- copyable FRUS-style source-note stubs for record packets
+- local "reviewed" marking in browser storage
+- CSV export of the visible record set
+- production issue flags for missing selection, source note, chronology,
+  declassification, annotation, and index terms
+
+Treat every generated source note as a working stub. Before selection or
+publication, verify exact repository path, file unit, document markings, time,
+participants, excisions, page spans, drafting, clearance, and distribution
+against the underlying record.
+
+## Source Anchors
+
+- 9/11 Commission Report, Chapter 8, "The System Was Blinking Red": <https://www.9-11commission.gov/report/911Report_Ch8.htm>
+- 9/11 Commission Report Notes: <https://www.9-11commission.gov/report/911Report_Notes.htm>
+- 9/11 Commission Staff Statement No. 10, "Threats and Responses in 2001": <https://www.9-11commission.gov/staff_statements/staff_statement_10.pdf>
+- Richard Clarke testimony to the 9/11 Commission: <https://www.9-11commission.gov/hearings/hearing8/clarke_statement.pdf>
+- George W. Bush Library, September 11 topic guide: <https://www.georgewbushlibrary.gov/research/topic-guides/september-11-2001-terrorist-attacks>
+- George W. Bush Library, Global War on Terror topic guide: <https://www.georgewbushlibrary.gov/research/topic-guides/global-war-terror>
+- George W. Bush Library FOIA 2014-0487-F, NSC meeting minutes: <https://www.georgewbushlibrary.gov/research/finding-aids/foia-requests/2014-0487-f-minutes-national-security-council-meetings-january-2001-december-2001>
+- George W. Bush Library FOIA 2014-0215-F, al Qaeda and Osama bin Laden: <https://www.georgewbushlibrary.gov/sites/default/files/2023-08/20140215f1-findingaid_0.pdf>
+- DOJ OIG, Phoenix Electronic Communication chapter: <https://oig.justice.gov/sites/default/files/archive/special/0506/chapter3.htm>
+- DOJ OIG, Moussaoui investigation chapter: <https://oig.justice.gov/sites/default/files/archive/special/s0606/chapter4.htm>
+- DOJ OIG, Mihdhar and Hazmi chapter: <https://oig.justice.gov/sites/default/files/archive/special/s0606/chapter5.htm>
+- Declassified August 6, 2001 PDB, "Bin Ladin Determined To Strike in US": <https://irp.fas.org/cia/product/pdb080601.pdf>
+- NSPD-9 public characterization: <https://irp.fas.org/offdocs/nspd/nspd-9.htm>
+- FRUS production method reference: <https://history.state.gov/historicaldocuments/frus1989-92v31/abouttheseries>
+
+## Local Preview
+
+Run a static server from the repository root:
+
+```bash
+python3 -m http.server 4217 --bind 127.0.0.1
+```
+
+Then open <http://127.0.0.1:4217/>.
+
+## Publish
+
+This repository deploys through GitHub Pages with
+`.github/workflows/deploy-pages.yml`. Set the repository Pages source to
+GitHub Actions, then push to `main`.

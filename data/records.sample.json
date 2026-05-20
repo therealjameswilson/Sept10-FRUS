@@ -1,0 +1,29 @@
+[
+  {
+    "id": "sample-2001-08-06-pdb",
+    "date": "2001-08-06",
+    "sortDate": "2001-08-06",
+    "dateLine": "August 6, 2001",
+    "type": "Public Document",
+    "title": "Bin Ladin Determined To Strike in US",
+    "documentTitle": "President's Daily Brief: Bin Ladin Determined To Strike in US",
+    "chapter": {
+      "number": 3,
+      "name": "Aviation and Border Leads"
+    },
+    "releaseStatus": "Declassified",
+    "selectionDecision": "Include candidate",
+    "source": {
+      "repository": "Central Intelligence Agency",
+      "collection": "President's Daily Brief",
+      "itemTitle": "Bin Ladin Determined To Strike in US",
+      "url": "https://irp.fas.org/cia/product/pdb080601.pdf"
+    },
+    "pdfUrl": "https://irp.fas.org/cia/product/pdb080601.pdf",
+    "sourceNote": "Source: Central Intelligence Agency, President's Daily Brief, \"Bin Ladin Determined To Strike in US,\" August 6, 2001. Declassified copy posted by the Federation of American Scientists Intelligence Resource Program.",
+    "sourceNoteStatus": "Draft",
+    "summary": "Sample record showing the preferred shape for a public document entry.",
+    "frusTopics": ["al Qaeda", "President's Daily Brief", "aviation security"],
+    "indexTerms": ["Bin Ladin", "President's Daily Brief", "CIA"]
+  }
+]

@@ -1,0 +1,145 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Sept10 FRUS Assist Record",
+  "type": "object",
+  "required": [
+    "id",
+    "date",
+    "sortDate",
+    "type",
+    "title",
+    "chapter",
+    "releaseStatus",
+    "selectionDecision",
+    "source",
+    "frusTopics"
+  ],
+  "properties": {
+    "id": { "type": "string" },
+    "date": { "type": "string", "format": "date" },
+    "sortDate": { "type": "string", "format": "date" },
+    "dateLine": { "type": "string" },
+    "washingtonTime": { "type": "string" },
+    "type": {
+      "type": "string",
+      "enum": [
+        "Document Lead",
+        "Meeting Lead",
+        "Warning Lead",
+        "Source Collection",
+        "Context Lead",
+        "Public Document"
+      ]
+    },
+    "title": { "type": "string" },
+    "documentTitle": { "type": "string" },
+    "subjectLine": { "type": "string" },
+    "summary": { "type": "string" },
+    "editorialUse": { "type": "string" },
+    "chapter": {
+      "type": "object",
+      "required": ["number", "name"],
+      "properties": {
+        "number": { "type": "integer", "minimum": 1, "maximum": 4 },
+        "name": {
+          "type": "string",
+          "enum": [
+            "Policy Inheritance and Review",
+            "Threat Surge and Domestic Warning",
+            "Aviation and Border Leads",
+            "Strategy Decision and September 10"
+          ]
+        }
+      }
+    },
+    "releaseStatus": {
+      "type": "string",
+      "enum": [
+        "Public",
+        "Declassified",
+        "Released Finding Aid",
+        "Citation Lead",
+        "Public Characterization",
+        "Restricted/Not Located",
+        "Mixed",
+        "Unknown"
+      ]
+    },
+    "selectionDecision": {
+      "type": "string",
+      "enum": ["Pending", "Include candidate", "Context candidate", "Source lead", "Exclude", "Ready for editor"]
+    },
+    "productionIssues": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "enum": [
+          "needs-selection",
+          "needs-source",
+          "needs-chronology",
+          "needs-declass",
+          "needs-annotation",
+          "needs-index"
+        ]
+      }
+    },
+    "naid": { "type": "string" },
+    "catalogUrl": { "type": "string", "format": "uri-reference" },
+    "pdfUrl": { "type": "string", "format": "uri-reference" },
+    "transcriptionUrl": { "type": "string", "format": "uri-reference" },
+    "pageCount": { "type": ["integer", "null"], "minimum": 1 },
+    "sourcePages": { "type": "string" },
+    "source": {
+      "type": "object",
+      "required": ["repository"],
+      "properties": {
+        "repository": { "type": "string" },
+        "collection": { "type": "string" },
+        "series": { "type": "string" },
+        "subseries": { "type": "string" },
+        "fileUnit": { "type": "string" },
+        "box": { "type": "string" },
+        "folder": { "type": "string" },
+        "itemTitle": { "type": "string" },
+        "documentId": { "type": "string" },
+        "caseNumber": { "type": "string" },
+        "url": { "type": "string", "format": "uri-reference" },
+        "path": {
+          "oneOf": [
+            { "type": "string" },
+            { "type": "array", "items": { "type": "string" } }
+          ]
+        }
+      }
+    },
+    "sourceNote": { "type": "string" },
+    "sourceNoteAddendum": { "type": "string" },
+    "sourceNoteStatus": {
+      "type": "string",
+      "enum": ["Pending", "Draft", "Complete", "Needs verification"]
+    },
+    "classification": { "type": "string" },
+    "originalClassification": { "type": "string" },
+    "documentMarkings": { "type": "array", "items": { "type": "string" } },
+    "handlingMarkings": { "type": "array", "items": { "type": "string" } },
+    "communication": {
+      "type": "object",
+      "properties": {
+        "from": { "type": "string" },
+        "to": { "type": "string" },
+        "channel": { "type": "string" }
+      }
+    },
+    "meetingLocation": { "type": "string" },
+    "declassificationStatus": { "type": "string" },
+    "annotationStatus": { "type": "string" },
+    "annotation": { "type": "string" },
+    "participants": { "type": "array", "items": { "type": "string" } },
+    "persons": { "type": "array", "items": { "type": "string" } },
+    "countries": { "type": "array", "items": { "type": "string" } },
+    "frusTopics": { "type": "array", "items": { "type": "string" } },
+    "indexTerms": { "type": "array", "items": { "type": "string" } },
+    "citedBy": { "type": "array", "items": { "type": "string" } },
+    "relatedRecords": { "type": "array", "items": { "type": "string" } }
+  }
+}

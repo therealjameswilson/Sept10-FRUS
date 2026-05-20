@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 420" role="img" aria-labelledby="title desc">
+  <title id="title">Counterterrorism source map for January to September 2001</title>
+  <desc id="desc">A restrained archival timeline with four source lanes and highlighted dates from January 20 through September 10, 2001.</desc>
+  <rect width="760" height="420" fill="#f8faf8"/>
+  <rect x="34" y="34" width="692" height="352" rx="12" fill="#fff" stroke="#c7d2cc" stroke-width="2"/>
+  <line x1="94" y1="314" x2="666" y2="314" stroke="#173d4f" stroke-width="4"/>
+  <g fill="#173d4f" font-family="Inter, Arial, sans-serif" font-size="20" font-weight="700">
+    <text x="72" y="66">Sept10 FRUS Assist</text>
+  </g>
+  <g fill="#5c6870" font-family="Inter, Arial, sans-serif" font-size="14" font-weight="700">
+    <text x="72" y="92">Counterterrorism source leads, Jan. 20-Sep. 10, 2001</text>
+  </g>
+  <g font-family="Inter, Arial, sans-serif" font-size="13" font-weight="700">
+    <rect x="72" y="132" width="150" height="54" rx="8" fill="#edf4f1" stroke="#b7c9c2"/>
+    <text x="92" y="154" fill="#173d4f">Policy Review</text>
+    <text x="92" y="174" fill="#5c6870">Clarke, CSG, DC</text>
+    <rect x="232" y="132" width="150" height="54" rx="8" fill="#f6f0e5" stroke="#d2bd8b"/>
+    <text x="252" y="154" fill="#173d4f">Threat Surge</text>
+    <text x="252" y="174" fill="#5c6870">PDB, SEIB, alerts</text>
+    <rect x="392" y="132" width="150" height="54" rx="8" fill="#eef2f7" stroke="#b7c3d4"/>
+    <text x="412" y="154" fill="#173d4f">Aviation Leads</text>
+    <text x="412" y="174" fill="#5c6870">Phoenix, Moussaoui</text>
+    <rect x="552" y="132" width="150" height="54" rx="8" fill="#f6ecea" stroke="#d9b8b4"/>
+    <text x="572" y="154" fill="#173d4f">Strategy</text>
+    <text x="572" y="174" fill="#5c6870">PC, NSPD, Sep. 10</text>
+  </g>
+  <g stroke="#173d4f" stroke-width="3" fill="#fff">
+    <circle cx="94" cy="314" r="8"/>
+    <circle cx="218" cy="314" r="8"/>
+    <circle cx="342" cy="314" r="8"/>
+    <circle cx="466" cy="314" r="8"/>
+    <circle cx="590" cy="314" r="8"/>
+    <circle cx="666" cy="314" r="8"/>
+  </g>
+  <g fill="#172126" font-family="Inter, Arial, sans-serif" font-size="13" font-weight="800">
+    <text x="70" y="342">Jan. 20</text>
+    <text x="194" y="342">Apr. 30</text>
+    <text x="318" y="342">Jul. 5</text>
+    <text x="439" y="342">Aug. 6</text>
+    <text x="563" y="342">Sep. 4</text>
+    <text x="640" y="342">Sep. 10</text>
+  </g>
+  <g stroke="#9d3d36" stroke-width="2" fill="none">
+    <path d="M148 132 C166 112, 204 112, 222 132"/>
+    <path d="M304 186 C318 232, 334 268, 342 306"/>
+    <path d="M466 186 C466 228, 466 270, 466 306"/>
+    <path d="M626 186 C620 234, 606 268, 590 306"/>
+  </g>
+  <g fill="#9d3d36" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="800">
+    <text x="116" y="220">public evidence</text>
+    <text x="112" y="238">plus archival gaps</text>
+  </g>
+</svg>

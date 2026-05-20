@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sept10 FRUS Assist - Counterterrorism, January 20-September 10, 2001</title>
+    <meta
+      name="description"
+      content="A FRUS assist compiler workbench for source leads on counterterrorism from January 20 to September 10, 2001."
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="#top" aria-label="Sept10 FRUS assist home">
+        <span class="brand-mark">9/10</span>
+        <span>Sept10 FRUS Assist</span>
+      </a>
+      <nav aria-label="Primary navigation">
+        <a href="#workbench">Workbench</a>
+        <a href="#lanes">Lanes</a>
+        <a href="#records">Records</a>
+        <a href="#sources">Sources</a>
+        <a href="#ingest">Ingest</a>
+      </nav>
+    </header>
+
+    <main id="top">
+      <section class="hero" aria-labelledby="hero-title">
+        <div class="hero-copy">
+          <p class="kicker">FRUS 2001 Counterterrorism Source Leads</p>
+          <h1 id="hero-title">Counterterrorism before September 11</h1>
+          <p class="lede">
+            A public compiler workbench for records and source leads covering
+            counterterrorism policy, threat warnings, aviation and border leads, and
+            the final al Qaeda strategy decisions from January 20 through
+            September 10, 2001.
+          </p>
+          <div class="hero-actions" aria-label="Primary actions">
+            <a class="button primary" href="#records">Browse Records</a>
+            <a class="button secondary" href="#workbench">Open Workbench</a>
+            <a class="button secondary" href="#sources">Source Anchors</a>
+          </div>
+        </div>
+        <aside class="brief" aria-label="Archive scope">
+          <img src="assets/counterterrorism-source-map.svg" alt="" class="brief-visual" />
+          <p class="brief-label">Working Scope</p>
+          <dl>
+            <div>
+              <dt>Chronology</dt>
+              <dd>Jan. 20-Sep. 10, 2001</dd>
+            </div>
+            <div>
+              <dt>Subject</dt>
+              <dd>Counterterrorism</dd>
+            </div>
+            <div>
+              <dt>Status</dt>
+              <dd>Compiler source leads</dd>
+            </div>
+            <div>
+              <dt>Arrangement</dt>
+              <dd>Four provisional lanes</dd>
+            </div>
+          </dl>
+        </aside>
+      </section>
+
+      <section class="stats" aria-label="Archive summary">
+        <div>
+          <span id="total-records">0</span>
+          <p>source leads</p>
+        </div>
+        <div>
+          <span id="public-records">0</span>
+          <p>public or cited records</p>
+        </div>
+        <div>
+          <span id="source-gaps">0</span>
+          <p>source gaps</p>
+        </div>
+        <div>
+          <span id="reviewed-count">0</span>
+          <p>reviewed locally</p>
+        </div>
+      </section>
+
+      <section class="section workbench" id="workbench" aria-labelledby="workbench-title">
+        <div class="section-heading">
+          <div>
+            <p class="kicker">Compiler Workbench</p>
+            <h2 id="workbench-title">Triage the Pre-9/11 Chronology</h2>
+          </div>
+          <p class="section-note">
+            Built for source control: keep the chronology visible, separate public
+            evidence from archival verification, and make production gaps explicit.
+          </p>
+        </div>
+
+        <div class="control-grid" role="search" aria-label="Filter records">
+          <label>
+            Search records
+            <input id="filter-search" type="search" placeholder="Try Clarke, PDB, Phoenix, Moussaoui, CSG, Hazmi..." />
+          </label>
+          <label>
+            Lane
+            <select id="filter-chapter">
+              <option value="">All lanes</option>
+            </select>
+          </label>
+          <label>
+            Type
+            <select id="filter-type">
+              <option value="">All types</option>
+            </select>
+          </label>
+          <label>
+            Release status
+            <select id="filter-status">
+              <option value="">All statuses</option>
+            </select>
+          </label>
+          <label>
+            Selection
+            <select id="filter-decision">
+              <option value="">All decisions</option>
+            </select>
+          </label>
+          <label>
+            Production issue
+            <select id="filter-issue">
+              <option value="">All issues</option>
+              <option value="needs-selection">Needs selection</option>
+              <option value="needs-source">Needs source note</option>
+              <option value="needs-chronology">Needs chronology</option>
+              <option value="needs-declass">Needs declass accounting</option>
+              <option value="needs-annotation">Needs annotation</option>
+              <option value="needs-index">Needs index terms</option>
+            </select>
+          </label>
+          <label>
+            Review state
+            <select id="filter-review">
+              <option value="">All records</option>
+              <option value="open">Open review</option>
+              <option value="reviewed">Reviewed locally</option>
+            </select>
+          </label>
+          <label>
+            Sort
+            <select id="sort-records">
+              <option value="chapter-date">Lane chronology</option>
+              <option value="date">Single chronology</option>
+              <option value="issue">Most production gaps</option>
+              <option value="type">Record type</option>
+            </select>
+          </label>
+        </div>
+
+        <div class="workbench-actions">
+          <p id="filtered-count">Showing 0 of 0 records.</p>
+          <div>
+            <button id="reset-filters" type="button">Reset</button>
+            <button id="export-csv" type="button">Export visible CSV</button>
+          </div>
+        </div>
+
+        <div class="guidance-grid" aria-label="FRUS compiler checks">
+          <article>
+            <h3>Selection Test</h3>
+            <p>
+              Prefer records that document policy decisions, interagency warning
+              handling, foreign-government signals, operational leads, or the al Qaeda
+              strategy process.
+            </p>
+          </article>
+          <article>
+            <h3>Source Note Prep</h3>
+            <p>
+              Use the copied stub only as a packet starter. Verify repository path,
+              markings, date/time, participants, page spans, excisions, and handling
+              details against the original record.
+            </p>
+          </article>
+          <article>
+            <h3>Evidence Caution</h3>
+            <p>
+              Some entries are Commission-cited leads to still-restricted or not-yet
+              linked records. Keep citation leads separate from declassified document
+              copies.
+            </p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section" id="lanes" aria-labelledby="lanes-title">
+        <div class="section-heading">
+          <p class="kicker">Provisional Arrangement</p>
+          <h2 id="lanes-title">Compiler Lanes</h2>
+        </div>
+        <div class="chapter-grid">
+          <a class="chapter-card" href="#chapter-policy-inheritance-and-review">
+            <p class="chapter-number">Lane 1</p>
+            <h3>Policy Inheritance and Review</h3>
+            <p class="chapter-count"><span data-chapter-count="Policy Inheritance and Review">0</span> records</p>
+            <p>Transition briefings, inherited al Qaeda policy papers, CSG meetings, and Deputies-level review.</p>
+            <span class="chapter-action">View policy review leads</span>
+          </a>
+          <a class="chapter-card" href="#chapter-threat-surge-and-domestic-warning">
+            <p class="chapter-number">Lane 2</p>
+            <h3>Threat Surge and Domestic Warning</h3>
+            <p class="chapter-count"><span data-chapter-count="Threat Surge and Domestic Warning">0</span> records</p>
+            <p>Summer threat reporting, public warnings, domestic agency alerts, and CSG warning activity.</p>
+            <span class="chapter-action">View warning leads</span>
+          </a>
+          <a class="chapter-card" href="#chapter-aviation-and-border-leads">
+            <p class="chapter-number">Lane 3</p>
+            <h3>Aviation and Border Leads</h3>
+            <p class="chapter-count"><span data-chapter-count="Aviation and Border Leads">0</span> records</p>
+            <p>Phoenix, Moussaoui, watchlisting, aviation security, travel, visa, and border-information leads.</p>
+            <span class="chapter-action">View aviation and border leads</span>
+          </a>
+          <a class="chapter-card" href="#chapter-strategy-decision-and-september-10">
+            <p class="chapter-number">Lane 4</p>
+            <h3>Strategy Decision and September 10</h3>
+            <p class="chapter-count"><span data-chapter-count="Strategy Decision and September 10">0</span> records</p>
+            <p>Principals and Deputies decisions, the draft directive that became NSPD-9, and final pre-attack context.</p>
+            <span class="chapter-action">View strategy leads</span>
+          </a>
+        </div>
+      </section>
+
+      <section class="section" id="records" aria-labelledby="records-title">
+        <div class="section-heading">
+          <p class="kicker">Chronological Records</p>
+          <h2 id="records-title">Source Leads and Candidate Documents</h2>
+        </div>
+        <div id="records-root" class="records-root" aria-live="polite"></div>
+      </section>
+
+      <section class="section" id="sources" aria-labelledby="sources-title">
+        <div class="section-heading">
+          <p class="kicker">Source Anchors</p>
+          <h2 id="sources-title">Public Starting Points</h2>
+        </div>
+        <div class="source-grid">
+          <a href="https://www.9-11commission.gov/report/911Report_Ch8.htm" rel="noreferrer">9/11 Commission Chapter 8</a>
+          <a href="https://www.9-11commission.gov/report/911Report_Notes.htm" rel="noreferrer">9/11 Commission Notes</a>
+          <a href="https://www.9-11commission.gov/staff_statements/staff_statement_10.pdf" rel="noreferrer">Staff Statement No. 10</a>
+          <a href="https://www.georgewbushlibrary.gov/research/topic-guides/september-11-2001-terrorist-attacks" rel="noreferrer">Bush Library 9/11 Guide</a>
+          <a href="https://www.georgewbushlibrary.gov/research/topic-guides/global-war-terror" rel="noreferrer">Bush Library GWOT Guide</a>
+          <a href="https://www.georgewbushlibrary.gov/research/finding-aids/foia-requests/2014-0487-f-minutes-national-security-council-meetings-january-2001-december-2001" rel="noreferrer">FOIA 2014-0487-F</a>
+          <a href="https://oig.justice.gov/sites/default/files/archive/special/0506/chapter3.htm" rel="noreferrer">DOJ OIG Phoenix Chapter</a>
+          <a href="https://oig.justice.gov/sites/default/files/archive/special/s0606/chapter4.htm" rel="noreferrer">DOJ OIG Moussaoui Chapter</a>
+          <a href="https://irp.fas.org/cia/product/pdb080601.pdf" rel="noreferrer">August 6 PDB</a>
+          <a href="https://history.state.gov/historicaldocuments/frus1989-92v31/abouttheseries" rel="noreferrer">FRUS Method Reference</a>
+        </div>
+      </section>
+
+      <section class="section ingest" id="ingest" aria-labelledby="ingest-title">
+        <div class="section-heading">
+          <p class="kicker">Ingest Notes</p>
+          <h2 id="ingest-title">Refresh the Data Mirror</h2>
+        </div>
+        <p>
+          Edit <code>data/records.json</code> as the canonical source. After data changes,
+          refresh <code>data/records.js</code> with a small Node script or manual export so
+          <code>window.SEPT10_RECORDS</code> mirrors the JSON exactly.
+        </p>
+      </section>
+    </main>
+
+    <footer>
+      <p>
+        Built as a working source-lead archive for a FRUS counterterrorism chronology ending on
+        September 10, 2001.
+      </p>
+    </footer>
+    <script src="data/records.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>
