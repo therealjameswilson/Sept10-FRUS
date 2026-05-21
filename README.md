@@ -61,6 +61,8 @@ against the underlying record.
 
 ## Source Anchors
 
+- Avalon Project full PDF of the 9/11 Commission Report: <https://avalon.law.yale.edu/sept11/911report.pdf>
+- Avalon 9/11 Commission Report chronology notes: <reports/avalon-911-report-source-chronology.md>
 - 9/11 Commission Report, Chapter 8, "The System Was Blinking Red": <https://www.9-11commission.gov/report/911Report_Ch8.htm>
 - 9/11 Commission Report Notes: <https://www.9-11commission.gov/report/911Report_Notes.htm>
 - 9/11 Commission Staff Statement No. 10, "Threats and Responses in 2001": <https://www.9-11commission.gov/staff_statements/staff_statement_10.pdf>

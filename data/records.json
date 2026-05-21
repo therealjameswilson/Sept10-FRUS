@@ -101,6 +101,43 @@
     "citedBy": ["Department of State FOIA Virtual Reading Room"]
   },
   {
+    "id": "source-avalon-911-commission-report-2004-07",
+    "date": "2001-01-20",
+    "sortDate": "2001-01-20",
+    "dateLine": "July 2004 report; source shelf for January 20-September 10, 2001 chronology",
+    "type": "Source Collection",
+    "title": "Avalon 9/11 Commission Report chronology and document leads",
+    "documentTitle": "The 9/11 Commission Report",
+    "chapter": {
+      "number": 1,
+      "name": "Policy Inheritance and Review"
+    },
+    "releaseStatus": "Public",
+    "selectionDecision": "Source lead",
+    "productionIssues": ["needs-selection", "needs-annotation", "needs-index"],
+    "source": {
+      "repository": "National Commission on Terrorist Attacks Upon the United States / Yale Law School Avalon Project",
+      "collection": "The 9/11 Commission Report",
+      "series": "Public report and notes",
+      "itemTitle": "The 9/11 Commission Report",
+      "url": "https://avalon.law.yale.edu/sept11/911report.pdf"
+    },
+    "catalogUrl": "https://avalon.law.yale.edu/sept11/911report.pdf",
+    "pdfUrl": "https://avalon.law.yale.edu/sept11/911report.pdf",
+    "transcriptionUrl": "reports/avalon-911-report-source-chronology.md",
+    "pageCount": 585,
+    "sourceNote": "Source: Yale Law School Avalon Project PDF copy of the National Commission on Terrorist Attacks Upon the United States, \"The 9/11 Commission Report,\" July 2004. Chapters 6.5, 7, and 8, with notes to chapters 6-8, identify a control chronology and primary source targets including NSC memoranda, Deputies and Principals meeting records, CIA briefing materials, State cables, FBI and FAA warnings, DOJ memoranda, and late Mihdhar/Hazmi/Moussaoui/KSM leads for January 20-September 10, 2001.",
+    "sourceNoteStatus": "Draft",
+    "summary": "Full-report source shelf and chronology map for the new administration's al Qaeda review, the summer 2001 warning spike, domestic and aviation leads, and the September 4-10 strategy decisions.",
+    "editorialUse": "Use as a control index for extracting underlying 2001 documents; do not substitute the retrospective Commission narrative for contemporaneous NSC, CIA, State, FBI, FAA, DOJ, or White House records where those can be located.",
+    "frusTopics": ["9/11 Commission", "source collection", "al Qaeda", "threat surge", "NSC", "CIA", "FBI", "State Department"],
+    "indexTerms": ["Avalon Project", "The 9/11 Commission Report", "Counterterrorism Security Group", "Deputies Committee", "Principals Committee", "Predator", "Moussaoui", "Mihdhar", "Hazmi"],
+    "countries": ["United States", "Afghanistan", "Pakistan", "Saudi Arabia"],
+    "persons": ["George W. Bush", "Condoleezza Rice", "Richard A. Clarke", "George Tenet", "Stephen Hadley", "John Ashcroft", "Osama bin Laden", "Zacarias Moussaoui", "Khalid al-Mihdhar", "Nawaf al-Hazmi"],
+    "citedBy": ["Yale Law School Avalon Project", "9/11 Commission Report"],
+    "relatedRecords": ["clarke-rice-al-qaeda-review-2001-01-24", "draft-afghanistan-counterterrorism-finding-2001-03", "clarke-pennsylvania-avenue-warning-2001-03-23", "csg-abu-zubaydah-reports-2001-04-19", "state-deputies-terrorism-al-qaida-briefing-2001-04-20", "deputies-al-qaeda-policy-2001-04-30", "bin-ladin-network-plans-advancing-2001-05-29", "state-worldwide-caution-2001-06-22", "tenet-rice-system-blinking-red-2001-06-28", "fbi-faa-warning-actions-2001-07-02", "csg-domestic-agency-meeting-2001-07-05", "phoenix-electronic-communication-2001-07-10", "csg-suspected-terrorist-travel-2001-07-23", "faa-possible-hijacking-circular-2001-07-31", "pdb-bin-ladin-determined-to-strike-2001-08-06", "moussaoui-investigation-opened-2001-08-15", "mihdhar-hazmi-watchlist-2001-08-23", "principals-approve-al-qaeda-directive-2001-09-04", "massoud-assassination-context-2001-09-09", "deputies-al-qaeda-strategy-2001-09-10"]
+  },
+  {
     "id": "source-fbi-911-review-commission-report-2015-03",
     "date": "2001-09-10",
     "sortDate": "2001-09-10",
