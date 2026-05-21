@@ -81,6 +81,8 @@ window.SEPT10_RECORDS = [
       "url": "https://www.georgewbushlibrary.gov/research/finding-aids/foia-requests/2014-0487-f-minutes-national-security-council-meetings-january-2001-december-2001"
     },
     "catalogUrl": "https://www.georgewbushlibrary.gov/research/finding-aids/foia-requests/2014-0487-f-minutes-national-security-council-meetings-january-2001-december-2001",
+    "pdfUrl": "https://www.georgewbushlibrary.gov/sites/default/files/images//20140487f-findingaid.pdf",
+    "pdfLabel": "Finding aid PDF",
     "pageCount": 297,
     "sourceNote": "Source: George W. Bush Presidential Library, FOIA 2014-0487-F, Minutes of National Security Council Meetings from January 2001 to December 2001, National Security Council - Records and Access Management files. The finding aid describes 15 folders and approximately 297 pages, with many listed documents possibly closed for national-security classification or FOIA exemptions.",
     "sourceNoteStatus": "Draft",
@@ -403,9 +405,9 @@ window.SEPT10_RECORDS = [
   },
   {
     "id": "clarke-rice-al-qaeda-review-2001-01-24",
-    "date": "2001-01-24",
-    "sortDate": "2001-01-24",
-    "dateLine": "January 24, 2001",
+    "date": "2001-01-25",
+    "sortDate": "2001-01-25",
+    "dateLine": "January 25, 2001",
     "type": "Document Lead",
     "title": "Richard Clarke request for urgent Principals Committee review of al Qaeda",
     "documentTitle": "NSC memorandum from Richard A. Clarke to Condoleezza Rice on al Qaeda review",
@@ -413,21 +415,29 @@ window.SEPT10_RECORDS = [
       "number": 1,
       "name": "Policy Inheritance and Review"
     },
-    "releaseStatus": "Citation Lead",
+    "releaseStatus": "Declassified",
     "selectionDecision": "Include candidate",
     "productionIssues": [
-      "needs-declass",
       "needs-annotation"
     ],
     "source": {
       "repository": "National Security Council",
-      "collection": "9/11 Commission cited records",
+      "collection": "National Security Archive Electronic Briefing Book 147",
       "series": "Counterterrorism transition records",
       "itemTitle": "Clarke to Rice, al Qaeda review",
-      "url": "https://www.9-11commission.gov/hearings/hearing8/clarke_statement.pdf"
+      "url": "https://nsarchive2.gwu.edu/NSAEBB/NSAEBB147/index.htm",
+      "path": [
+        "https://nsarchive2.gwu.edu/NSAEBB/NSAEBB147/clarke%20memo.pdf",
+        "https://nsarchive2.gwu.edu/NSAEBB/NSAEBB147/clarke%20attachment.pdf",
+        "https://www.9-11commission.gov/hearings/hearing8/clarke_statement.pdf"
+      ]
     },
-    "catalogUrl": "https://www.9-11commission.gov/hearings/hearing8/clarke_statement.pdf",
-    "sourceNote": "Source: National Security Council memorandum lead, Richard A. Clarke to Condoleezza Rice, al Qaeda review, January 24, 2001. Cited in Clarke's written testimony to the 9/11 Commission as his request for an urgent NSC Principals Committee meeting; original archival copy, markings, and page span require verification.",
+    "catalogUrl": "https://nsarchive2.gwu.edu/NSAEBB/NSAEBB147/index.htm",
+    "pdfUrl": "https://nsarchive2.gwu.edu/NSAEBB/NSAEBB147/clarke%20memo.pdf",
+    "pdfLabel": "Clarke memo PDF",
+    "citationPdfUrl": "https://www.9-11commission.gov/hearings/hearing8/clarke_statement.pdf",
+    "citationPdfLabel": "Clarke testimony PDF",
+    "sourceNote": "Source: National Security Council memorandum, Richard A. Clarke to Condoleezza Rice, al Qaeda review, January 24/25, 2001, declassified copy posted by the National Security Archive. The posting also includes Tab A, the December 2000 strategy paper; the 1998 Delenda Plan attachment remains a separate retrieval target.",
     "sourceNoteStatus": "Needs verification",
     "summary": "Clarke later testified that he requested in writing an urgent NSC Principals Committee meeting to address the al Qaeda threat. The meeting did not occur until September 4.",
     "editorialUse": "Opening document candidate for the new administration's inherited al Qaeda policy problem and the pace of Principals-level review.",
@@ -486,6 +496,8 @@ window.SEPT10_RECORDS = [
       "url": "https://www.9-11commission.gov/report/911Report_Notes.htm"
     },
     "catalogUrl": "https://www.9-11commission.gov/report/911Report_Notes.htm",
+    "citationPdfUrl": "https://govinfo.library.unt.edu/911/report/911Report_Notes.pdf",
+    "citationPdfLabel": "9/11 notes PDF",
     "sourceNote": "Source: National Security Council and Central Intelligence Agency document leads, draft Afghanistan counterterrorism finding and draft UBL Memorandum of Notification, March 2001. Cited in the 9/11 Commission Report notes; original record location, exact date, markings, and text require archival verification.",
     "sourceNoteStatus": "Needs verification",
     "summary": "Commission notes identify March 2001 draft covert-action and notification materials in the policy-review chain that later culminated in the September al Qaeda strategy directive.",
@@ -539,6 +551,8 @@ window.SEPT10_RECORDS = [
       "url": "https://www.9-11commission.gov/report/911Report_Ch8.htm"
     },
     "catalogUrl": "https://www.9-11commission.gov/report/911Report_Ch8.htm",
+    "citationPdfUrl": "https://govinfo.library.unt.edu/911/report/911Report_Ch8.pdf",
+    "citationPdfLabel": "9/11 chapter 8 PDF",
     "sourceNote": "Source: National Security Council document lead, Richard A. Clarke warning to Condoleezza Rice regarding Pennsylvania Avenue security and possible terrorist truck-bomb use, March 23, 2001. Cited in the 9/11 Commission Report, chapter 8; original archival copy and markings require verification.",
     "sourceNoteStatus": "Needs verification",
     "summary": "The Commission reported that Clarke warned Rice that domestic or foreign terrorists might use a truck bomb in connection with Pennsylvania Avenue security discussions.",
@@ -746,6 +760,8 @@ window.SEPT10_RECORDS = [
       "url": "https://www.9-11commission.gov/report/911Report_Ch8.htm"
     },
     "catalogUrl": "https://www.9-11commission.gov/report/911Report_Ch8.htm",
+    "citationPdfUrl": "https://govinfo.library.unt.edu/911/report/911Report_Ch8.pdf",
+    "citationPdfLabel": "9/11 chapter 8 PDF",
     "sourceNote": "Source: National Security Council Counterterrorism Security Group meeting lead, discussion of Abu Zubaydah reports, April 19, 2001. Cited in the 9/11 Commission Report, chapter 8; meeting minutes, participant list, and source markings require verification.",
     "sourceNoteStatus": "Needs verification",
     "summary": "The Commission noted that the interagency CSG chaired by Clarke discussed Abu Zubaydah reporting as part of the spring threat stream.",
@@ -885,6 +901,8 @@ window.SEPT10_RECORDS = [
       "url": "https://www.9-11commission.gov/report/911Report_Ch8.htm"
     },
     "catalogUrl": "https://www.9-11commission.gov/report/911Report_Ch8.htm",
+    "citationPdfUrl": "https://govinfo.library.unt.edu/911/report/911Report_Ch8.pdf",
+    "citationPdfLabel": "9/11 chapter 8 PDF",
     "sourceNote": "Source: National Security Council Deputies Committee meeting lead, al Qaeda policy discussion, April 30, 2001. Cited in the 9/11 Commission Report, chapter 8; minutes, briefing papers, participant list, and classification markings require archival verification.",
     "sourceNoteStatus": "Needs verification",
     "summary": "The Deputies Committee began with a threat briefing and discussed al Qaeda policy proposals, including steps later developed into the September strategy package.",
@@ -944,6 +962,8 @@ window.SEPT10_RECORDS = [
       "url": "https://www.9-11commission.gov/report/911Report_Ch8.htm"
     },
     "catalogUrl": "https://www.9-11commission.gov/report/911Report_Ch8.htm",
+    "citationPdfUrl": "https://govinfo.library.unt.edu/911/report/911Report_Ch8.pdf",
+    "citationPdfLabel": "9/11 chapter 8 PDF",
     "sourceNote": "Source: Central Intelligence Agency intelligence article lead, \"Bin Ladin network's plans advancing,\" May 29, 2001. Discussed in the 9/11 Commission Report, chapter 8; PDB/SEIB version, distribution, and declassification status require verification.",
     "sourceNoteStatus": "Needs verification",
     "summary": "One of the cited spring 2001 warnings that the pace and seriousness of al Qaeda threat reporting had increased.",
@@ -1065,13 +1085,21 @@ window.SEPT10_RECORDS = [
     ],
     "source": {
       "repository": "Federal Aviation Administration",
-      "collection": "9/11 Commission cited aviation security records",
+      "collection": "National Security Archive Electronic Briefing Book 137 / 9/11 Commission cited aviation security records",
       "series": "FAA information circulars",
       "itemTitle": "June 22, 2001 information circular",
-      "url": "https://www.9-11commission.gov/staff_statements/staff_statement_10.pdf"
+      "url": "https://nsarchive2.gwu.edu/NSAEBB/NSAEBB137/index.htm",
+      "path": [
+        "https://nsarchive2.gwu.edu/NSAEBB/NSAEBB137/6-22%20Chap%208%20Endnotes%20Compare.pdf",
+        "https://www.9-11commission.gov/staff_statements/staff_statement_10.pdf"
+      ]
     },
-    "catalogUrl": "https://www.9-11commission.gov/staff_statements/staff_statement_10.pdf",
-    "sourceNote": "Source: Federal Aviation Administration information circular lead, June 22, 2001. Cited in 9/11 Commission Staff Statement No. 10 as a generalized warning to U.S. airlines; original circular text, distribution list, and markings require verification.",
+    "catalogUrl": "https://nsarchive2.gwu.edu/NSAEBB/NSAEBB137/index.htm",
+    "pdfUrl": "https://nsarchive2.gwu.edu/NSAEBB/NSAEBB137/6-22%20Chap%208%20Endnotes%20Compare.pdf",
+    "pdfLabel": "TSA release PDF",
+    "citationPdfUrl": "https://www.9-11commission.gov/staff_statements/staff_statement_10.pdf",
+    "citationPdfLabel": "Staff statement PDF",
+    "sourceNote": "Source: Federal Aviation Administration information circular lead, June 22, 2001. National Security Archive EBB 137 posts the TSA release comparison showing the requested circular was withheld in full while the Commission and Joint Inquiry cited its substance; original circular text remains a retrieval target.",
     "sourceNoteStatus": "Needs verification",
     "summary": "Aviation-sector warning lead during the summer spike in al Qaeda threat reporting.",
     "editorialUse": "Context for how threat information reached the aviation community before more specific late-July circulars.",
@@ -1166,6 +1194,153 @@ window.SEPT10_RECORDS = [
     ]
   },
   {
+    "id": "state-powell-sattar-lunch-2001-06-22",
+    "date": "2001-06-22",
+    "sortDate": "2001-06-22",
+    "dateLine": "June 22, 2001; meeting held June 19, 2001",
+    "type": "Document Lead",
+    "title": "State cable on Powell lunch with Pakistani Foreign Minister Abdul Sattar",
+    "documentTitle": "The Secretary's Lunch With Pakistani Foreign Minister Abdul Sattar",
+    "chapter": {
+      "number": 1,
+      "name": "Policy Inheritance and Review"
+    },
+    "releaseStatus": "Declassified",
+    "selectionDecision": "Context candidate",
+    "productionIssues": [
+      "needs-annotation",
+      "needs-index"
+    ],
+    "source": {
+      "repository": "Department of State",
+      "collection": "National Security Archive Electronic Briefing Book 325",
+      "series": "Pakistan and Afghanistan diplomatic cables",
+      "itemTitle": "The Secretary's Lunch With Pakistani Foreign Minister Abdul Sattar",
+      "documentId": "State 109130",
+      "url": "https://nsarchive2.gwu.edu/NSAEBB/NSAEBB325/index.htm"
+    },
+    "catalogUrl": "https://nsarchive2.gwu.edu/NSAEBB/NSAEBB325/index.htm",
+    "pdfUrl": "https://nsarchive2.gwu.edu/NSAEBB/NSAEBB325/doc02.pdf",
+    "pdfLabel": "State 109130 PDF",
+    "citationPdfUrl": "https://govinfo.library.unt.edu/911/report/911Report_Notes.pdf",
+    "citationPdfLabel": "9/11 notes PDF",
+    "pageCount": 8,
+    "sourceNote": "Source: Department of State cable State 109130, \"The Secretary's Lunch With Pakistani Foreign Minister Abdul Sattar,\" June 22, 2001, confidential, excised copy posted by the National Security Archive. The cable records Secretary Colin Powell's June 19 lunch with Pakistani Foreign Minister Abdul Sattar and Pakistan/Afghanistan discussion before the late-June Deputies review.",
+    "sourceNoteStatus": "Draft",
+    "classification": "Confidential",
+    "declassificationStatus": "Excised declassified public copy",
+    "documentMarkings": [
+      "CONFIDENTIAL",
+      "Excised"
+    ],
+    "communication": {
+      "from": "Secretary of State",
+      "to": "Department distribution",
+      "channel": "Cable State 109130"
+    },
+    "summary": "Powell pressed Sattar to explain Pakistan's Taliban relationship as the administration was reviewing Afghanistan, al Qaeda, and Pakistan policy.",
+    "editorialUse": "Diplomatic context candidate for the June policy review and the pressure track toward Pakistan and the Taliban.",
+    "frusTopics": [
+      "State Department",
+      "Pakistan",
+      "Taliban",
+      "Afghanistan",
+      "al Qaeda strategy"
+    ],
+    "indexTerms": [
+      "State 109130",
+      "Abdul Sattar",
+      "Colin Powell",
+      "Pakistan",
+      "Taliban"
+    ],
+    "countries": [
+      "United States",
+      "Pakistan",
+      "Afghanistan"
+    ],
+    "persons": [
+      "Colin Powell",
+      "Abdul Sattar",
+      "Condoleezza Rice",
+      "Osama bin Laden"
+    ],
+    "citedBy": [
+      "National Security Archive EBB 325",
+      "9/11 Commission Report notes"
+    ],
+    "relatedRecords": [
+      "state-worldwide-caution-2001-06-22",
+      "state-demarche-afghan-based-terrorists-2001-06-27"
+    ]
+  },
+  {
+    "id": "state-demarche-afghan-based-terrorists-2001-06-27",
+    "date": "2001-06-27",
+    "sortDate": "2001-06-27",
+    "dateLine": "June 27, 2001",
+    "type": "Document Lead",
+    "title": "State demarche on threat by Afghan-based terrorists",
+    "documentTitle": "Demarche on Threat by Afghan-based Terrorists",
+    "chapter": {
+      "number": 1,
+      "name": "Policy Inheritance and Review"
+    },
+    "releaseStatus": "Citation Lead",
+    "selectionDecision": "Context candidate",
+    "productionIssues": [
+      "needs-source",
+      "needs-declass",
+      "needs-annotation"
+    ],
+    "source": {
+      "repository": "Department of State",
+      "collection": "9/11 Commission cited records",
+      "series": "Taliban and Afghanistan diplomatic cables",
+      "itemTitle": "Demarche on Threat by Afghan-based Terrorists",
+      "documentId": "State 111711",
+      "url": "https://www.9-11commission.gov/report/911Report_Notes.htm"
+    },
+    "catalogUrl": "https://www.9-11commission.gov/report/911Report_Notes.htm",
+    "citationPdfUrl": "https://govinfo.library.unt.edu/911/report/911Report_Notes.pdf",
+    "citationPdfLabel": "9/11 notes PDF",
+    "sourceNote": "Source: Department of State cable State 111711, \"Demarche on Threat by Afghan-based Terrorists,\" June 27, 2001. The 9/11 Commission notes cite the cable as the instruction for reiterating severe U.S. warnings to the Taliban; a working public PDF was not located in this sweep.",
+    "sourceNoteAddendum": "A former INTELWIRE mirror for June 27 and June 29 State demarche PDFs is cited by secondary web pages, but intelfiles.egoplex.com did not resolve on May 21, 2026. Keep State 111711 in the direct-retrieval queue.",
+    "sourceNoteStatus": "Needs verification",
+    "summary": "The cable is the named State record for late-June warnings to the Taliban through Pakistani channels during the al Qaeda policy review.",
+    "editorialUse": "Diplomatic lead for the pressure track toward the Taliban and Pakistan; retrieve the original cable before treating it as a document candidate.",
+    "frusTopics": [
+      "State Department",
+      "Taliban",
+      "Afghanistan",
+      "Pakistan",
+      "al Qaeda strategy"
+    ],
+    "indexTerms": [
+      "State 111711",
+      "Demarche",
+      "Afghan-based terrorists",
+      "Taliban"
+    ],
+    "countries": [
+      "United States",
+      "Afghanistan",
+      "Pakistan"
+    ],
+    "persons": [
+      "Marc Grossman",
+      "William Milam",
+      "Osama bin Laden"
+    ],
+    "citedBy": [
+      "9/11 Commission Report notes"
+    ],
+    "relatedRecords": [
+      "state-powell-sattar-lunch-2001-06-22",
+      "deputies-al-qaeda-policy-2001-04-30"
+    ]
+  },
+  {
     "id": "tenet-rice-system-blinking-red-2001-06-28",
     "date": "2001-06-28",
     "sortDate": "2001-06-28",
@@ -1193,6 +1368,8 @@ window.SEPT10_RECORDS = [
       "url": "https://www.9-11commission.gov/report/911Report_Ch8.htm"
     },
     "catalogUrl": "https://www.9-11commission.gov/report/911Report_Ch8.htm",
+    "citationPdfUrl": "https://govinfo.library.unt.edu/911/report/911Report_Ch8.pdf",
+    "citationPdfLabel": "9/11 chapter 8 PDF",
     "sourceNote": "Source: Central Intelligence Agency and National Security Council meeting lead, late-June 2001 threat discussion involving George Tenet and Condoleezza Rice. Discussed in the 9/11 Commission Report, chapter 8; exact date, briefing materials, participants, and declassification status require verification.",
     "sourceNoteStatus": "Needs verification",
     "summary": "The Commission's account of summer 2001 threat handling emphasizes the late-June and early-July escalation in warnings to senior officials.",
@@ -1248,6 +1425,8 @@ window.SEPT10_RECORDS = [
       "url": "https://www.9-11commission.gov/staff_statements/staff_statement_10.pdf"
     },
     "catalogUrl": "https://www.9-11commission.gov/staff_statements/staff_statement_10.pdf",
+    "citationPdfUrl": "https://www.9-11commission.gov/staff_statements/staff_statement_10.pdf",
+    "citationPdfLabel": "Staff statement PDF",
     "sourceNote": "Source: Federal Bureau of Investigation and Federal Aviation Administration warning-record leads, July 2, 2001. Cited in 9/11 Commission Staff Statement No. 10 as FBI and FAA communications after late-June CSG threat review; original documents and distribution require verification.",
     "sourceNoteStatus": "Needs verification",
     "summary": "The FBI warned law-enforcement agencies about threats overseas while noting that a domestic strike could not be ruled out; the FAA issued an internal warning referencing possible airport-terminal explosives.",
@@ -1297,6 +1476,8 @@ window.SEPT10_RECORDS = [
       "url": "https://www.9-11commission.gov/report/911Report_Ch8.htm"
     },
     "catalogUrl": "https://www.9-11commission.gov/report/911Report_Ch8.htm",
+    "citationPdfUrl": "https://govinfo.library.unt.edu/911/report/911Report_Ch8.pdf",
+    "citationPdfLabel": "9/11 chapter 8 PDF",
     "sourceNote": "Source: National Security Council Counterterrorism Security Group meeting lead, domestic agency threat meeting, July 5, 2001. Cited in the 9/11 Commission Report, chapter 8; minutes, participant list, classification, and distribution limitations require verification.",
     "sourceNoteStatus": "Needs verification",
     "summary": "Representatives from domestic security agencies met with Clarke to discuss the current threat. The Commission noted disagreement over how attendees understood dissemination restrictions and follow-up expectations.",
@@ -1355,13 +1536,23 @@ window.SEPT10_RECORDS = [
     ],
     "source": {
       "repository": "Federal Bureau of Investigation",
-      "collection": "DOJ OIG review of FBI handling of pre-September 11 intelligence",
+      "collection": "Joint Inquiry hearing exhibits / DOJ OIG review of FBI handling of pre-September 11 intelligence",
       "series": "Phoenix Electronic Communication",
       "itemTitle": "Kenneth Williams EC, July 10, 2001",
-      "url": "https://oig.justice.gov/sites/default/files/archive/special/0506/chapter3.htm"
+      "url": "https://www.govinfo.gov/content/pkg/CHRG-107jhrg96166/pdf/CHRG-107jhrg96166.pdf",
+      "path": [
+        "https://www.govinfo.gov/content/pkg/CHRG-107jhrg96166/pdf/CHRG-107jhrg96166.pdf",
+        "https://oig.justice.gov/sites/default/files/legacy/special/0506/final.pdf",
+        "https://oig.justice.gov/sites/default/files/archive/special/0506/chapter3.htm"
+      ]
     },
     "catalogUrl": "https://oig.justice.gov/sites/default/files/archive/special/0506/chapter3.htm",
-    "sourceNote": "Source: Federal Bureau of Investigation document lead, Phoenix Electronic Communication from Special Agent Kenneth Williams to FBI Headquarters and New York Division, July 10, 2001. Discussed in DOJ OIG, A Review of the FBI's Handling of Intelligence Information Prior to the September 11 Attacks, chapter 3; original EC, redactions, distribution, and classification require verification.",
+    "pdfUrl": "https://www.govinfo.gov/content/pkg/CHRG-107jhrg96166/pdf/CHRG-107jhrg96166.pdf",
+    "pdfLabel": "Joint Inquiry PDF",
+    "citationPdfUrl": "https://oig.justice.gov/sites/default/files/legacy/special/0506/final.pdf",
+    "citationPdfLabel": "DOJ OIG PDF",
+    "sourcePages": "Joint Inquiry hearing PDF, supplemental materials beginning near printed page 552; DOJ OIG full report chapter 3.",
+    "sourceNote": "Source: Federal Bureau of Investigation document lead, Phoenix Electronic Communication from Special Agent Kenneth Williams to FBI Headquarters and New York Division, July 10, 2001. The Joint Inquiry hearing PDF includes the Phoenix Electronic Communication in supplemental materials; DOJ OIG chapter 3 supplies the handling narrative. Verify original EC markings and redactions before selection.",
     "sourceNoteStatus": "Needs verification",
     "summary": "The Phoenix EC warned of the possibility that Bin Ladin-linked individuals were attending U.S. civil aviation schools and recommended broader review.",
     "editorialUse": "Key aviation-warning document candidate and a major example of field-to-headquarters information flow before the attacks.",
@@ -1417,9 +1608,17 @@ window.SEPT10_RECORDS = [
       "series": "9/11 FBI Files",
       "itemTitle": "9/11 FBI Files",
       "documentId": "2012-048",
-      "url": "https://www.archives.gov/declassification/iscap/pdf/2012-048.html"
+      "url": "https://www.archives.gov/declassification/iscap/pdf/2012-048.html",
+      "path": [
+        "https://www.archives.gov/files/declassification/iscap/pdf/2012-048-doc5.pdf",
+        "https://www.archives.gov/files/declassification/iscap/pdf/2012-048-doc10.pdf",
+        "https://www.archives.gov/files/declassification/iscap/pdf/2012-048-doc20.pdf",
+        "https://www.archives.gov/files/declassification/iscap/pdf/2012-048-doc21.pdf"
+      ]
     },
     "catalogUrl": "https://www.archives.gov/declassification/iscap/pdf/2012-048.html",
+    "pdfUrl": "https://www.archives.gov/files/declassification/iscap/pdf/2012-048-doc5.pdf",
+    "pdfLabel": "Ali Soufan notes PDF",
     "sourceNote": "Source: NARA Center for Legislative Archives, ISCAP Appeal 2012-048, \"9/11 FBI Files,\" release page listing FBI-related 9/11 Commission interview materials and background files. Use as a declassified primary interview/source shelf for FBI institutional context; do not substitute it for original pre-attack FBI ECs, cables, or investigative files without record-level verification.",
     "sourceNoteStatus": "Draft",
     "declassificationStatus": "Declassified ISCAP release page with linked PDFs",
@@ -1484,6 +1683,8 @@ window.SEPT10_RECORDS = [
       "url": "https://www.9-11commission.gov/report/911Report_Ch8.htm"
     },
     "catalogUrl": "https://www.9-11commission.gov/report/911Report_Ch8.htm",
+    "citationPdfUrl": "https://govinfo.library.unt.edu/911/report/911Report_Ch8.pdf",
+    "citationPdfLabel": "9/11 chapter 8 PDF",
     "sourceNote": "Source: Department of State public warning lead regarding possible terrorist attacks in the Arabian Peninsula, July 18, 2001. Cited in the 9/11 Commission Report, chapter 8; original advisory text and archive URL require verification.",
     "sourceNoteStatus": "Needs verification",
     "summary": "Public regional warning issued while classified threat reporting remained elevated.",
@@ -1534,6 +1735,8 @@ window.SEPT10_RECORDS = [
       "url": "https://www.9-11commission.gov/report/911Report_Ch8.htm"
     },
     "catalogUrl": "https://www.9-11commission.gov/report/911Report_Ch8.htm",
+    "citationPdfUrl": "https://govinfo.library.unt.edu/911/report/911Report_Ch8.pdf",
+    "citationPdfLabel": "9/11 chapter 8 PDF",
     "sourceNote": "Source: National Security Council Counterterrorism Security Group meeting lead, al Qaeda threat and suspected terrorist travel to the United States, July 23, 2001. Cited in the 9/11 Commission Report, chapter 8; meeting record, briefing text, and distribution require verification.",
     "sourceNoteStatus": "Needs verification",
     "summary": "The Commission reported that the CSG's lead discussion item was still the al Qaeda threat and included suspected terrorist travel to the United States.",
@@ -1580,13 +1783,21 @@ window.SEPT10_RECORDS = [
     ],
     "source": {
       "repository": "Federal Aviation Administration",
-      "collection": "9/11 Commission cited aviation security records",
+      "collection": "National Security Archive Electronic Briefing Book 137 / 9/11 Commission cited aviation security records",
       "series": "FAA information circulars",
       "itemTitle": "July 31, 2001 circular on possible near-term terrorist operations",
-      "url": "https://www.9-11commission.gov/report/911Report_Ch8.htm"
+      "url": "https://nsarchive2.gwu.edu/NSAEBB/NSAEBB137/index.htm",
+      "path": [
+        "https://nsarchive2.gwu.edu/NSAEBB/NSAEBB137/7-31%20Chap%208%20Endnotes%20Compare.pdf",
+        "https://govinfo.library.unt.edu/911/report/911Report_Ch8.pdf"
+      ]
     },
-    "catalogUrl": "https://www.9-11commission.gov/report/911Report_Ch8.htm",
-    "sourceNote": "Source: Federal Aviation Administration circular lead, possible near-term terrorist operations, July 31, 2001. Cited in the 9/11 Commission Report, chapter 8; original circular text, recipients, and declassification status require verification.",
+    "catalogUrl": "https://nsarchive2.gwu.edu/NSAEBB/NSAEBB137/index.htm",
+    "pdfUrl": "https://nsarchive2.gwu.edu/NSAEBB/NSAEBB137/7-31%20Chap%208%20Endnotes%20Compare.pdf",
+    "pdfLabel": "TSA release PDF",
+    "citationPdfUrl": "https://govinfo.library.unt.edu/911/report/911Report_Ch8.pdf",
+    "citationPdfLabel": "9/11 chapter 8 PDF",
+    "sourceNote": "Source: Federal Aviation Administration circular lead, possible near-term terrorist operations, July 31, 2001. National Security Archive EBB 137 posts the TSA release comparison and 9/11 Commission endnote citation for the circular; original circular text and distribution remain retrieval targets.",
     "sourceNoteStatus": "Needs verification",
     "summary": "A late-July aviation warning cited by the Commission as threat reporting continued to indicate possible operations.",
     "editorialUse": "Context candidate for aviation-community warning posture immediately before the August 6 PDB.",
@@ -1693,6 +1904,8 @@ window.SEPT10_RECORDS = [
       "url": "https://oig.justice.gov/sites/default/files/archive/special/s0606/chapter4.htm"
     },
     "catalogUrl": "https://oig.justice.gov/sites/default/files/archive/special/s0606/chapter4.htm",
+    "pdfUrl": "https://oig.justice.gov/sites/default/files/legacy/special/s0606/final.pdf",
+    "pdfLabel": "DOJ OIG PDF",
     "sourceNote": "Source: Federal Bureau of Investigation investigation lead, Zacarias Moussaoui flight-training investigation opened by the Minneapolis Field Office, August 15, 2001. Discussed in DOJ OIG, A Review of the FBI's Handling of Intelligence Information Related to the September 11 Attacks, chapter 4; original FBI documents, warrants, and redactions require verification.",
     "sourceNoteStatus": "Needs verification",
     "summary": "The Minneapolis FBI opened an investigation after flight-school personnel reported suspicious behavior by Moussaoui, including 747 simulator training despite limited qualifications.",
@@ -1753,6 +1966,9 @@ window.SEPT10_RECORDS = [
       "url": "https://irp.fas.org/congress/2002_hr/092002hill.html"
     },
     "catalogUrl": "https://irp.fas.org/congress/2002_hr/092002hill.html",
+    "citationPdfUrl": "https://www.govinfo.gov/content/pkg/CHRG-107jhrg96166/pdf/CHRG-107jhrg96166.pdf",
+    "citationPdfLabel": "Joint Inquiry PDF",
+    "sourceNoteAddendum": "For DOJ OIG's narrative on the Mihdhar-Hazmi watchlisting and FBI search trail, use the full OIG PDF: https://oig.justice.gov/sites/default/files/legacy/special/s0606/final.pdf",
     "sourceNote": "Source: Central Intelligence Agency communication lead to Department of State, INS, Customs, and FBI requesting watchlisting of Khalid al-Mihdhar, Nawaf al-Hazmi, and others, August 23, 2001. Described in Joint Inquiry testimony by Eleanor Hill and in DOJ OIG chapter 5; original cable, addressees, and redactions require verification.",
     "sourceNoteStatus": "Needs verification",
     "summary": "The CIA asked multiple agencies to watchlist al-Mihdhar and al-Hazmi after information showed al-Mihdhar had obtained a U.S. visa and was likely in the United States.",
@@ -1814,6 +2030,8 @@ window.SEPT10_RECORDS = [
       "url": "https://www.9-11commission.gov/report/911Report_Ch8.htm"
     },
     "catalogUrl": "https://www.9-11commission.gov/report/911Report_Ch8.htm",
+    "citationPdfUrl": "https://govinfo.library.unt.edu/911/report/911Report_Ch8.pdf",
+    "citationPdfLabel": "9/11 chapter 8 PDF",
     "sourceNote": "Source: National Security Council Principals Committee meeting lead, al Qaeda strategy and armed Predator concept, September 4, 2001. Described in the 9/11 Commission Report, chapter 8, and in testimony concerning NSPD-9; minutes, decision memorandum, participants, and markings require verification.",
     "sourceNoteStatus": "Needs verification",
     "summary": "The President's senior advisers approved the draft al Qaeda strategy directive and endorsed the concept of arming the Predator. The directive awaited presidential signature on September 11 and later became NSPD-9 with changes.",
@@ -1941,6 +2159,8 @@ window.SEPT10_RECORDS = [
       "url": "https://www.9-11commission.gov/report/911Report_Notes.htm"
     },
     "catalogUrl": "https://www.9-11commission.gov/report/911Report_Notes.htm",
+    "citationPdfUrl": "https://govinfo.library.unt.edu/911/report/911Report_Notes.pdf",
+    "citationPdfLabel": "9/11 notes PDF",
     "sourceNote": "Source: National Security Council Deputies Committee meeting lead, al Qaeda strategy implementation, September 10, 2001. Cited in the 9/11 Commission Report notes; original minutes, participant list, briefing papers, and classification status require archival verification.",
     "sourceNoteStatus": "Needs verification",
     "summary": "Commission notes refer to a September 10 Deputies Committee meeting in the final stage of al Qaeda strategy planning. Secondary accounts connect this point to Taliban ultimatum planning, but the original record should control.",
@@ -1997,10 +2217,18 @@ window.SEPT10_RECORDS = [
       "series": "Air Force and 9/11 Commission air-defense records",
       "itemTitle": "Surveillance Log Book; Intelligence Update Exercise VG-01-2",
       "documentId": "2013-002",
-      "url": "https://www.archives.gov/declassification/iscap/pdf/2013-002.html"
+      "url": "https://www.archives.gov/declassification/iscap/pdf/2013-002.html",
+      "path": [
+        "https://www.archives.gov/files/declassification/iscap/pdf/2013-002-doc1.pdf",
+        "https://www.archives.gov/files/declassification/iscap/pdf/2013-002-doc3.pdf",
+        "https://www.archives.gov/files/declassification/iscap/pdf/2013-002-doc10.pdf"
+      ]
     },
     "catalogUrl": "https://www.archives.gov/declassification/iscap/pdf/2013-002.html",
+    "pdfUrl": "https://www.archives.gov/files/declassification/iscap/pdf/2013-002-doc1.pdf",
+    "pdfLabel": "Surveillance log PDF",
     "sourceNote": "Source: Department of the Air Force/NARA ISCAP release 2013-002, release page listing \"Surveillance Log Book,\" September 10, 2001, and \"Intelligence Update Exercise VG-01-2,\" September 10, 2001, with related NEADS, NORAD/FAA, and Vigilant Guardian materials. Use for endpoint air-defense context and exercise chronology, not as a substitute for NSC policy minutes.",
+    "sourceNoteAddendum": "Key direct PDFs in this release include doc1, September 10 Surveillance Log Book; doc3, Intelligence Update Exercise VG-01-2; and doc10, Exercise Fertile Rice.",
     "sourceNoteStatus": "Draft",
     "declassificationStatus": "Declassified ISCAP release page with linked PDFs",
     "summary": "Official NARA release page for Air Force and air-defense records touching the September 10-11 exercise environment, including a September 10 surveillance log and Vigilant Guardian material.",
@@ -2062,6 +2290,8 @@ window.SEPT10_RECORDS = [
       ]
     },
     "catalogUrl": "https://www.archives.gov/declassification/iscap/pdf/2012-042.html",
+    "pdfUrl": "https://www.archives.gov/files/declassification/iscap/pdf/2012-047-doc3.pdf",
+    "pdfLabel": "Rumsfeld MFR PDF",
     "sourceNote": "Source: NARA Center for Legislative Archives, ISCAP releases 2011-048, 2012-042, and 2012-047, declassified 9/11 Commission records and interviews. The release pages and PDFs include defense and air-defense interviews, Joint Staff/NMCC materials, Rumsfeld interview notes, a Myers interview, and NORAD questions for the record. Treat these as later primary interview/MFR records for annotation and corroboration, not as contemporaneous January 20-September 10 policy documents.",
     "sourceNoteStatus": "Draft",
     "declassificationStatus": "Declassified ISCAP release pages and linked PDFs",
@@ -2186,6 +2416,8 @@ window.SEPT10_RECORDS = [
       "url": "https://irp.fas.org/offdocs/nspd/nspd-9.htm"
     },
     "catalogUrl": "https://irp.fas.org/offdocs/nspd/nspd-9.htm",
+    "citationPdfUrl": "https://govinfo.library.unt.edu/911/report/911Report_Notes.pdf",
+    "citationPdfLabel": "9/11 notes PDF",
     "sourceNote": "Source: Public characterization of NSPD-9, \"Defeating the Terrorist Threat to the United States,\" signed October 25, 2001, and described as deriving from the al Qaeda strategy presented to Principals on September 4, 2001. Text posted by the Federation of American Scientists Intelligence Resource Program; underlying pre-September 11 draft directive requires archival verification.",
     "sourceNoteStatus": "Needs verification",
     "summary": "NSPD-9 itself falls after the volume endpoint, but its public characterization describes the September 4 pre-attack strategy decision and the directive's pre-September 11 lineage.",

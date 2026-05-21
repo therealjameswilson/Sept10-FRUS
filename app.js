@@ -172,7 +172,7 @@ function issueLabel(issue) {
 }
 
 function releasedOrPublic(record) {
-  return /public|declassified|released|full/i.test(record.releaseStatus || "") || Boolean(record.pdfUrl);
+  return /public|declassified|released|full|citation/i.test(record.releaseStatus || "") || Boolean(record.pdfUrl || record.citationPdfUrl);
 }
 
 function repositoryLabel(repository = "") {
@@ -207,6 +207,7 @@ function priorityScore(record) {
   if (record.type === "Document Lead") score += 12;
   if (record.type === "Warning Lead") score += 10;
   if (record.pdfUrl) score -= 10;
+  if (record.citationPdfUrl) score -= 4;
   if (/national security council|central intelligence|federal bureau|federal aviation|justice|state/i.test(record.source?.repository || "")) score += 6;
 
   return Math.max(score, 0);
@@ -247,6 +248,7 @@ function searchableText(record) {
     record.naid,
     record.catalogUrl,
     record.pdfUrl,
+    record.citationPdfUrl,
     record.source?.repository,
     record.source?.collection,
     record.source?.series,
@@ -527,7 +529,8 @@ function createLinks(record) {
 
   const linkData = [
     [record.catalogUrl, record.naid && record.naid !== "not-applicable" ? "Catalog" : "Source"],
-    [record.pdfUrl, "Open PDF"],
+    [record.pdfUrl, record.pdfLabel || "Open PDF"],
+    [record.citationPdfUrl, record.citationPdfLabel || "Citation PDF"],
     [record.transcriptionUrl, "Transcript"],
     [record.source?.url, "Finding Aid"]
   ];
@@ -647,6 +650,7 @@ function exportVisibleRecords() {
     "source_note_stub",
     "catalog_url",
     "pdf_url",
+    "citation_pdf_url",
     "issues",
     "topics"
   ];
@@ -664,6 +668,7 @@ function exportVisibleRecords() {
       createSourceNoteDraft(record),
       record.catalogUrl,
       record.pdfUrl,
+      record.citationPdfUrl,
       getProductionIssues(record).join("; "),
       [...listValues(record.frusTopics), ...listValues(record.indexTerms)].join("; ")
     ]
@@ -692,6 +697,7 @@ function compilerStub(record) {
     `Source-note stub: ${createSourceNoteDraft(record)}`,
     `Source URL: ${record.catalogUrl || record.source?.url || ""}`,
     `PDF: ${record.pdfUrl || ""}`,
+    `Citation PDF: ${record.citationPdfUrl || ""}`,
     `Topics: ${[...listValues(record.frusTopics), ...listValues(record.indexTerms)].join(", ") || "Pending"}`,
     `Production gaps: ${getProductionIssues(record).map(issueLabel).join(", ") || "none"}`,
     "FRUS verification: confirm exact repository path, markings, date/time, participants, source pages, excisions, distribution, drafting, clearance, and related-document annotation before publication."

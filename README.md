@@ -12,7 +12,8 @@ source-note stubs, production gaps, local review state, and CSV export.
 
 Version 2.0 adds a computed source-intelligence layer: retrieval priority
 scoring, readiness counts, repository mix, production-gate counts, direct links
-to source-sweep reports, and a priority sort for the chronology.
+to source-sweep reports, public PDF/citation-PDF links, and a priority sort for
+the chronology.
 
 No public Office of the Historian volume number is assigned in this site. The
 scope is named from the working brief: counterterrorism before the September 11
@@ -58,6 +59,8 @@ The site supports:
   issue, and local review state
 - direct links to the Avalon, State FOIA, ISCAP, and FBI Review source-sweep
   reports
+- direct PDF and citation-PDF fields, with a public PDF audit for records where
+  the original cited document is still not publicly located
 - copyable FRUS-style source-note stubs for record packets
 - local "reviewed" marking in browser storage
 - CSV export of the visible record set
@@ -72,22 +75,32 @@ against the underlying record.
 ## Source Anchors
 
 - Avalon Project full PDF of the 9/11 Commission Report: <https://avalon.law.yale.edu/sept11/911report.pdf>
+- Official 9/11 Commission full report PDF: <https://www.9-11commission.gov/report/911Report.pdf>
 - Avalon 9/11 Commission Report chronology notes: <reports/avalon-911-report-source-chronology.md>
-- 9/11 Commission Report, Chapter 8, "The System Was Blinking Red": <https://www.9-11commission.gov/report/911Report_Ch8.htm>
-- 9/11 Commission Report Notes: <https://www.9-11commission.gov/report/911Report_Notes.htm>
+- Public PDF link audit notes: <reports/public-pdf-link-audit.md>
+- 9/11 Commission Report, Chapter 8, "The System Was Blinking Red": <https://govinfo.library.unt.edu/911/report/911Report_Ch8.pdf>
+- 9/11 Commission Report Notes: <https://govinfo.library.unt.edu/911/report/911Report_Notes.pdf>
 - 9/11 Commission Staff Statement No. 10, "Threats and Responses in 2001": <https://www.9-11commission.gov/staff_statements/staff_statement_10.pdf>
 - Richard Clarke testimony to the 9/11 Commission: <https://www.9-11commission.gov/hearings/hearing8/clarke_statement.pdf>
+- National Security Archive, January 25, 2001 Clarke memo PDF: <https://nsarchive2.gwu.edu/NSAEBB/NSAEBB147/clarke%20memo.pdf>
+- National Security Archive, Clarke Tab A strategy attachment PDF: <https://nsarchive2.gwu.edu/NSAEBB/NSAEBB147/clarke%20attachment.pdf>
 - George W. Bush Library, September 11 topic guide: <https://www.georgewbushlibrary.gov/research/topic-guides/september-11-2001-terrorist-attacks>
 - George W. Bush Library, Global War on Terror topic guide: <https://www.georgewbushlibrary.gov/research/topic-guides/global-war-terror>
 - George W. Bush Library FOIA 2014-0487-F, NSC meeting minutes: <https://www.georgewbushlibrary.gov/research/finding-aids/foia-requests/2014-0487-f-minutes-national-security-council-meetings-january-2001-december-2001>
+- George W. Bush Library FOIA 2014-0487-F finding aid PDF: <https://www.georgewbushlibrary.gov/sites/default/files/images//20140487f-findingaid.pdf>
 - George W. Bush Library FOIA 2014-0215-F, al Qaeda and Osama bin Laden: <https://www.georgewbushlibrary.gov/sites/default/files/2023-08/20140215f1-findingaid_0.pdf>
 - Department of State FOIA Virtual Reading Room search: <https://foia.state.gov/FOIALIBRARY/SearchResults.aspx>
 - State FOIA C05252373, April 20 Deputies Committee briefing memorandum: <https://foia.state.gov/DOCUMENTS/9-FY2013/F-2006-02981/DOC_0C05252373/C05252373.pdf>
 - State FOIA C17641067, June 22 Worldwide Caution ALDAC: <https://foia.state.gov/DOCUMENTS/5-FY2014/F-2011-03409ER/DOC_0C17641067/C17641067.pdf>
 - State FOIA C05192734, September 10 INR Massoud assessment: <https://foia.state.gov/DOCUMENTS/5-FY2014/F-2010-03412/DOC_0C05192734/C05192734.pdf>
+- National Security Archive, State 109130 Powell-Sattar lunch PDF: <https://nsarchive2.gwu.edu/NSAEBB/NSAEBB325/doc02.pdf>
+- National Security Archive FAA/TSA warning comparisons: <https://nsarchive2.gwu.edu/NSAEBB/NSAEBB137/index.htm>
 - DOJ OIG, Phoenix Electronic Communication chapter: <https://oig.justice.gov/sites/default/files/archive/special/0506/chapter3.htm>
+- DOJ OIG, Phoenix full-report PDF: <https://oig.justice.gov/sites/default/files/legacy/special/0506/final.pdf>
 - DOJ OIG, Moussaoui investigation chapter: <https://oig.justice.gov/sites/default/files/archive/special/s0606/chapter4.htm>
 - DOJ OIG, Mihdhar and Hazmi chapter: <https://oig.justice.gov/sites/default/files/archive/special/s0606/chapter5.htm>
+- DOJ OIG, Moussaoui/Mihdhar-Hazmi full-report PDF: <https://oig.justice.gov/sites/default/files/legacy/special/s0606/final.pdf>
+- Joint Inquiry hearing PDF with Phoenix EC supplemental materials: <https://www.govinfo.gov/content/pkg/CHRG-107jhrg96166/pdf/CHRG-107jhrg96166.pdf>
 - FBI 9/11 Review Commission Report, March 2015: <https://www.fbi.gov/file-repository/reports-and-publications/final-9-11-review-commission-report-unclassified.pdf>
 - FBI 9/11 Review Commission chronology notes: <reports/fbi-911-review-commission-chronology.md>
 - Declassified August 6, 2001 PDB, "Bin Ladin Determined To Strike in US": <https://irp.fas.org/cia/product/pdb080601.pdf>
