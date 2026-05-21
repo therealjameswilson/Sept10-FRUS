@@ -69,6 +69,10 @@ against the underlying record.
 - George W. Bush Library, Global War on Terror topic guide: <https://www.georgewbushlibrary.gov/research/topic-guides/global-war-terror>
 - George W. Bush Library FOIA 2014-0487-F, NSC meeting minutes: <https://www.georgewbushlibrary.gov/research/finding-aids/foia-requests/2014-0487-f-minutes-national-security-council-meetings-january-2001-december-2001>
 - George W. Bush Library FOIA 2014-0215-F, al Qaeda and Osama bin Laden: <https://www.georgewbushlibrary.gov/sites/default/files/2023-08/20140215f1-findingaid_0.pdf>
+- Department of State FOIA Virtual Reading Room search: <https://foia.state.gov/FOIALIBRARY/SearchResults.aspx>
+- State FOIA C05252373, April 20 Deputies Committee briefing memorandum: <https://foia.state.gov/DOCUMENTS/9-FY2013/F-2006-02981/DOC_0C05252373/C05252373.pdf>
+- State FOIA C17641067, June 22 Worldwide Caution ALDAC: <https://foia.state.gov/DOCUMENTS/5-FY2014/F-2011-03409ER/DOC_0C17641067/C17641067.pdf>
+- State FOIA C05192734, September 10 INR Massoud assessment: <https://foia.state.gov/DOCUMENTS/5-FY2014/F-2010-03412/DOC_0C05192734/C05192734.pdf>
 - DOJ OIG, Phoenix Electronic Communication chapter: <https://oig.justice.gov/sites/default/files/archive/special/0506/chapter3.htm>
 - DOJ OIG, Moussaoui investigation chapter: <https://oig.justice.gov/sites/default/files/archive/special/s0606/chapter4.htm>
 - DOJ OIG, Mihdhar and Hazmi chapter: <https://oig.justice.gov/sites/default/files/archive/special/s0606/chapter5.htm>
@@ -79,6 +83,7 @@ against the underlying record.
 - NARA ISCAP 2013-002, Air Force September 10/Vigilant Guardian records: <https://www.archives.gov/declassification/iscap/pdf/2013-002.html>
 - NARA ISCAP 2012-163, Bush/Cheney 9/11 Commission MFR: <https://www.archives.gov/files/declassification/iscap/pdf/2012-163-doc-1-release-material.pdf>
 - ISCAP primary-source sweep notes: <reports/iscap-primary-source-sweep.md>
+- State FOIA primary-source sweep notes: <reports/state-foia-primary-source-sweep.md>
 - NSPD-9 public characterization: <https://irp.fas.org/offdocs/nspd/nspd-9.htm>
 - FRUS production method reference: <https://history.state.gov/historicaldocuments/frus1989-92v31/abouttheseries>
 
