@@ -73,6 +73,12 @@ against the underlying record.
 - DOJ OIG, Moussaoui investigation chapter: <https://oig.justice.gov/sites/default/files/archive/special/s0606/chapter4.htm>
 - DOJ OIG, Mihdhar and Hazmi chapter: <https://oig.justice.gov/sites/default/files/archive/special/s0606/chapter5.htm>
 - Declassified August 6, 2001 PDB, "Bin Ladin Determined To Strike in US": <https://irp.fas.org/cia/product/pdb080601.pdf>
+- NARA ISCAP Releases index: <https://www.archives.gov/declassification/iscap/releases>
+- NARA ISCAP 2013-003, Presidential Decision Directive 62: <https://www.archives.gov/files/declassification/iscap/pdf/2013-003-doc1.pdf>
+- NARA ISCAP 2012-048, 9/11 FBI Files: <https://www.archives.gov/declassification/iscap/pdf/2012-048.html>
+- NARA ISCAP 2013-002, Air Force September 10/Vigilant Guardian records: <https://www.archives.gov/declassification/iscap/pdf/2013-002.html>
+- NARA ISCAP 2012-163, Bush/Cheney 9/11 Commission MFR: <https://www.archives.gov/files/declassification/iscap/pdf/2012-163-doc-1-release-material.pdf>
+- ISCAP primary-source sweep notes: <reports/iscap-primary-source-sweep.md>
 - NSPD-9 public characterization: <https://irp.fas.org/offdocs/nspd/nspd-9.htm>
 - FRUS production method reference: <https://history.state.gov/historicaldocuments/frus1989-92v31/abouttheseries>
 

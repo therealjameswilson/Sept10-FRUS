@@ -68,6 +68,45 @@
     "citedBy": ["George W. Bush Library finding aid"]
   },
   {
+    "id": "iscap-pdd-62-counterterrorism-baseline-1998-05-22",
+    "date": "2001-01-20",
+    "sortDate": "2001-01-20",
+    "dateLine": "Issued May 22, 1998; inherited January 20, 2001",
+    "type": "Public Document",
+    "title": "PDD-62 inherited counterterrorism policy baseline",
+    "documentTitle": "Presidential Decision Directive 62: Protection Against Unconventional Threats to the Homeland and Americans Overseas",
+    "chapter": {
+      "number": 1,
+      "name": "Policy Inheritance and Review"
+    },
+    "releaseStatus": "Declassified",
+    "selectionDecision": "Context candidate",
+    "productionIssues": ["needs-annotation", "needs-index"],
+    "source": {
+      "repository": "National Security Council / William J. Clinton Presidential Library and Museum",
+      "collection": "ISCAP release 2013-003",
+      "series": "Presidential Decision Directives",
+      "itemTitle": "Presidential Decision Directive 62 (PDD-62)",
+      "documentId": "2013-003-doc1",
+      "url": "https://www.archives.gov/files/declassification/iscap/pdf/2013-003-doc1.pdf"
+    },
+    "catalogUrl": "https://www.archives.gov/declassification/iscap/releases",
+    "pdfUrl": "https://www.archives.gov/files/declassification/iscap/pdf/2013-003-doc1.pdf",
+    "pageCount": 14,
+    "sourceNote": "Source: National Security Council, Presidential Decision Directive 62, \"Protection Against Unconventional Threats to the Homeland and Americans Overseas,\" May 22, 1998, ISCAP Appeal 2013-003-doc1, declassified copy released by the National Archives. Use as the inherited interagency policy baseline for the Bush administration's January 2001 counterterrorism review.",
+    "sourceNoteStatus": "Draft",
+    "classification": "Declassified public copy",
+    "declassificationStatus": "Declassified under ISCAP appeal 2013-003",
+    "summary": "PDD-62 defined late-Clinton counterterrorism structures and priorities, including the National Coordinator role, interagency counterterrorism management, international cooperation, WMD preparedness, transportation security, critical infrastructure, cyber systems, and continuity planning.",
+    "editorialUse": "Context candidate for explaining the policy machinery and inherited assumptions that Clarke, Rice, the CSG, Deputies, and Principals were operating within in 2001.",
+    "frusTopics": ["PDD-62", "counterterrorism policy", "interagency coordination", "transportation security", "WMD"],
+    "indexTerms": ["Presidential Decision Directive 62", "National Coordinator", "Counter-Terrorism Security Group", "critical infrastructure"],
+    "countries": ["United States"],
+    "persons": ["William J. Clinton", "Richard A. Clarke"],
+    "citedBy": ["National Archives ISCAP Releases", "ISCAP 2013-003"],
+    "relatedRecords": ["csg-abu-zubaydah-reports-2001-04-19", "csg-domestic-agency-meeting-2001-07-05"]
+  },
+  {
     "id": "clarke-rice-al-qaeda-review-2001-01-24",
     "date": "2001-01-24",
     "sortDate": "2001-01-24",
@@ -460,7 +499,44 @@
     "indexTerms": ["Williams, Kenneth", "Phoenix EC", "flight schools"],
     "countries": ["United States"],
     "persons": ["Kenneth Williams", "Osama bin Laden"],
-    "citedBy": ["DOJ OIG Phoenix chapter", "9/11 Commission Staff Statement No. 10"]
+    "citedBy": ["DOJ OIG Phoenix chapter", "9/11 Commission Staff Statement No. 10", "NARA ISCAP 2012-048 FBI Files source shelf"],
+    "relatedRecords": ["iscap-2012-048-9-11-fbi-files"]
+  },
+  {
+    "id": "iscap-2012-048-9-11-fbi-files",
+    "date": "2001-07-10",
+    "sortDate": "2001-07-10",
+    "dateLine": "2002-2004 release set; source shelf for July-August 2001 FBI leads",
+    "type": "Source Collection",
+    "title": "ISCAP 2012-048: 9/11 FBI Files",
+    "documentTitle": "9/11 FBI Files",
+    "chapter": {
+      "number": 3,
+      "name": "Aviation and Border Leads"
+    },
+    "releaseStatus": "Declassified",
+    "selectionDecision": "Source lead",
+    "productionIssues": ["needs-selection", "needs-annotation", "needs-index"],
+    "source": {
+      "repository": "NARA Center for Legislative Archives",
+      "collection": "ISCAP release 2012-048",
+      "series": "9/11 FBI Files",
+      "itemTitle": "9/11 FBI Files",
+      "documentId": "2012-048",
+      "url": "https://www.archives.gov/declassification/iscap/pdf/2012-048.html"
+    },
+    "catalogUrl": "https://www.archives.gov/declassification/iscap/pdf/2012-048.html",
+    "sourceNote": "Source: NARA Center for Legislative Archives, ISCAP Appeal 2012-048, \"9/11 FBI Files,\" release page listing FBI-related 9/11 Commission interview materials and background files. Use as a declassified primary interview/source shelf for FBI institutional context; do not substitute it for original pre-attack FBI ECs, cables, or investigative files without record-level verification.",
+    "sourceNoteStatus": "Draft",
+    "declassificationStatus": "Declassified ISCAP release page with linked PDFs",
+    "summary": "The release page lists FBI-related Commission records, including Ali Soufan materials, FBI counterterrorism analyst interviews, Patrick Fitzgerald interviews, Sibel Edmonds and Behrooz Sarshar interviews, Joe Billy, and other FBI interview/background files.",
+    "editorialUse": "Use to harden the Phoenix, Moussaoui, and Mihdhar/Hazmi leads with official NARA links to declassified FBI-related Commission materials while continuing to seek the original 2001 operational records.",
+    "frusTopics": ["FBI", "9/11 Commission", "source collection", "aviation training", "terrorist travel"],
+    "indexTerms": ["ISCAP 2012-048", "9/11 FBI Files", "Ali Soufan", "Patrick Fitzgerald", "FBI counterterrorism analyst"],
+    "countries": ["United States"],
+    "persons": ["Ali Soufan", "Patrick J. Fitzgerald", "Sibel Edmonds", "Behrooz Sarshar", "Joe Billy"],
+    "citedBy": ["National Archives ISCAP Releases"],
+    "relatedRecords": ["phoenix-electronic-communication-2001-07-10", "moussaoui-investigation-opened-2001-08-15", "mihdhar-hazmi-watchlist-2001-08-23"]
   },
   {
     "id": "state-arabian-peninsula-warning-2001-07-18",
@@ -626,7 +702,8 @@
     "indexTerms": ["Moussaoui, Zacarias", "Minneapolis FBI", "Pan Am International Flight Academy"],
     "countries": ["United States", "France", "Pakistan"],
     "persons": ["Zacarias Moussaoui"],
-    "citedBy": ["DOJ OIG Moussaoui chapter", "9/11 Commission Report, chapter 8", "9/11 Commission Staff Statement No. 10"]
+    "citedBy": ["DOJ OIG Moussaoui chapter", "9/11 Commission Report, chapter 8", "9/11 Commission Staff Statement No. 10", "NARA ISCAP 2012-048 FBI Files source shelf"],
+    "relatedRecords": ["iscap-2012-048-9-11-fbi-files"]
   },
   {
     "id": "mihdhar-hazmi-watchlist-2001-08-23",
@@ -659,7 +736,8 @@
     "indexTerms": ["al-Mihdhar, Khalid", "al-Hazmi, Nawaf", "watchlist", "visa"],
     "countries": ["United States", "Saudi Arabia"],
     "persons": ["Khalid al-Mihdhar", "Nawaf al-Hazmi"],
-    "citedBy": ["Joint Inquiry testimony, September 20, 2002", "DOJ OIG Mihdhar-Hazmi chapter"]
+    "citedBy": ["Joint Inquiry testimony, September 20, 2002", "DOJ OIG Mihdhar-Hazmi chapter", "NARA ISCAP 2012-048 FBI Files source shelf"],
+    "relatedRecords": ["iscap-2012-048-9-11-fbi-files"]
   },
   {
     "id": "principals-approve-al-qaeda-directive-2001-09-04",
@@ -759,6 +837,120 @@
     "countries": ["United States", "Afghanistan", "Pakistan"],
     "persons": ["Condoleezza Rice", "Stephen Hadley", "Richard A. Clarke", "George Tenet"],
     "citedBy": ["9/11 Commission Report notes"]
+  },
+  {
+    "id": "iscap-2013-002-air-force-sept10-surveillance-vigilant-guardian",
+    "date": "2001-09-10",
+    "sortDate": "2001-09-10",
+    "dateLine": "September 10, 2001 records; ISCAP release page includes later related exercise/interview materials",
+    "type": "Source Collection",
+    "title": "ISCAP 2013-002: September 10 surveillance log and Vigilant Guardian records",
+    "documentTitle": "Air Force records: September 10 surveillance log and Vigilant Guardian exercise materials",
+    "chapter": {
+      "number": 4,
+      "name": "Strategy Decision and September 10"
+    },
+    "releaseStatus": "Declassified",
+    "selectionDecision": "Source lead",
+    "productionIssues": ["needs-selection", "needs-annotation", "needs-index"],
+    "source": {
+      "repository": "Department of the Air Force / NARA ISCAP",
+      "collection": "ISCAP release 2013-002",
+      "series": "Air Force and 9/11 Commission air-defense records",
+      "itemTitle": "Surveillance Log Book; Intelligence Update Exercise VG-01-2",
+      "documentId": "2013-002",
+      "url": "https://www.archives.gov/declassification/iscap/pdf/2013-002.html"
+    },
+    "catalogUrl": "https://www.archives.gov/declassification/iscap/pdf/2013-002.html",
+    "sourceNote": "Source: Department of the Air Force/NARA ISCAP release 2013-002, release page listing \"Surveillance Log Book,\" September 10, 2001, and \"Intelligence Update Exercise VG-01-2,\" September 10, 2001, with related NEADS, NORAD/FAA, and Vigilant Guardian materials. Use for endpoint air-defense context and exercise chronology, not as a substitute for NSC policy minutes.",
+    "sourceNoteStatus": "Draft",
+    "declassificationStatus": "Declassified ISCAP release page with linked PDFs",
+    "summary": "Official NARA release page for Air Force and air-defense records touching the September 10-11 exercise environment, including a September 10 surveillance log and Vigilant Guardian material.",
+    "editorialUse": "Useful for an annotation or contextual appendix around the September 10 endpoint, especially if the volume needs to distinguish policy decision records from air-defense readiness/exercise records.",
+    "frusTopics": ["Air Force", "NORAD", "Vigilant Guardian", "September 10", "air defense"],
+    "indexTerms": ["ISCAP 2013-002", "Surveillance Log Book", "NEADS", "Vigilant Guardian 01-2", "NORAD"],
+    "countries": ["United States"],
+    "citedBy": ["National Archives ISCAP Releases"]
+  },
+  {
+    "id": "iscap-commission-defense-interviews-2011-048-2012-042-2012-047",
+    "date": "2001-09-10",
+    "sortDate": "2001-09-10",
+    "dateLine": "2001-2004 Commission records; source shelf for air-defense and senior-defense recollection",
+    "type": "Source Collection",
+    "title": "ISCAP 9/11 Commission defense and air-defense interview source shelf",
+    "documentTitle": "Records of the 9-11 Commission; 9/11 Commission Records and Interviews; Rumsfeld, Myers, and NORAD records",
+    "chapter": {
+      "number": 4,
+      "name": "Strategy Decision and September 10"
+    },
+    "releaseStatus": "Declassified",
+    "selectionDecision": "Source lead",
+    "productionIssues": ["needs-selection", "needs-annotation", "needs-index"],
+    "source": {
+      "repository": "NARA Center for Legislative Archives",
+      "collection": "ISCAP releases 2011-048, 2012-042, and 2012-047",
+      "series": "9/11 Commission defense and air-defense records",
+      "itemTitle": "Commission interview and defense-response records",
+      "documentId": "2011-048 / 2012-042 / 2012-047",
+      "url": "https://www.archives.gov/declassification/iscap/pdf/2012-042.html",
+      "path": [
+        "https://www.archives.gov/declassification/iscap/pdf/2011-048.html",
+        "https://www.archives.gov/declassification/iscap/pdf/2012-042.html",
+        "https://www.archives.gov/files/declassification/iscap/pdf/2012-047-doc2.pdf",
+        "https://www.archives.gov/files/declassification/iscap/pdf/2012-047-doc3.pdf",
+        "https://www.archives.gov/files/declassification/iscap/pdf/2012-047-doc4.pdf",
+        "https://www.archives.gov/files/declassification/iscap/pdf/2012-047-doc5.pdf"
+      ]
+    },
+    "catalogUrl": "https://www.archives.gov/declassification/iscap/pdf/2012-042.html",
+    "sourceNote": "Source: NARA Center for Legislative Archives, ISCAP releases 2011-048, 2012-042, and 2012-047, declassified 9/11 Commission records and interviews. The release pages and PDFs include defense and air-defense interviews, Joint Staff/NMCC materials, Rumsfeld interview notes, a Myers interview, and NORAD questions for the record. Treat these as later primary interview/MFR records for annotation and corroboration, not as contemporaneous January 20-September 10 policy documents.",
+    "sourceNoteStatus": "Draft",
+    "declassificationStatus": "Declassified ISCAP release pages and linked PDFs",
+    "summary": "A compact source shelf for Commission-created interview and MFR evidence involving military, NORAD, NMCC, Rumsfeld, and Myers perspectives.",
+    "editorialUse": "Use to support notes on defense awareness, air-defense readiness, and later testimony about pre-attack decisions while keeping the main selection focused on contemporaneous policy records.",
+    "frusTopics": ["9/11 Commission", "Rumsfeld", "Myers", "NORAD", "NMCC"],
+    "indexTerms": ["ISCAP 2011-048", "ISCAP 2012-042", "ISCAP 2012-047", "Donald Rumsfeld", "Richard Myers", "NORAD"],
+    "countries": ["United States"],
+    "persons": ["Donald Rumsfeld", "Richard Myers", "Ralph Eberhart", "Larry Arnold"],
+    "citedBy": ["National Archives ISCAP Releases"]
+  },
+  {
+    "id": "iscap-2012-163-bush-cheney-commission-mfr",
+    "date": "2001-09-10",
+    "sortDate": "2001-09-10",
+    "dateLine": "Interview conducted April 29, 2004; source lead for pre-September 11 presidential recollection",
+    "type": "Document Lead",
+    "title": "Bush and Cheney 9/11 Commission meeting memorandum for the record",
+    "documentTitle": "Commission Meeting with the President and Vice President of the United States, 29 April 2004, 9:25-12:40",
+    "chapter": {
+      "number": 4,
+      "name": "Strategy Decision and September 10"
+    },
+    "releaseStatus": "Declassified",
+    "selectionDecision": "Source lead",
+    "productionIssues": ["needs-selection", "needs-annotation"],
+    "source": {
+      "repository": "NARA Center for Legislative Archives",
+      "collection": "ISCAP release 2012-163",
+      "series": "9/11 Commission records",
+      "itemTitle": "Commission Meeting with the President and Vice President of the United States, 29 April 2004, 9:25-12:40",
+      "documentId": "2012-163-doc1",
+      "url": "https://www.archives.gov/files/declassification/iscap/pdf/2012-163-doc-1-release-material.pdf"
+    },
+    "catalogUrl": "https://www.archives.gov/declassification/iscap/releases",
+    "pdfUrl": "https://www.archives.gov/files/declassification/iscap/pdf/2012-163-doc-1-release-material.pdf",
+    "sourceNote": "Source: NARA Center for Legislative Archives, ISCAP Appeal 2012-163-doc1, 9/11 Commission memorandum for the record, \"Commission Meeting with the President and Vice President of the United States, 29 April 2004, 9:25-12:40,\" declassified/released by the National Archives. Use as post-hoc primary interview evidence for presidential and vice-presidential recollection; do not treat as a contemporaneous 2001 decision record.",
+    "sourceNoteStatus": "Draft",
+    "declassificationStatus": "Declassified ISCAP PDF release",
+    "summary": "Officially declassified Commission MFR of the April 29, 2004 meeting with President George W. Bush and Vice President Richard Cheney, useful for later testimony and recollection about pre-attack warning and decision context.",
+    "editorialUse": "Annotation/corroboration source for the warning and strategy-decision records, especially when comparing later recollection with contemporaneous NSC and intelligence documents.",
+    "frusTopics": ["9/11 Commission", "presidential recollection", "warning", "counterterrorism policy"],
+    "indexTerms": ["ISCAP 2012-163", "George W. Bush", "Richard B. Cheney", "Philip Zelikow", "memorandum for the record"],
+    "countries": ["United States"],
+    "persons": ["George W. Bush", "Richard B. Cheney", "Philip Zelikow", "Alberto Gonzales"],
+    "citedBy": ["National Archives ISCAP Releases"],
+    "relatedRecords": ["pdb-bin-ladin-determined-to-strike-2001-08-06", "principals-approve-al-qaeda-directive-2001-09-04", "deputies-al-qaeda-strategy-2001-09-10"]
   },
   {
     "id": "nspd-9-public-characterization",
