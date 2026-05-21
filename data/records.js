@@ -165,6 +165,79 @@ window.SEPT10_RECORDS = [
     ]
   },
   {
+    "id": "source-fbi-911-review-commission-report-2015-03",
+    "date": "2001-09-10",
+    "sortDate": "2001-09-10",
+    "dateLine": "March 2015 report; source shelf for pre-9/11 FBI leads",
+    "type": "Source Collection",
+    "title": "FBI 9/11 Review Commission chronology and source leads",
+    "documentTitle": "The FBI: Protecting the Homeland in the 21st Century",
+    "chapter": {
+      "number": 3,
+      "name": "Aviation and Border Leads"
+    },
+    "releaseStatus": "Public",
+    "selectionDecision": "Source lead",
+    "productionIssues": [
+      "needs-selection",
+      "needs-annotation",
+      "needs-index"
+    ],
+    "source": {
+      "repository": "Federal Bureau of Investigation",
+      "collection": "Reports and Publications",
+      "series": "9/11 Review Commission",
+      "itemTitle": "The FBI: Protecting the Homeland in the 21st Century",
+      "url": "https://www.fbi.gov/file-repository/reports-and-publications/final-9-11-review-commission-report-unclassified.pdf"
+    },
+    "catalogUrl": "https://www.fbi.gov/file-repository/reports-and-publications/final-9-11-review-commission-report-unclassified.pdf/view",
+    "pdfUrl": "https://www.fbi.gov/file-repository/reports-and-publications/final-9-11-review-commission-report-unclassified.pdf",
+    "transcriptionUrl": "reports/fbi-911-review-commission-chronology.md",
+    "pageCount": 128,
+    "sourceNote": "Source: Federal Bureau of Investigation, \"The FBI: Protecting the Homeland in the 21st Century,\" Report of the Congressionally-directed 9/11 Review Commission to the Director of the Federal Bureau of Investigation, March 2015. Chapter V reviews new information related to the September 11 attacks and identifies FBI briefings, memoranda for the record, interviews, and source files relevant to al-Hazmi, al-Mihdhar, al-Bayoumi, al-Thumairy, Abdullah, Anwar al-Aulaqi, and Sarasota allegations.",
+    "sourceNoteStatus": "Draft",
+    "summary": "Retrospective FBI source shelf identifying underlying investigative files, briefings, MFRs, and interviews that can help trace domestic pre-9/11 aviation and border leads.",
+    "editorialUse": "Use to build a retrieval map for underlying FBI records; do not substitute the retrospective 2015 report for contemporaneous 2000-2001 documents.",
+    "frusTopics": [
+      "FBI",
+      "9/11 Review Commission",
+      "PENTTBOM",
+      "al-Hazmi",
+      "al-Mihdhar",
+      "aviation and border leads"
+    ],
+    "indexTerms": [
+      "9/11 Review Commission",
+      "PENTTBOM",
+      "Omar al-Bayoumi",
+      "Fahad al-Thumairy",
+      "Mohdhar Abdullah",
+      "Sarasota Family"
+    ],
+    "countries": [
+      "United States",
+      "Saudi Arabia"
+    ],
+    "persons": [
+      "Nawaf al-Hazmi",
+      "Khalid al-Mihdhar",
+      "Omar al-Bayoumi",
+      "Fahad al-Thumairy",
+      "Mohdhar Abdullah",
+      "Anwar al-Aulaqi",
+      "Bassem Youssef"
+    ],
+    "citedBy": [
+      "Federal Bureau of Investigation"
+    ],
+    "relatedRecords": [
+      "phoenix-electronic-communication-2001-07-10",
+      "iscap-2012-048-9-11-fbi-files",
+      "moussaoui-investigation-opened-2001-08-15",
+      "mihdhar-hazmi-watchlist-2001-08-23"
+    ]
+  },
+  {
     "id": "iscap-pdd-62-counterterrorism-baseline-1998-05-22",
     "date": "2001-01-20",
     "sortDate": "2001-01-20",
