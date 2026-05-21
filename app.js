@@ -13,6 +13,14 @@ const publicRecords = document.querySelector("#public-records");
 const sourceGaps = document.querySelector("#source-gaps");
 const reviewedCount = document.querySelector("#reviewed-count");
 const filteredCount = document.querySelector("#filtered-count");
+const includeCandidates = document.querySelector("#include-candidates");
+const releasedRecords = document.querySelector("#released-records");
+const citationLeads = document.querySelector("#citation-leads");
+const sourceGapCount = document.querySelector("#source-gap-count");
+const priorityRoot = document.querySelector("#priority-root");
+const priorityTotal = document.querySelector("#priority-total");
+const repositoryRoot = document.querySelector("#repository-root");
+const issueRoot = document.querySelector("#issue-root");
 const searchInput = document.querySelector("#filter-search");
 const chapterFilter = document.querySelector("#filter-chapter");
 const typeFilter = document.querySelector("#filter-type");
@@ -163,6 +171,47 @@ function issueLabel(issue) {
   }[issue] || issue;
 }
 
+function releasedOrPublic(record) {
+  return /public|declassified|released|full/i.test(record.releaseStatus || "") || Boolean(record.pdfUrl);
+}
+
+function repositoryLabel(repository = "") {
+  if (/state/i.test(repository)) return "State";
+  if (/national security council|white house/i.test(repository)) return "NSC/White House";
+  if (/central intelligence|cia/i.test(repository)) return "CIA";
+  if (/federal bureau|fbi/i.test(repository)) return "FBI";
+  if (/federal aviation|faa/i.test(repository)) return "FAA";
+  if (/justice|doj/i.test(repository)) return "DOJ";
+  if (/bush presidential library/i.test(repository)) return "Bush Library";
+  if (/national archives|nara|iscap/i.test(repository)) return "NARA/ISCAP";
+  if (/commission|avalon/i.test(repository)) return "9/11 Commission";
+  if (/federation|fas/i.test(repository)) return "FAS";
+  return repository || "Repository pending";
+}
+
+function priorityScore(record) {
+  if (record.type === "Source Collection" || record.selectionDecision === "Exclude") return 0;
+
+  let score = 0;
+  const issues = getProductionIssues(record);
+
+  if (record.selectionDecision === "Include candidate") score += 38;
+  if (record.selectionDecision === "Ready for editor") score += 34;
+  if (record.selectionDecision === "Context candidate") score += 14;
+  if (record.releaseStatus === "Citation Lead") score += 24;
+  if (/restricted|unknown|not located/i.test(record.releaseStatus || "")) score += 18;
+  if (issues.includes("needs-source")) score += 20;
+  if (issues.includes("needs-declass")) score += 14;
+  if (issues.includes("needs-annotation")) score += 6;
+  if (record.type === "Meeting Lead") score += 14;
+  if (record.type === "Document Lead") score += 12;
+  if (record.type === "Warning Lead") score += 10;
+  if (record.pdfUrl) score -= 10;
+  if (/national security council|central intelligence|federal bureau|federal aviation|justice|state/i.test(record.source?.repository || "")) score += 6;
+
+  return Math.max(score, 0);
+}
+
 function uniqueValues(records, selector) {
   return [...new Set(records.map(selector).filter(Boolean))].sort((a, b) => String(a).localeCompare(String(b)));
 }
@@ -218,9 +267,7 @@ function searchableText(record) {
 
 function setCounts(records) {
   totalRecords.textContent = records.length.toString();
-  publicRecords.textContent = records
-    .filter((record) => /public|declassified|released|full/i.test(record.releaseStatus || "") || record.pdfUrl)
-    .length.toString();
+  publicRecords.textContent = records.filter(releasedOrPublic).length.toString();
   sourceGaps.textContent = records.filter((record) => getProductionIssues(record).includes("needs-source")).length.toString();
   reviewedCount.textContent = records.filter((record) => reviewedRecords.has(record.id)).length.toString();
 
@@ -229,6 +276,89 @@ function setCounts(records) {
     if (countNode) {
       countNode.textContent = records.filter((record) => record.chapter?.name === chapterName).length.toString();
     }
+  }
+
+  setIntelligenceCounts(records);
+  renderPriorityQueue(records);
+  renderMeterList(repositoryRoot, groupedCounts(records, (record) => repositoryLabel(record.source?.repository)));
+  renderMeterList(issueRoot, issueCounts(records));
+}
+
+function setIntelligenceCounts(records) {
+  if (includeCandidates) includeCandidates.textContent = records.filter((record) => record.selectionDecision === "Include candidate").length.toString();
+  if (releasedRecords) releasedRecords.textContent = records.filter(releasedOrPublic).length.toString();
+  if (citationLeads) citationLeads.textContent = records.filter((record) => record.releaseStatus === "Citation Lead").length.toString();
+  if (sourceGapCount) sourceGapCount.textContent = records.filter((record) => getProductionIssues(record).includes("needs-source")).length.toString();
+}
+
+function groupedCounts(records, selector) {
+  const counts = new Map();
+  for (const record of records) {
+    const label = selector(record);
+    counts.set(label, (counts.get(label) || 0) + 1);
+  }
+  return [...counts.entries()].sort((a, b) => b[1] - a[1] || a[0].localeCompare(b[0]));
+}
+
+function issueCounts(records) {
+  const counts = new Map([
+    ["needs-source", 0],
+    ["needs-declass", 0],
+    ["needs-annotation", 0],
+    ["needs-selection", 0],
+    ["needs-chronology", 0],
+    ["needs-index", 0]
+  ]);
+  for (const record of records) {
+    for (const issue of getProductionIssues(record)) counts.set(issue, (counts.get(issue) || 0) + 1);
+  }
+  return [...counts.entries()].sort((a, b) => b[1] - a[1] || issueLabel(a[0]).localeCompare(issueLabel(b[0])));
+}
+
+function renderMeterList(root, entries) {
+  if (!root) return;
+  root.replaceChildren();
+  const max = Math.max(1, ...entries.map(([, count]) => count));
+
+  for (const [label, count] of entries.filter(([, value]) => value > 0).slice(0, 7)) {
+    const row = document.createElement("div");
+    row.className = "meter-row";
+    const text = document.createElement("span");
+    text.textContent = label.startsWith("needs-") ? issueLabel(label) : label;
+    const value = document.createElement("strong");
+    value.textContent = count.toString();
+    const bar = document.createElement("i");
+    bar.style.width = `${Math.max(8, Math.round((count / max) * 100))}%`;
+    row.append(text, value, bar);
+    root.append(row);
+  }
+}
+
+function renderPriorityQueue(records) {
+  if (!priorityRoot) return;
+  const prioritized = records
+    .map((record) => ({ record, score: priorityScore(record) }))
+    .filter((item) => item.score > 0)
+    .sort((a, b) => b.score - a.score || byChapterThenDate(a.record, b.record));
+
+  priorityRoot.replaceChildren();
+  if (priorityTotal) priorityTotal.textContent = `${prioritized.length} scored records`;
+
+  for (const { record, score } of prioritized.slice(0, 8)) {
+    const item = document.createElement("li");
+    const link = document.createElement("a");
+    link.href = `#record-${record.id}`;
+    link.textContent = record.documentTitle || record.title;
+
+    const meta = document.createElement("p");
+    meta.textContent = `${formatDate(record.date)} · ${record.type} · ${record.releaseStatus}`;
+
+    const badge = document.createElement("span");
+    badge.textContent = `${score}`;
+    badge.setAttribute("aria-label", `Priority score ${score}`);
+
+    item.append(link, meta, badge);
+    priorityRoot.append(item);
   }
 }
 
@@ -273,6 +403,7 @@ function sortRecords(records) {
   const mode = sortSelect?.value || "chapter-date";
 
   if (mode === "date") return sorted.sort(byDate);
+  if (mode === "priority") return sorted.sort((a, b) => priorityScore(b) - priorityScore(a) || byChapterThenDate(a, b));
   if (mode === "issue") return sorted.sort((a, b) => getProductionIssues(b).length - getProductionIssues(a).length || byChapterThenDate(a, b));
   if (mode === "type") return sorted.sort((a, b) => a.type.localeCompare(b.type) || byChapterThenDate(a, b));
   return sorted.sort(byChapterThenDate);
@@ -416,6 +547,7 @@ function createLinks(record) {
 function createRecordRow(record) {
   const row = document.createElement("article");
   row.className = "record-row";
+  row.id = `record-${record.id}`;
   if (reviewedRecords.has(record.id)) row.classList.add("is-reviewed");
 
   const date = document.createElement("time");

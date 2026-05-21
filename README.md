@@ -10,6 +10,10 @@ reading: records live in `data/records.json`, the browser mirror is
 `data/records.js`, and the public page renders a searchable chronology with
 source-note stubs, production gaps, local review state, and CSV export.
 
+Version 2.0 adds a computed source-intelligence layer: retrieval priority
+scoring, readiness counts, repository mix, production-gate counts, direct links
+to source-sweep reports, and a priority sort for the chronology.
+
 No public Office of the Historian volume number is assigned in this site. The
 scope is named from the working brief: counterterrorism before the September 11
 attacks, beginning with the Bush administration transition on January 20, 2001
@@ -46,8 +50,14 @@ verification.
 The site supports:
 
 - search across titles, summaries, source paths, people, topics, URLs, and notes
+- computed retrieval-priority scoring for high-value records still needing
+  original source verification
+- source-intelligence panels for readiness, repository mix, and production-gate
+  pressure
 - filters for lane, record type, release status, selection decision, production
   issue, and local review state
+- direct links to the Avalon, State FOIA, ISCAP, and FBI Review source-sweep
+  reports
 - copyable FRUS-style source-note stubs for record packets
 - local "reviewed" marking in browser storage
 - CSV export of the visible record set

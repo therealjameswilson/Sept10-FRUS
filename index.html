@@ -15,9 +15,11 @@
       <a class="brand" href="#top" aria-label="Sept10 FRUS assist home">
         <span class="brand-mark">9/10</span>
         <span>Sept10 FRUS Assist</span>
+        <span class="version-chip">v2.0</span>
       </a>
       <nav aria-label="Primary navigation">
         <a href="#workbench">Workbench</a>
+        <a href="#priorities">Priorities</a>
         <a href="#lanes">Lanes</a>
         <a href="#records">Records</a>
         <a href="#sources">Sources</a>
@@ -38,8 +40,8 @@
           </p>
           <div class="hero-actions" aria-label="Primary actions">
             <a class="button primary" href="#records">Browse Records</a>
+            <a class="button secondary" href="#priorities">Priority Queue</a>
             <a class="button secondary" href="#workbench">Open Workbench</a>
-            <a class="button secondary" href="#sources">Source Anchors</a>
           </div>
         </div>
         <aside class="brief" aria-label="Archive scope">
@@ -82,6 +84,80 @@
         <div>
           <span id="reviewed-count">0</span>
           <p>reviewed locally</p>
+        </div>
+      </section>
+
+      <section class="section intelligence" id="priorities" aria-labelledby="priorities-title">
+        <div class="section-heading">
+          <div>
+            <p class="kicker">Version 2.0 Source Intelligence</p>
+            <h2 id="priorities-title">Retrieval Priorities</h2>
+          </div>
+          <p class="section-note">
+            A computed control view for the records most likely to change the
+            selection set once original copies, markings, and distribution are verified.
+          </p>
+        </div>
+
+        <div class="intelligence-grid">
+          <article class="intelligence-panel readiness-panel" aria-labelledby="readiness-title">
+            <h3 id="readiness-title">Readiness</h3>
+            <dl class="readiness-list">
+              <div>
+                <dt>Include candidates</dt>
+                <dd id="include-candidates">0</dd>
+              </div>
+              <div>
+                <dt>Public or released</dt>
+                <dd id="released-records">0</dd>
+              </div>
+              <div>
+                <dt>Citation-only leads</dt>
+                <dd id="citation-leads">0</dd>
+              </div>
+              <div>
+                <dt>Source-note gaps</dt>
+                <dd id="source-gap-count">0</dd>
+              </div>
+            </dl>
+          </article>
+
+          <article class="intelligence-panel priority-panel" aria-labelledby="priority-title">
+            <div class="panel-heading">
+              <h3 id="priority-title">Priority Queue</h3>
+              <span id="priority-total">0 records</span>
+            </div>
+            <ol id="priority-root" class="priority-list"></ol>
+          </article>
+
+          <article class="intelligence-panel" aria-labelledby="repository-title">
+            <h3 id="repository-title">Repository Mix</h3>
+            <div id="repository-root" class="meter-list"></div>
+          </article>
+
+          <article class="intelligence-panel" aria-labelledby="gate-title">
+            <h3 id="gate-title">Production Gates</h3>
+            <div id="issue-root" class="meter-list"></div>
+          </article>
+        </div>
+
+        <div class="sweep-grid" aria-label="Primary source sweep reports">
+          <a href="reports/avalon-911-report-source-chronology.md">
+            <span>Avalon Report Sweep</span>
+            <small>Commission chronology, meetings, and document leads</small>
+          </a>
+          <a href="reports/state-foia-primary-source-sweep.md">
+            <span>State FOIA Sweep</span>
+            <small>Released diplomatic cables and briefing memoranda</small>
+          </a>
+          <a href="reports/iscap-primary-source-sweep.md">
+            <span>ISCAP Sweep</span>
+            <small>NARA declassification releases and Commission files</small>
+          </a>
+          <a href="reports/fbi-911-review-commission-chronology.md">
+            <span>FBI Review Sweep</span>
+            <small>PENTTBOM, domestic support, and late investigative leads</small>
+          </a>
         </div>
       </section>
 
@@ -151,6 +227,7 @@
             <select id="sort-records">
               <option value="chapter-date">Lane chronology</option>
               <option value="date">Single chronology</option>
+              <option value="priority">Retrieval priority</option>
               <option value="issue">Most production gaps</option>
               <option value="type">Record type</option>
             </select>
