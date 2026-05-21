@@ -404,6 +404,62 @@ window.SEPT10_RECORDS = [
     ]
   },
   {
+    "id": "memoir-cheney-early-vp-pdb-process-2001-01-20",
+    "date": "2001-01-20",
+    "sortDate": "2001-01-20",
+    "dateLine": "January 20/23, 2001 and first weeks of the administration",
+    "type": "Context Lead",
+    "title": "Cheney recollection of early vice-presidential national-security role and PDB access",
+    "documentTitle": "Dick Cheney memoir recollection of early vice-presidential PDB process",
+    "chapter": {
+      "number": 1,
+      "name": "Policy Inheritance and Review"
+    },
+    "releaseStatus": "Public",
+    "selectionDecision": "Context candidate",
+    "productionIssues": [
+      "needs-annotation"
+    ],
+    "source": {
+      "repository": "Published memoir / Google Drive copy consulted",
+      "collection": "Dick Cheney with Liz Cheney, In My Time",
+      "series": "Retrospective memoir",
+      "itemTitle": "Early vice-presidential role and President's Daily Brief process"
+    },
+    "sourcePages": "pp. 302-315",
+    "sourceNote": "Source: Dick Cheney with Liz Cheney, In My Time: A Personal and Political Memoir (New York: Threshold Editions, 2011), pp. 302-315; user's Google Drive PDF consulted. Cheney recalled the January 20 inauguration, said Bush wanted him involved \"from day one,\" and described a PDB routine that began early in the term, with briefings at \"around 6:30 a.m.\" and a vice-presidential section \"behind the tab.\"",
+    "sourceNoteStatus": "Draft",
+    "summary": "Retrospective source for how the Vice President's office fit into early national-security decision flow and PDB distribution before the August 6 PDB.",
+    "editorialUse": "Use as annotation context for PDB readership, vice-presidential participation, and the Libby dual White House/vice-presidential national-security staff arrangement.",
+    "frusTopics": [
+      "President's Daily Brief",
+      "Vice President",
+      "national security process",
+      "intelligence briefing"
+    ],
+    "indexTerms": [
+      "Cheney, Richard B.",
+      "President's Daily Brief",
+      "Libby, I. Lewis",
+      "Vice President's Residence"
+    ],
+    "countries": [
+      "United States"
+    ],
+    "persons": [
+      "Richard B. Cheney",
+      "George W. Bush",
+      "I. Lewis Libby"
+    ],
+    "citedBy": [
+      "Google Drive memoir sweep"
+    ],
+    "relatedRecords": [
+      "pdb-bin-ladin-determined-to-strike-2001-08-06",
+      "iscap-2012-163-bush-cheney-commission-mfr"
+    ]
+  },
+  {
     "id": "clarke-rice-al-qaeda-review-2001-01-24",
     "date": "2001-01-25",
     "sortDate": "2001-01-25",
@@ -467,6 +523,70 @@ window.SEPT10_RECORDS = [
     "citedBy": [
       "Richard Clarke 9/11 Commission testimony",
       "9/11 Commission Report notes"
+    ]
+  },
+  {
+    "id": "memoir-rice-clarke-strategy-green-light-2001-01-31",
+    "date": "2001-01-31",
+    "sortDate": "2001-01-31",
+    "dateLine": "January 31, 2001",
+    "type": "Context Lead",
+    "title": "Rice recollection of giving Clarke authority to develop an al Qaeda strategy",
+    "documentTitle": "Condoleezza Rice memoir recollection of January 31 al Qaeda strategy instruction",
+    "chapter": {
+      "number": 1,
+      "name": "Policy Inheritance and Review"
+    },
+    "releaseStatus": "Public",
+    "selectionDecision": "Context candidate",
+    "productionIssues": [
+      "needs-annotation"
+    ],
+    "source": {
+      "repository": "Published memoir / Google Drive copy consulted",
+      "collection": "Condoleezza Rice, No Higher Honor",
+      "series": "Retrospective memoir",
+      "itemTitle": "False Alarm"
+    },
+    "sourcePages": "pp. 64-66",
+    "sourceNote": "Source: Condoleezza Rice, No Higher Honor: A Memoir of My Years in Washington (New York: Crown, 2011), pp. 64-66; user's Google Drive PDF consulted. Rice recalled Clarke's January 25 memorandum and wrote that on January 31 she gave him a \"green light to develop a strategy\" aimed at eliminating, not merely rolling back, al Qaeda.",
+    "sourceNoteStatus": "Draft",
+    "summary": "Rice's retrospective account places the Clarke memo into a January 31 instruction to develop a broader al Qaeda strategy, including Pakistan, southern Afghanistan, Northern Alliance support, and an armed Predator concept.",
+    "editorialUse": "Use as a memoir annotation beside the declassified Clarke memorandum and March covert-action finding lead; the contemporaneous NSC files remain the controlling records.",
+    "frusTopics": [
+      "al Qaeda strategy",
+      "NSC",
+      "policy review",
+      "Pakistan",
+      "Predator"
+    ],
+    "indexTerms": [
+      "Rice, Condoleezza",
+      "Clarke, Richard A.",
+      "Zalmay Khalilzad",
+      "Northern Alliance",
+      "armed Predator"
+    ],
+    "countries": [
+      "United States",
+      "Afghanistan",
+      "Pakistan",
+      "Uzbekistan"
+    ],
+    "persons": [
+      "Condoleezza Rice",
+      "Richard A. Clarke",
+      "George Tenet",
+      "Zalmay Khalilzad",
+      "Osama bin Laden"
+    ],
+    "citedBy": [
+      "Google Drive memoir sweep"
+    ],
+    "relatedRecords": [
+      "clarke-rice-al-qaeda-review-2001-01-24",
+      "draft-afghanistan-counterterrorism-finding-2001-03",
+      "principals-approve-al-qaeda-directive-2001-09-04"
     ]
   },
   {
@@ -1516,6 +1636,72 @@ window.SEPT10_RECORDS = [
     ]
   },
   {
+    "id": "memoir-rice-july-domestic-warning-2001-07-05",
+    "date": "2001-07-05",
+    "sortDate": "2001-07-05",
+    "dateLine": "July 5 and July 10, 2001",
+    "type": "Context Lead",
+    "title": "Rice recollection of July domestic-warning handling and Tenet threat alarm",
+    "documentTitle": "Condoleezza Rice memoir recollection of July 2001 threat spike and domestic agency warning",
+    "chapter": {
+      "number": 2,
+      "name": "Threat Surge and Domestic Warning"
+    },
+    "releaseStatus": "Public",
+    "selectionDecision": "Context candidate",
+    "productionIssues": [
+      "needs-annotation"
+    ],
+    "source": {
+      "repository": "Published memoir / Google Drive copy consulted",
+      "collection": "Condoleezza Rice, No Higher Honor",
+      "series": "Retrospective memoir",
+      "itemTitle": "False Alarm"
+    },
+    "sourcePages": "pp. 66-69",
+    "sourceNote": "Source: Condoleezza Rice, No Higher Honor: A Memoir of My Years in Washington (New York: Crown, 2011), pp. 66-69; user's Google Drive PDF consulted. Rice characterized late May to mid-July as a \"maddeningly nebulous threat,\" recalled Tenet warning about terrorist \"chatter,\" and said she asked Clarke on July 5 to convene domestic agencies.",
+    "sourceNoteStatus": "Draft",
+    "summary": "Rice's account ties the overseas-focused summer threat spike to domestic notification: Tenet briefed the President frequently, Rice met with Tenet several times a week, Clarke convened the CSG, and the July 5 request brought domestic agencies into the warning conversation.",
+    "editorialUse": "Use as retrospective annotation for the July 2 warning leads and July 5 CSG meeting; do not substitute it for CSG minutes, FAA communications, FBI messages, or Tenet briefing records.",
+    "frusTopics": [
+      "threat surge",
+      "domestic warning",
+      "CSG",
+      "FBI",
+      "FAA"
+    ],
+    "indexTerms": [
+      "Rice, Condoleezza",
+      "Tenet, George",
+      "Clarke, Richard A.",
+      "Counterterrorism Security Group",
+      "July 5 meeting"
+    ],
+    "countries": [
+      "United States",
+      "Jordan",
+      "Saudi Arabia",
+      "Israel",
+      "Italy",
+      "Yemen"
+    ],
+    "persons": [
+      "Condoleezza Rice",
+      "George Tenet",
+      "Richard A. Clarke",
+      "Andrew Card",
+      "Abu Zubaydah"
+    ],
+    "citedBy": [
+      "Google Drive memoir sweep"
+    ],
+    "relatedRecords": [
+      "fbi-faa-warning-actions-2001-07-02",
+      "csg-domestic-agency-meeting-2001-07-05",
+      "tenet-rice-system-blinking-red-2001-06-28"
+    ]
+  },
+  {
     "id": "phoenix-electronic-communication-2001-07-10",
     "date": "2001-07-10",
     "sortDate": "2001-07-10",
@@ -1878,6 +2064,120 @@ window.SEPT10_RECORDS = [
     ]
   },
   {
+    "id": "memoir-bush-august-6-pdb-recollection-2001-08-06",
+    "date": "2001-08-06",
+    "sortDate": "2001-08-06",
+    "dateLine": "August 6, 2001",
+    "type": "Context Lead",
+    "title": "Bush recollection of the August 6 PDB",
+    "documentTitle": "George W. Bush memoir recollection of Bin Ladin Determined To Strike in US",
+    "chapter": {
+      "number": 3,
+      "name": "Aviation and Border Leads"
+    },
+    "releaseStatus": "Public",
+    "selectionDecision": "Context candidate",
+    "productionIssues": [
+      "needs-annotation"
+    ],
+    "source": {
+      "repository": "Published memoir / Google Drive copy consulted",
+      "collection": "George W. Bush, Decision Points",
+      "series": "Retrospective memoir",
+      "itemTitle": "Day of Fire"
+    },
+    "sourcePages": "pp. 134-135",
+    "sourceNote": "Source: George W. Bush, Decision Points (New York: Crown, 2010), pp. 134-135; user's Google Drive PDF consulted. Bush recalled that he had asked CIA to reexamine al Qaeda's capacity to attack inside the United States and that the early-August PDB reiterated bin Laden's \"longstanding intent to strike America.\"",
+    "sourceNoteStatus": "Draft",
+    "summary": "Bush's memoir frames the August 6 PDB as an answer to his request for a domestic-capability review and says the intelligence did not provide a concrete operational plan.",
+    "editorialUse": "Use as presidential retrospective annotation beside the declassified PDB and Commission discussion.",
+    "frusTopics": [
+      "President's Daily Brief",
+      "al Qaeda",
+      "domestic warning",
+      "presidential recollection"
+    ],
+    "indexTerms": [
+      "Bush, George W.",
+      "Bin Ladin Determined To Strike in US",
+      "President's Daily Brief"
+    ],
+    "countries": [
+      "United States",
+      "Afghanistan"
+    ],
+    "persons": [
+      "George W. Bush",
+      "Osama bin Laden",
+      "George Tenet"
+    ],
+    "citedBy": [
+      "Google Drive memoir sweep"
+    ],
+    "relatedRecords": [
+      "pdb-bin-ladin-determined-to-strike-2001-08-06",
+      "iscap-2012-163-bush-cheney-commission-mfr"
+    ]
+  },
+  {
+    "id": "memoir-rice-august-6-pdb-recollection-2001-08-06",
+    "date": "2001-08-06",
+    "sortDate": "2001-08-06",
+    "dateLine": "August 6, 2001",
+    "type": "Context Lead",
+    "title": "Rice recollection of the August 6 PDB and homeland-threat framing",
+    "documentTitle": "Condoleezza Rice memoir recollection of the August 6 PDB",
+    "chapter": {
+      "number": 3,
+      "name": "Aviation and Border Leads"
+    },
+    "releaseStatus": "Public",
+    "selectionDecision": "Context candidate",
+    "productionIssues": [
+      "needs-annotation"
+    ],
+    "source": {
+      "repository": "Published memoir / Google Drive copy consulted",
+      "collection": "Condoleezza Rice, No Higher Honor",
+      "series": "Retrospective memoir",
+      "itemTitle": "Introduction and False Alarm"
+    },
+    "sourcePages": "pp. xv-xvii, 69-70",
+    "sourceNote": "Source: Condoleezza Rice, No Higher Honor: A Memoir of My Years in Washington (New York: Crown, 2011), pp. xv-xvii and 69-70; user's Google Drive PDF consulted. Rice wrote that the August 6 PDB was prepared after Bush asked about homeland attack information and later called it the \"only PDB item\" in 192 briefings that addressed the homeland threat.",
+    "sourceNoteStatus": "Draft",
+    "summary": "Rice's memoir places the August 6 item in the controversy over pre-attack warning, emphasizing that the summer threat stream was understood mainly as overseas-focused while the PDB answered a presidential question about the homeland.",
+    "editorialUse": "Use as national security advisor retrospective annotation; compare with the PDB text, Commission notes, and any contemporaneous CIA/NSC briefing records.",
+    "frusTopics": [
+      "President's Daily Brief",
+      "homeland threat",
+      "al Qaeda",
+      "9/11 Commission"
+    ],
+    "indexTerms": [
+      "Rice, Condoleezza",
+      "Bin Ladin Determined To Strike in US",
+      "PDBs",
+      "homeland threat"
+    ],
+    "countries": [
+      "United States",
+      "Afghanistan"
+    ],
+    "persons": [
+      "Condoleezza Rice",
+      "George W. Bush",
+      "George Tenet",
+      "Osama bin Laden"
+    ],
+    "citedBy": [
+      "Google Drive memoir sweep"
+    ],
+    "relatedRecords": [
+      "pdb-bin-ladin-determined-to-strike-2001-08-06",
+      "memoir-bush-august-6-pdb-recollection-2001-08-06"
+    ]
+  },
+  {
     "id": "moussaoui-investigation-opened-2001-08-15",
     "date": "2001-08-15",
     "sortDate": "2001-08-15",
@@ -2067,6 +2367,65 @@ window.SEPT10_RECORDS = [
     ]
   },
   {
+    "id": "memoir-rice-september-4-principals-recollection-2001-09-04",
+    "date": "2001-09-04",
+    "sortDate": "2001-09-04",
+    "dateLine": "September 4, 2001",
+    "type": "Context Lead",
+    "title": "Rice recollection of the September 4 Principals review",
+    "documentTitle": "Condoleezza Rice memoir recollection of September 4 al Qaeda strategy Principals meeting",
+    "chapter": {
+      "number": 4,
+      "name": "Strategy Decision and September 10"
+    },
+    "releaseStatus": "Public",
+    "selectionDecision": "Context candidate",
+    "productionIssues": [
+      "needs-annotation"
+    ],
+    "source": {
+      "repository": "Published memoir / Google Drive copy consulted",
+      "collection": "Condoleezza Rice, No Higher Honor",
+      "series": "Retrospective memoir",
+      "itemTitle": "False Alarm"
+    },
+    "sourcePages": "p. 70",
+    "sourceNote": "Source: Condoleezza Rice, No Higher Honor: A Memoir of My Years in Washington (New York: Crown, 2011), p. 70; user's Google Drive PDF consulted. Rice wrote that the al Qaeda strategy was ready for Principals' review on September 4 and that the \"meeting was fruitful,\" producing agreement on covert action in Afghanistan and Predator reconnaissance.",
+    "sourceNoteStatus": "Draft",
+    "summary": "Rice's memoir corroborates the September 4 decision point and highlights two elements: ambitious covert action in Afghanistan and use of Predator for reconnaissance because armed capability was not yet ready.",
+    "editorialUse": "Use as a retrospective annotation for the September 4 meeting lead while prioritizing the meeting minutes, decision memorandum, and directive drafts for selection.",
+    "frusTopics": [
+      "Principals Committee",
+      "al Qaeda strategy",
+      "Afghanistan",
+      "Predator"
+    ],
+    "indexTerms": [
+      "Rice, Condoleezza",
+      "September 4 Principals Committee",
+      "Predator",
+      "covert action"
+    ],
+    "countries": [
+      "United States",
+      "Afghanistan"
+    ],
+    "persons": [
+      "Condoleezza Rice",
+      "George Tenet",
+      "Richard A. Clarke",
+      "Donald Rumsfeld",
+      "Colin Powell"
+    ],
+    "citedBy": [
+      "Google Drive memoir sweep"
+    ],
+    "relatedRecords": [
+      "principals-approve-al-qaeda-directive-2001-09-04",
+      "nspd-9-public-characterization"
+    ]
+  },
+  {
     "id": "massoud-assassination-context-2001-09-09",
     "date": "2001-09-10",
     "sortDate": "2001-09-10",
@@ -2133,6 +2492,64 @@ window.SEPT10_RECORDS = [
     ]
   },
   {
+    "id": "memoir-bush-massoud-assassination-recollection-2001-09-09",
+    "date": "2001-09-09",
+    "sortDate": "2001-09-09",
+    "dateLine": "September 9, 2001",
+    "type": "Context Lead",
+    "title": "Bush recollection of Massoud's assassination and Northern Alliance cooperation",
+    "documentTitle": "George W. Bush memoir recollection of Ahmad Shah Massoud's assassination",
+    "chapter": {
+      "number": 4,
+      "name": "Strategy Decision and September 10"
+    },
+    "releaseStatus": "Public",
+    "selectionDecision": "Context candidate",
+    "productionIssues": [
+      "needs-annotation"
+    ],
+    "source": {
+      "repository": "Published memoir / Google Drive copy consulted",
+      "collection": "George W. Bush, Decision Points",
+      "series": "Retrospective memoir",
+      "itemTitle": "Afghanistan"
+    },
+    "sourcePages": "pp. 186-187",
+    "sourceNote": "Source: George W. Bush, Decision Points (New York: Crown, 2010), pp. 186-187; user's Google Drive PDF consulted. Bush described Afghanistan before 9/11 as a \"state sponsored by terror\" and wrote that Massoud's September 9 assassination \"galvanized the Alliance\" to cooperate with the United States.",
+    "sourceNoteStatus": "Draft",
+    "summary": "Bush's memoir links the September 9 assassination to post-attack cooperation with the Northern Alliance, supplying presidential retrospective context for the September 10 INR assessment.",
+    "editorialUse": "Use as annotation context only; the State INR assessment and contemporaneous intelligence reporting should control the chronology of Massoud's death and its implications.",
+    "frusTopics": [
+      "Afghanistan",
+      "Northern Alliance",
+      "Massoud assassination",
+      "al Qaeda"
+    ],
+    "indexTerms": [
+      "Bush, George W.",
+      "Massoud, Ahmad Shah",
+      "Northern Alliance",
+      "Taliban"
+    ],
+    "countries": [
+      "Afghanistan",
+      "United States"
+    ],
+    "persons": [
+      "George W. Bush",
+      "Ahmad Shah Massoud",
+      "Osama bin Laden",
+      "George Tenet"
+    ],
+    "citedBy": [
+      "Google Drive memoir sweep"
+    ],
+    "relatedRecords": [
+      "massoud-assassination-context-2001-09-09",
+      "deputies-al-qaeda-strategy-2001-09-10"
+    ]
+  },
+  {
     "id": "deputies-al-qaeda-strategy-2001-09-10",
     "date": "2001-09-10",
     "sortDate": "2001-09-10",
@@ -2190,6 +2607,66 @@ window.SEPT10_RECORDS = [
     ],
     "citedBy": [
       "9/11 Commission Report notes"
+    ]
+  },
+  {
+    "id": "memoir-rice-september-10-strategy-forwarded-2001-09-10",
+    "date": "2001-09-10",
+    "sortDate": "2001-09-10",
+    "dateLine": "September 10, 2001",
+    "type": "Context Lead",
+    "title": "Rice recollection of forwarding the al Qaeda strategy to Bush",
+    "documentTitle": "Condoleezza Rice memoir recollection of September 10 strategy forwarding",
+    "chapter": {
+      "number": 4,
+      "name": "Strategy Decision and September 10"
+    },
+    "releaseStatus": "Public",
+    "selectionDecision": "Context candidate",
+    "productionIssues": [
+      "needs-annotation"
+    ],
+    "source": {
+      "repository": "Published memoir / Google Drive copy consulted",
+      "collection": "Condoleezza Rice, No Higher Honor",
+      "series": "Retrospective memoir",
+      "itemTitle": "False Alarm"
+    },
+    "sourcePages": "p. 70",
+    "sourceNote": "Source: Condoleezza Rice, No Higher Honor: A Memoir of My Years in Washington (New York: Crown, 2011), p. 70; user's Google Drive PDF consulted. Rice wrote that she \"forwarded the strategy\" to President Bush for approval on September 10 after the September 4 Principals agreement.",
+    "sourceNoteStatus": "Draft",
+    "summary": "Rice's memoir supplies a retrospective endpoint for the pre-attack strategy chain: Principals agreed on September 4, and Rice sent the package to the President on September 10.",
+    "editorialUse": "Use as annotation for the September 10 Deputies/strategy lead and NSPD-9 lineage; retrieve the actual forwarding memorandum, decision package, and draft directive if available.",
+    "frusTopics": [
+      "al Qaeda strategy",
+      "NSC",
+      "September 10",
+      "NSPD-9"
+    ],
+    "indexTerms": [
+      "Rice, Condoleezza",
+      "September 10, 2001",
+      "NSPD-9",
+      "strategy directive"
+    ],
+    "countries": [
+      "United States",
+      "Afghanistan",
+      "Pakistan"
+    ],
+    "persons": [
+      "Condoleezza Rice",
+      "George W. Bush",
+      "Richard A. Clarke",
+      "George Tenet"
+    ],
+    "citedBy": [
+      "Google Drive memoir sweep"
+    ],
+    "relatedRecords": [
+      "deputies-al-qaeda-strategy-2001-09-10",
+      "principals-approve-al-qaeda-directive-2001-09-04",
+      "nspd-9-public-characterization"
     ]
   },
   {
