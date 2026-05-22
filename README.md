@@ -59,6 +59,7 @@ The site supports:
   issue, and local review state
 - direct links to the Avalon, State FOIA, ISCAP, and FBI Review source-sweep
   reports
+- a reference section for GovInfo Public Papers keyword indexes
 - direct PDF and citation-PDF fields, with a public PDF audit for records where
   the original cited document is still not publicly located
 - copyable FRUS-style source-note stubs for record packets
@@ -111,6 +112,8 @@ against the underlying record.
 - NARA ISCAP 2012-163, Bush/Cheney 9/11 Commission MFR: <https://www.archives.gov/files/declassification/iscap/pdf/2012-163-doc-1-release-material.pdf>
 - ISCAP primary-source sweep notes: <reports/iscap-primary-source-sweep.md>
 - State FOIA primary-source sweep notes: <reports/state-foia-primary-source-sweep.md>
+- Bush 41 counterterrorism Public Papers reference: <reports/bush41-counterterrorism-public-statements.md>
+- GovInfo Bush 41 Public Papers collection: <https://www.govinfo.gov/app/collection/ppp/president-41_Bush,%20George%20H.%20W.>
 - NSPD-9 public characterization: <https://irp.fas.org/offdocs/nspd/nspd-9.htm>
 - FRUS production method reference: <https://history.state.gov/historicaldocuments/frus1989-92v31/abouttheseries>
 
