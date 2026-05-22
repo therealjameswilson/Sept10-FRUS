@@ -1763,10 +1763,12 @@ window.SEPT10_RECORDS = [
     "citedBy": [
       "DOJ OIG Phoenix chapter",
       "9/11 Commission Staff Statement No. 10",
-      "NARA ISCAP 2012-048 FBI Files source shelf"
+      "NARA ISCAP 2012-048 FBI Files source shelf",
+      "NARA ISCAP 2014-089 Joint Inquiry release material"
     ],
     "relatedRecords": [
-      "iscap-2012-048-9-11-fbi-files"
+      "iscap-2012-048-9-11-fbi-files",
+      "iscap-2014-089-joint-inquiry-ic-activities-9-11"
     ]
   },
   {
@@ -2233,10 +2235,12 @@ window.SEPT10_RECORDS = [
       "DOJ OIG Moussaoui chapter",
       "9/11 Commission Report, chapter 8",
       "9/11 Commission Staff Statement No. 10",
-      "NARA ISCAP 2012-048 FBI Files source shelf"
+      "NARA ISCAP 2012-048 FBI Files source shelf",
+      "NARA ISCAP 2014-089 Joint Inquiry release material"
     ],
     "relatedRecords": [
-      "iscap-2012-048-9-11-fbi-files"
+      "iscap-2012-048-9-11-fbi-files",
+      "iscap-2014-089-joint-inquiry-ic-activities-9-11"
     ]
   },
   {
@@ -2297,9 +2301,85 @@ window.SEPT10_RECORDS = [
     "citedBy": [
       "Joint Inquiry testimony, September 20, 2002",
       "DOJ OIG Mihdhar-Hazmi chapter",
-      "NARA ISCAP 2012-048 FBI Files source shelf"
+      "NARA ISCAP 2012-048 FBI Files source shelf",
+      "NARA ISCAP 2014-089 Joint Inquiry release material"
     ],
     "relatedRecords": [
+      "iscap-2012-048-9-11-fbi-files",
+      "iscap-2014-089-joint-inquiry-ic-activities-9-11"
+    ]
+  },
+  {
+    "id": "iscap-2014-089-joint-inquiry-ic-activities-9-11",
+    "date": "2001-08-23",
+    "sortDate": "2001-08-23",
+    "dateLine": "December 2002/January 2003 Joint Inquiry release material; source shelf for pre-9/11 IC and FBI findings",
+    "type": "Source Collection",
+    "title": "ISCAP 2014-089: Joint Inquiry intelligence-community source lead",
+    "documentTitle": "Joint Inquiry into IC Activities Before and After the Terrorist Attacks of September 11, 2001",
+    "chapter": {
+      "number": 3,
+      "name": "Aviation and Border Leads"
+    },
+    "releaseStatus": "Declassified",
+    "selectionDecision": "Source lead",
+    "productionIssues": [
+      "needs-selection",
+      "needs-annotation",
+      "needs-index"
+    ],
+    "source": {
+      "repository": "Federal Bureau of Investigation / Library of Congress / NARA ISCAP",
+      "collection": "ISCAP release 2014-089",
+      "series": "Joint Inquiry release material",
+      "itemTitle": "Joint Inquiry into IC Activities Before and After the Terrorist Attacks of September 11, 2001",
+      "documentId": "2014-089-doc01",
+      "url": "https://www.archives.gov/files/declassification/iscap/pdf/2014-089-doc01.pdf",
+      "path": [
+        "https://www.archives.gov/files/declassification/iscap/pdf/2014-089-doc01.pdf"
+      ]
+    },
+    "catalogUrl": "https://www.archives.gov/declassification/iscap/releases",
+    "pdfUrl": "https://www.archives.gov/files/declassification/iscap/pdf/2014-089-doc01.pdf",
+    "pdfLabel": "ISCAP Joint Inquiry PDF",
+    "pageCount": 34,
+    "sourceNote": "Source: NARA ISCAP release table, ISCAP Appeal 2014-089-doc01, \"Joint Inquiry into IC Activities Before and After the Terrorist Attacks of September 11, 2001.\" Direct PDF released under ISCAP authority and declassified December 20, 2016; the release table identifies the date as 2002/12, originating agency as Federal Bureau of Investigation, holding institution as Library of Congress, and release date as December 30, 2016.",
+    "sourceNoteAddendum": "Use as an official declassified Joint Inquiry recommendation/source shelf for intelligence-community counterterrorism strategy, FBI domestic-intelligence reform, FISA/watchlisting, information fusion, and other findings bearing on pre-9/11 intelligence performance; retrieve original underlying 2001 records before selection.",
+    "sourceNoteStatus": "Draft",
+    "declassificationStatus": "Declassified ISCAP PDF",
+    "summary": "The PDF contains released Joint Inquiry material and recommendation correspondence following the bicameral investigation into intelligence-community activities before and after September 11.",
+    "editorialUse": "Source shelf and annotation lead for Phoenix, Moussaoui, Mihdhar/Hazmi, domestic warning, and pre-9/11 intelligence-community strategy gaps.",
+    "frusTopics": [
+      "Joint Inquiry",
+      "FBI",
+      "intelligence community",
+      "watchlisting",
+      "counterterrorism strategy"
+    ],
+    "indexTerms": [
+      "ISCAP 2014-089",
+      "Joint Inquiry",
+      "Director of National Intelligence",
+      "Terrorist Threat Integration Center",
+      "watchlisting"
+    ],
+    "countries": [
+      "United States"
+    ],
+    "persons": [
+      "George Tenet",
+      "Bob Graham",
+      "Porter Goss",
+      "Richard Shelby",
+      "Nancy Pelosi"
+    ],
+    "citedBy": [
+      "National Archives ISCAP Releases"
+    ],
+    "relatedRecords": [
+      "phoenix-electronic-communication-2001-07-10",
+      "moussaoui-investigation-opened-2001-08-15",
+      "mihdhar-hazmi-watchlist-2001-08-23",
       "iscap-2012-048-9-11-fbi-files"
     ]
   },
