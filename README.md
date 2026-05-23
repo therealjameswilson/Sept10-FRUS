@@ -12,8 +12,8 @@ source-note stubs, production gaps, local review state, and CSV export.
 
 Version 2.0 adds a computed source-intelligence layer: retrieval priority
 scoring, readiness counts, repository mix, production-gate counts, direct links
-to source-sweep reports, public PDF/citation-PDF links, and a priority sort for
-the chronology.
+to source-sweep reports, public PDF/citation-PDF links, a compiler gap
+assessment, and a priority sort for the chronology.
 
 No public Office of the Historian volume number is assigned in this site. The
 scope is named from the working brief: counterterrorism before the September 11
@@ -59,6 +59,7 @@ The site supports:
   issue, and local review state
 - direct links to the Avalon, State FOIA, ISCAP, and FBI Review source-sweep
   reports
+- a compiler gap assessment that identifies blocking retrieval and scope risks
 - a reference section for GovInfo Public Papers keyword indexes
 - direct PDF and citation-PDF fields, with a public PDF audit for records where
   the original cited document is still not publicly located
@@ -77,6 +78,7 @@ against the underlying record.
 
 - Avalon Project full PDF of the 9/11 Commission Report: <https://avalon.law.yale.edu/sept11/911report.pdf>
 - Official 9/11 Commission full report PDF: <https://www.9-11commission.gov/report/911Report.pdf>
+- Compiler gap assessment: <reports/compiler-gap-assessment.md>
 - Avalon 9/11 Commission Report chronology notes: <reports/avalon-911-report-source-chronology.md>
 - Public PDF link audit notes: <reports/public-pdf-link-audit.md>
 - 9/11 Commission Report, Chapter 8, "The System Was Blinking Red": <https://govinfo.library.unt.edu/911/report/911Report_Ch8.pdf>
