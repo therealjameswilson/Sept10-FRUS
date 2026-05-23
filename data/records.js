@@ -1,5 +1,137 @@
 window.SEPT10_RECORDS = [
   {
+    "id": "iscap-pdd-62-counterterrorism-baseline-1998-05-22",
+    "date": "2001-01-20",
+    "sortDate": "2001-01-20",
+    "dateLine": "Issued May 22, 1998; inherited January 20, 2001",
+    "type": "Public Document",
+    "title": "PDD-62 inherited counterterrorism policy baseline",
+    "documentTitle": "Presidential Decision Directive 62: Protection Against Unconventional Threats to the Homeland and Americans Overseas",
+    "chapter": {
+      "number": 1,
+      "name": "Policy Inheritance and Review"
+    },
+    "releaseStatus": "Declassified",
+    "selectionDecision": "Context candidate",
+    "productionIssues": [
+      "needs-annotation",
+      "needs-index"
+    ],
+    "source": {
+      "repository": "National Security Council / William J. Clinton Presidential Library and Museum",
+      "collection": "ISCAP release 2013-003",
+      "series": "Presidential Decision Directives",
+      "itemTitle": "Presidential Decision Directive 62 (PDD-62)",
+      "documentId": "2013-003-doc1",
+      "url": "https://www.archives.gov/files/declassification/iscap/pdf/2013-003-doc1.pdf"
+    },
+    "catalogUrl": "https://www.archives.gov/declassification/iscap/releases",
+    "pdfUrl": "https://www.archives.gov/files/declassification/iscap/pdf/2013-003-doc1.pdf",
+    "pageCount": 14,
+    "sourceNote": "Source: National Security Council, Presidential Decision Directive 62, \"Protection Against Unconventional Threats to the Homeland and Americans Overseas,\" May 22, 1998, ISCAP Appeal 2013-003-doc1, declassified copy released by the National Archives. Use as the inherited interagency policy baseline for the Bush administration's January 2001 counterterrorism review.",
+    "sourceNoteStatus": "Draft",
+    "classification": "Declassified public copy",
+    "declassificationStatus": "Declassified under ISCAP appeal 2013-003",
+    "summary": "PDD-62 defined late-Clinton counterterrorism structures and priorities, including the National Coordinator role, interagency counterterrorism management, international cooperation, WMD preparedness, transportation security, critical infrastructure, cyber systems, and continuity planning.",
+    "editorialUse": "Context candidate for explaining the policy machinery and inherited assumptions that Clarke, Rice, the CSG, Deputies, and Principals were operating within in 2001.",
+    "frusTopics": [
+      "PDD-62",
+      "counterterrorism policy",
+      "interagency coordination",
+      "transportation security",
+      "WMD"
+    ],
+    "indexTerms": [
+      "Presidential Decision Directive 62",
+      "National Coordinator",
+      "Counter-Terrorism Security Group",
+      "critical infrastructure"
+    ],
+    "countries": [
+      "United States"
+    ],
+    "persons": [
+      "William J. Clinton",
+      "Richard A. Clarke"
+    ],
+    "citedBy": [
+      "National Archives ISCAP Releases",
+      "ISCAP 2013-003"
+    ],
+    "relatedRecords": [
+      "csg-abu-zubaydah-reports-2001-04-19",
+      "csg-domestic-agency-meeting-2001-07-05"
+    ],
+    "retrievalPriority": "Resolved",
+    "compilerRisk": "low",
+    "scopeRole": "direct-document",
+    "retrievalStatus": "direct-copy-located",
+    "pdfRole": "direct-copy",
+    "retrievalNotes": "Direct public copy or strong public text located; remaining work is annotation, indexing, and source-note verification."
+  },
+  {
+    "id": "memoir-cheney-early-vp-pdb-process-2001-01-20",
+    "date": "2001-01-20",
+    "sortDate": "2001-01-20",
+    "dateLine": "January 20/23, 2001 and first weeks of the administration",
+    "type": "Context Lead",
+    "title": "Cheney recollection of early vice-presidential national-security role and PDB access",
+    "documentTitle": "Dick Cheney memoir recollection of early vice-presidential PDB process",
+    "chapter": {
+      "number": 1,
+      "name": "Policy Inheritance and Review"
+    },
+    "releaseStatus": "Public",
+    "selectionDecision": "Context candidate",
+    "productionIssues": [
+      "needs-annotation"
+    ],
+    "source": {
+      "repository": "Published memoir / Google Drive copy consulted",
+      "collection": "Dick Cheney with Liz Cheney, In My Time",
+      "series": "Retrospective memoir",
+      "itemTitle": "Early vice-presidential role and President's Daily Brief process"
+    },
+    "sourcePages": "pp. 302-315",
+    "sourceNote": "Source: Dick Cheney with Liz Cheney, In My Time: A Personal and Political Memoir (New York: Threshold Editions, 2011), pp. 302-315; user's Google Drive PDF consulted. Cheney recalled the January 20 inauguration, said Bush wanted him involved \"from day one,\" and described a PDB routine that began early in the term, with briefings at \"around 6:30 a.m.\" and a vice-presidential section \"behind the tab.\"",
+    "sourceNoteStatus": "Draft",
+    "summary": "Retrospective source for how the Vice President's office fit into early national-security decision flow and PDB distribution before the August 6 PDB.",
+    "editorialUse": "Use as annotation context for PDB readership, vice-presidential participation, and the Libby dual White House/vice-presidential national-security staff arrangement.",
+    "frusTopics": [
+      "President's Daily Brief",
+      "Vice President",
+      "national security process",
+      "intelligence briefing"
+    ],
+    "indexTerms": [
+      "Cheney, Richard B.",
+      "President's Daily Brief",
+      "Libby, I. Lewis",
+      "Vice President's Residence"
+    ],
+    "countries": [
+      "United States"
+    ],
+    "persons": [
+      "Richard B. Cheney",
+      "George W. Bush",
+      "I. Lewis Libby"
+    ],
+    "citedBy": [
+      "Google Drive memoir sweep"
+    ],
+    "relatedRecords": [
+      "pdb-bin-ladin-determined-to-strike-2001-08-06",
+      "iscap-2012-163-bush-cheney-commission-mfr"
+    ],
+    "retrievalPriority": "Reference",
+    "compilerRisk": "reference",
+    "scopeRole": "context-only",
+    "retrievalStatus": "context-only",
+    "pdfRole": "none",
+    "retrievalNotes": "Reference or recollection source only; do not use as a substitute for contemporaneous records."
+  },
+  {
     "id": "source-2014-0215-f1-al-qaeda-bin-laden",
     "date": "2001-01-20",
     "sortDate": "2001-01-20",
@@ -52,7 +184,13 @@ window.SEPT10_RECORDS = [
     ],
     "citedBy": [
       "George W. Bush Library finding aid"
-    ]
+    ],
+    "retrievalPriority": "P1",
+    "compilerRisk": "high",
+    "scopeRole": "source-shelf",
+    "retrievalStatus": "finding-aid-located",
+    "pdfRole": "finding-aid",
+    "retrievalNotes": "High-value retrieval or verification target needed for balance, annotation, or source-note confidence."
   },
   {
     "id": "source-2014-0487-f-nsc-minutes",
@@ -107,64 +245,13 @@ window.SEPT10_RECORDS = [
     ],
     "citedBy": [
       "George W. Bush Library finding aid"
-    ]
-  },
-  {
-    "id": "source-state-foia-bin-ladin-afghanistan-2001",
-    "date": "2001-01-20",
-    "sortDate": "2001-01-20",
-    "dateLine": "January 20-September 10, 2001",
-    "type": "Source Collection",
-    "title": "State FOIA Bin Ladin, Taliban, Afghanistan, and Pakistan release sets",
-    "documentTitle": "Department of State FOIA Virtual Reading Room searches for Bin Ladin and related counterterrorism records",
-    "chapter": {
-      "number": 1,
-      "name": "Policy Inheritance and Review"
-    },
-    "releaseStatus": "Mixed",
-    "selectionDecision": "Source lead",
-    "productionIssues": [
-      "needs-selection",
-      "needs-annotation",
-      "needs-index"
     ],
-    "source": {
-      "repository": "Department of State",
-      "collection": "FOIA Virtual Reading Room",
-      "series": "Released Documents Search",
-      "itemTitle": "Bin Ladin search, document date range January 20-September 10, 2001",
-      "url": "https://foia.state.gov/FOIALIBRARY/SearchResults.aspx"
-    },
-    "catalogUrl": "https://foia.state.gov/FOIALIBRARY/SearchResults.aspx",
-    "sourceNote": "Source: Department of State FOIA Virtual Reading Room, released-document searches for Bin Ladin and related counterterrorism terms, document-date range January 20-September 10, 2001. The Bin Ladin search returned 54 hits, including case F-2010-03412, Bureau of Intelligence records related to Pakistani intelligence, the Taliban, al-Qaida, Afghanistan, or Osama bin Laden, and case F-2011-03409, records related to Usama Bin Ladin.",
-    "sourceNoteStatus": "Draft",
-    "summary": "Primary-source shelf for State Department cables, briefing memoranda, and INR assessments that intersect the pre-September 11 counterterrorism chronology.",
-    "editorialUse": "Use as a control lead for State FOIA retrievals, especially released diplomatic cables on Taliban proposals, public warning cables, and INR Afghanistan assessments.",
-    "frusTopics": [
-      "State Department",
-      "FOIA",
-      "al Qaeda",
-      "Osama bin Laden",
-      "Afghanistan"
-    ],
-    "indexTerms": [
-      "Department of State FOIA",
-      "F-2010-03412",
-      "F-2011-03409",
-      "Virtual Reading Room"
-    ],
-    "countries": [
-      "United States",
-      "Afghanistan",
-      "Pakistan",
-      "Qatar"
-    ],
-    "persons": [
-      "Osama bin Laden"
-    ],
-    "citedBy": [
-      "Department of State FOIA Virtual Reading Room"
-    ]
+    "retrievalPriority": "P1",
+    "compilerRisk": "high",
+    "scopeRole": "source-shelf",
+    "retrievalStatus": "finding-aid-located",
+    "pdfRole": "finding-aid",
+    "retrievalNotes": "High-value retrieval or verification target needed for balance, annotation, or source-note confidence."
   },
   {
     "id": "source-avalon-911-commission-report-2004-07",
@@ -264,21 +351,27 @@ window.SEPT10_RECORDS = [
       "principals-approve-al-qaeda-directive-2001-09-04",
       "massoud-assassination-context-2001-09-09",
       "deputies-al-qaeda-strategy-2001-09-10"
-    ]
+    ],
+    "retrievalPriority": "Reference",
+    "compilerRisk": "reference",
+    "scopeRole": "source-shelf",
+    "retrievalStatus": "source-shelf-located",
+    "pdfRole": "source-shelf",
+    "retrievalNotes": "Reference or recollection source only; do not use as a substitute for contemporaneous records."
   },
   {
-    "id": "source-fbi-911-review-commission-report-2015-03",
-    "date": "2001-09-10",
-    "sortDate": "2001-09-10",
-    "dateLine": "March 2015 report; source shelf for pre-9/11 FBI leads",
+    "id": "source-state-foia-bin-ladin-afghanistan-2001",
+    "date": "2001-01-20",
+    "sortDate": "2001-01-20",
+    "dateLine": "January 20-September 10, 2001",
     "type": "Source Collection",
-    "title": "FBI 9/11 Review Commission chronology and source leads",
-    "documentTitle": "The FBI: Protecting the Homeland in the 21st Century",
+    "title": "State FOIA Bin Ladin, Taliban, Afghanistan, and Pakistan release sets",
+    "documentTitle": "Department of State FOIA Virtual Reading Room searches for Bin Ladin and related counterterrorism records",
     "chapter": {
-      "number": 3,
-      "name": "Aviation and Border Leads"
+      "number": 1,
+      "name": "Policy Inheritance and Review"
     },
-    "releaseStatus": "Public",
+    "releaseStatus": "Mixed",
     "selectionDecision": "Source lead",
     "productionIssues": [
       "needs-selection",
@@ -286,178 +379,48 @@ window.SEPT10_RECORDS = [
       "needs-index"
     ],
     "source": {
-      "repository": "Federal Bureau of Investigation",
-      "collection": "Reports and Publications",
-      "series": "9/11 Review Commission",
-      "itemTitle": "The FBI: Protecting the Homeland in the 21st Century",
-      "url": "https://www.fbi.gov/file-repository/reports-and-publications/final-9-11-review-commission-report-unclassified.pdf"
+      "repository": "Department of State",
+      "collection": "FOIA Virtual Reading Room",
+      "series": "Released Documents Search",
+      "itemTitle": "Bin Ladin search, document date range January 20-September 10, 2001",
+      "url": "https://foia.state.gov/FOIALIBRARY/SearchResults.aspx"
     },
-    "catalogUrl": "https://www.fbi.gov/file-repository/reports-and-publications/final-9-11-review-commission-report-unclassified.pdf/view",
-    "pdfUrl": "https://www.fbi.gov/file-repository/reports-and-publications/final-9-11-review-commission-report-unclassified.pdf",
-    "transcriptionUrl": "reports/fbi-911-review-commission-chronology.md",
-    "pageCount": 128,
-    "sourceNote": "Source: Federal Bureau of Investigation, \"The FBI: Protecting the Homeland in the 21st Century,\" Report of the Congressionally-directed 9/11 Review Commission to the Director of the Federal Bureau of Investigation, March 2015. Chapter V reviews new information related to the September 11 attacks and identifies FBI briefings, memoranda for the record, interviews, and source files relevant to al-Hazmi, al-Mihdhar, al-Bayoumi, al-Thumairy, Abdullah, Anwar al-Aulaqi, and Sarasota allegations.",
+    "catalogUrl": "https://foia.state.gov/FOIALIBRARY/SearchResults.aspx",
+    "sourceNote": "Source: Department of State FOIA Virtual Reading Room, released-document searches for Bin Ladin and related counterterrorism terms, document-date range January 20-September 10, 2001. The Bin Ladin search returned 54 hits, including case F-2010-03412, Bureau of Intelligence records related to Pakistani intelligence, the Taliban, al-Qaida, Afghanistan, or Osama bin Laden, and case F-2011-03409, records related to Usama Bin Ladin.",
     "sourceNoteStatus": "Draft",
-    "summary": "Retrospective FBI source shelf identifying underlying investigative files, briefings, MFRs, and interviews that can help trace domestic pre-9/11 aviation and border leads.",
-    "editorialUse": "Use to build a retrieval map for underlying FBI records; do not substitute the retrospective 2015 report for contemporaneous 2000-2001 documents.",
+    "summary": "Primary-source shelf for State Department cables, briefing memoranda, and INR assessments that intersect the pre-September 11 counterterrorism chronology.",
+    "editorialUse": "Use as a control lead for State FOIA retrievals, especially released diplomatic cables on Taliban proposals, public warning cables, and INR Afghanistan assessments.",
     "frusTopics": [
-      "FBI",
-      "9/11 Review Commission",
-      "PENTTBOM",
-      "al-Hazmi",
-      "al-Mihdhar",
-      "aviation and border leads"
+      "State Department",
+      "FOIA",
+      "al Qaeda",
+      "Osama bin Laden",
+      "Afghanistan"
     ],
     "indexTerms": [
-      "9/11 Review Commission",
-      "PENTTBOM",
-      "Omar al-Bayoumi",
-      "Fahad al-Thumairy",
-      "Mohdhar Abdullah",
-      "Sarasota Family"
+      "Department of State FOIA",
+      "F-2010-03412",
+      "F-2011-03409",
+      "Virtual Reading Room"
     ],
     "countries": [
       "United States",
-      "Saudi Arabia"
+      "Afghanistan",
+      "Pakistan",
+      "Qatar"
     ],
     "persons": [
-      "Nawaf al-Hazmi",
-      "Khalid al-Mihdhar",
-      "Omar al-Bayoumi",
-      "Fahad al-Thumairy",
-      "Mohdhar Abdullah",
-      "Anwar al-Aulaqi",
-      "Bassem Youssef"
+      "Osama bin Laden"
     ],
     "citedBy": [
-      "Federal Bureau of Investigation"
+      "Department of State FOIA Virtual Reading Room"
     ],
-    "relatedRecords": [
-      "phoenix-electronic-communication-2001-07-10",
-      "iscap-2012-048-9-11-fbi-files",
-      "moussaoui-investigation-opened-2001-08-15",
-      "mihdhar-hazmi-watchlist-2001-08-23"
-    ]
-  },
-  {
-    "id": "iscap-pdd-62-counterterrorism-baseline-1998-05-22",
-    "date": "2001-01-20",
-    "sortDate": "2001-01-20",
-    "dateLine": "Issued May 22, 1998; inherited January 20, 2001",
-    "type": "Public Document",
-    "title": "PDD-62 inherited counterterrorism policy baseline",
-    "documentTitle": "Presidential Decision Directive 62: Protection Against Unconventional Threats to the Homeland and Americans Overseas",
-    "chapter": {
-      "number": 1,
-      "name": "Policy Inheritance and Review"
-    },
-    "releaseStatus": "Declassified",
-    "selectionDecision": "Context candidate",
-    "productionIssues": [
-      "needs-annotation",
-      "needs-index"
-    ],
-    "source": {
-      "repository": "National Security Council / William J. Clinton Presidential Library and Museum",
-      "collection": "ISCAP release 2013-003",
-      "series": "Presidential Decision Directives",
-      "itemTitle": "Presidential Decision Directive 62 (PDD-62)",
-      "documentId": "2013-003-doc1",
-      "url": "https://www.archives.gov/files/declassification/iscap/pdf/2013-003-doc1.pdf"
-    },
-    "catalogUrl": "https://www.archives.gov/declassification/iscap/releases",
-    "pdfUrl": "https://www.archives.gov/files/declassification/iscap/pdf/2013-003-doc1.pdf",
-    "pageCount": 14,
-    "sourceNote": "Source: National Security Council, Presidential Decision Directive 62, \"Protection Against Unconventional Threats to the Homeland and Americans Overseas,\" May 22, 1998, ISCAP Appeal 2013-003-doc1, declassified copy released by the National Archives. Use as the inherited interagency policy baseline for the Bush administration's January 2001 counterterrorism review.",
-    "sourceNoteStatus": "Draft",
-    "classification": "Declassified public copy",
-    "declassificationStatus": "Declassified under ISCAP appeal 2013-003",
-    "summary": "PDD-62 defined late-Clinton counterterrorism structures and priorities, including the National Coordinator role, interagency counterterrorism management, international cooperation, WMD preparedness, transportation security, critical infrastructure, cyber systems, and continuity planning.",
-    "editorialUse": "Context candidate for explaining the policy machinery and inherited assumptions that Clarke, Rice, the CSG, Deputies, and Principals were operating within in 2001.",
-    "frusTopics": [
-      "PDD-62",
-      "counterterrorism policy",
-      "interagency coordination",
-      "transportation security",
-      "WMD"
-    ],
-    "indexTerms": [
-      "Presidential Decision Directive 62",
-      "National Coordinator",
-      "Counter-Terrorism Security Group",
-      "critical infrastructure"
-    ],
-    "countries": [
-      "United States"
-    ],
-    "persons": [
-      "William J. Clinton",
-      "Richard A. Clarke"
-    ],
-    "citedBy": [
-      "National Archives ISCAP Releases",
-      "ISCAP 2013-003"
-    ],
-    "relatedRecords": [
-      "csg-abu-zubaydah-reports-2001-04-19",
-      "csg-domestic-agency-meeting-2001-07-05"
-    ]
-  },
-  {
-    "id": "memoir-cheney-early-vp-pdb-process-2001-01-20",
-    "date": "2001-01-20",
-    "sortDate": "2001-01-20",
-    "dateLine": "January 20/23, 2001 and first weeks of the administration",
-    "type": "Context Lead",
-    "title": "Cheney recollection of early vice-presidential national-security role and PDB access",
-    "documentTitle": "Dick Cheney memoir recollection of early vice-presidential PDB process",
-    "chapter": {
-      "number": 1,
-      "name": "Policy Inheritance and Review"
-    },
-    "releaseStatus": "Public",
-    "selectionDecision": "Context candidate",
-    "productionIssues": [
-      "needs-annotation"
-    ],
-    "source": {
-      "repository": "Published memoir / Google Drive copy consulted",
-      "collection": "Dick Cheney with Liz Cheney, In My Time",
-      "series": "Retrospective memoir",
-      "itemTitle": "Early vice-presidential role and President's Daily Brief process"
-    },
-    "sourcePages": "pp. 302-315",
-    "sourceNote": "Source: Dick Cheney with Liz Cheney, In My Time: A Personal and Political Memoir (New York: Threshold Editions, 2011), pp. 302-315; user's Google Drive PDF consulted. Cheney recalled the January 20 inauguration, said Bush wanted him involved \"from day one,\" and described a PDB routine that began early in the term, with briefings at \"around 6:30 a.m.\" and a vice-presidential section \"behind the tab.\"",
-    "sourceNoteStatus": "Draft",
-    "summary": "Retrospective source for how the Vice President's office fit into early national-security decision flow and PDB distribution before the August 6 PDB.",
-    "editorialUse": "Use as annotation context for PDB readership, vice-presidential participation, and the Libby dual White House/vice-presidential national-security staff arrangement.",
-    "frusTopics": [
-      "President's Daily Brief",
-      "Vice President",
-      "national security process",
-      "intelligence briefing"
-    ],
-    "indexTerms": [
-      "Cheney, Richard B.",
-      "President's Daily Brief",
-      "Libby, I. Lewis",
-      "Vice President's Residence"
-    ],
-    "countries": [
-      "United States"
-    ],
-    "persons": [
-      "Richard B. Cheney",
-      "George W. Bush",
-      "I. Lewis Libby"
-    ],
-    "citedBy": [
-      "Google Drive memoir sweep"
-    ],
-    "relatedRecords": [
-      "pdb-bin-ladin-determined-to-strike-2001-08-06",
-      "iscap-2012-163-bush-cheney-commission-mfr"
-    ]
+    "retrievalPriority": "P1",
+    "compilerRisk": "high",
+    "scopeRole": "source-shelf",
+    "retrievalStatus": "source-shelf-located",
+    "pdfRole": "none",
+    "retrievalNotes": "High-value retrieval or verification target needed for balance, annotation, or source-note confidence."
   },
   {
     "id": "clarke-rice-al-qaeda-review-2001-01-24",
@@ -523,7 +486,13 @@ window.SEPT10_RECORDS = [
     "citedBy": [
       "Richard Clarke 9/11 Commission testimony",
       "9/11 Commission Report notes"
-    ]
+    ],
+    "retrievalPriority": "Resolved",
+    "compilerRisk": "low",
+    "scopeRole": "direct-document",
+    "retrievalStatus": "direct-copy-located",
+    "pdfRole": "direct-copy",
+    "retrievalNotes": "Direct public copy or strong public text located; remaining work is annotation, indexing, and source-note verification."
   },
   {
     "id": "memoir-rice-clarke-strategy-green-light-2001-01-31",
@@ -587,7 +556,13 @@ window.SEPT10_RECORDS = [
       "clarke-rice-al-qaeda-review-2001-01-24",
       "draft-afghanistan-counterterrorism-finding-2001-03",
       "principals-approve-al-qaeda-directive-2001-09-04"
-    ]
+    ],
+    "retrievalPriority": "Reference",
+    "compilerRisk": "reference",
+    "scopeRole": "context-only",
+    "retrievalStatus": "context-only",
+    "pdfRole": "none",
+    "retrievalNotes": "Reference or recollection source only; do not use as a substitute for contemporaneous records."
   },
   {
     "id": "draft-afghanistan-counterterrorism-finding-2001-03",
@@ -643,7 +618,13 @@ window.SEPT10_RECORDS = [
     ],
     "citedBy": [
       "9/11 Commission Report notes"
-    ]
+    ],
+    "retrievalPriority": "P1",
+    "compilerRisk": "high",
+    "scopeRole": "citation-lead",
+    "retrievalStatus": "citation-only",
+    "pdfRole": "none",
+    "retrievalNotes": "High-value retrieval or verification target needed for balance, annotation, or source-note confidence."
   },
   {
     "id": "clarke-pennsylvania-avenue-warning-2001-03-23",
@@ -696,7 +677,13 @@ window.SEPT10_RECORDS = [
     ],
     "citedBy": [
       "9/11 Commission Report, chapter 8"
-    ]
+    ],
+    "retrievalPriority": "P1",
+    "compilerRisk": "high",
+    "scopeRole": "citation-lead",
+    "retrievalStatus": "citation-only",
+    "pdfRole": "none",
+    "retrievalNotes": "High-value retrieval or verification target needed for balance, annotation, or source-note confidence."
   },
   {
     "id": "state-taliban-ubl-islamic-tribunal-2001-04-07",
@@ -773,7 +760,13 @@ window.SEPT10_RECORDS = [
     "relatedRecords": [
       "state-taliban-fourth-proposal-ubl-2001-04-10",
       "state-deputies-terrorism-al-qaida-briefing-2001-04-20"
-    ]
+    ],
+    "retrievalPriority": "Resolved",
+    "compilerRisk": "low",
+    "scopeRole": "direct-document",
+    "retrievalStatus": "direct-copy-located",
+    "pdfRole": "direct-copy",
+    "retrievalNotes": "Direct public copy or strong public text located; remaining work is annotation, indexing, and source-note verification."
   },
   {
     "id": "state-taliban-fourth-proposal-ubl-2001-04-10",
@@ -851,7 +844,13 @@ window.SEPT10_RECORDS = [
     "relatedRecords": [
       "state-taliban-ubl-islamic-tribunal-2001-04-07",
       "state-deputies-terrorism-al-qaida-briefing-2001-04-20"
-    ]
+    ],
+    "retrievalPriority": "Resolved",
+    "compilerRisk": "low",
+    "scopeRole": "direct-document",
+    "retrievalStatus": "direct-copy-located",
+    "pdfRole": "direct-copy",
+    "retrievalNotes": "Direct public copy or strong public text located; remaining work is annotation, indexing, and source-note verification."
   },
   {
     "id": "csg-abu-zubaydah-reports-2001-04-19",
@@ -906,7 +905,13 @@ window.SEPT10_RECORDS = [
     ],
     "citedBy": [
       "9/11 Commission Report, chapter 8"
-    ]
+    ],
+    "retrievalPriority": "P1",
+    "compilerRisk": "high",
+    "scopeRole": "citation-lead",
+    "retrievalStatus": "citation-only",
+    "pdfRole": "none",
+    "retrievalNotes": "High-value retrieval or verification target needed for balance, annotation, or source-note confidence."
   },
   {
     "id": "state-deputies-terrorism-al-qaida-briefing-2001-04-20",
@@ -992,7 +997,13 @@ window.SEPT10_RECORDS = [
       "deputies-al-qaeda-policy-2001-04-30",
       "state-taliban-ubl-islamic-tribunal-2001-04-07",
       "state-taliban-fourth-proposal-ubl-2001-04-10"
-    ]
+    ],
+    "retrievalPriority": "Resolved",
+    "compilerRisk": "low",
+    "scopeRole": "direct-document",
+    "retrievalStatus": "direct-copy-located",
+    "pdfRole": "direct-copy",
+    "retrievalNotes": "Direct public copy or strong public text located; remaining work is annotation, indexing, and source-note verification."
   },
   {
     "id": "deputies-al-qaeda-policy-2001-04-30",
@@ -1053,264 +1064,16 @@ window.SEPT10_RECORDS = [
     ],
     "relatedRecords": [
       "state-deputies-terrorism-al-qaida-briefing-2001-04-20"
-    ]
-  },
-  {
-    "id": "bin-ladin-network-plans-advancing-2001-05-29",
-    "date": "2001-05-29",
-    "sortDate": "2001-05-29",
-    "dateLine": "May 29, 2001",
-    "type": "Warning Lead",
-    "title": "Intelligence warning: Bin Ladin network's plans advancing",
-    "documentTitle": "PDB/SEIB article lead on Bin Ladin network's plans advancing",
-    "chapter": {
-      "number": 2,
-      "name": "Threat Surge and Domestic Warning"
-    },
-    "releaseStatus": "Citation Lead",
-    "selectionDecision": "Include candidate",
-    "productionIssues": [
-      "needs-source",
-      "needs-declass",
-      "needs-annotation"
     ],
-    "source": {
-      "repository": "Central Intelligence Agency",
-      "collection": "President's Daily Brief / Senior Executive Intelligence Brief",
-      "series": "2001 Bin Ladin threat reporting",
-      "itemTitle": "Bin Ladin network's plans advancing",
-      "url": "https://www.9-11commission.gov/report/911Report_Ch8.htm"
-    },
-    "catalogUrl": "https://www.9-11commission.gov/report/911Report_Ch8.htm",
-    "citationPdfUrl": "https://govinfo.library.unt.edu/911/report/911Report_Ch8.pdf",
-    "citationPdfLabel": "9/11 chapter 8 PDF",
-    "sourceNote": "Source: Central Intelligence Agency intelligence article lead, \"Bin Ladin network's plans advancing,\" May 29, 2001. Discussed in the 9/11 Commission Report, chapter 8; PDB/SEIB version, distribution, and declassification status require verification.",
-    "sourceNoteStatus": "Needs verification",
-    "summary": "One of the cited spring 2001 warnings that the pace and seriousness of al Qaeda threat reporting had increased.",
-    "editorialUse": "Candidate for the start of the summer threat lane, if a releasable PDB or SEIB version can be identified.",
-    "frusTopics": [
-      "PDB",
-      "SEIB",
-      "threat reporting",
-      "al Qaeda"
-    ],
-    "indexTerms": [
-      "Bin Ladin",
-      "President's Daily Brief",
-      "Senior Executive Intelligence Brief"
-    ],
-    "countries": [
-      "United States",
-      "Afghanistan"
-    ],
-    "persons": [
-      "George W. Bush",
-      "George Tenet",
-      "Osama bin Laden"
-    ],
-    "citedBy": [
-      "9/11 Commission Report, chapter 8"
-    ]
-  },
-  {
-    "id": "state-worldwide-caution-2001-05-30",
-    "date": "2001-05-30",
-    "sortDate": "2001-05-30",
-    "dateLine": "May 30, 2001",
-    "type": "Warning Lead",
-    "title": "State Department worldwide caution after May al Qaeda threat reporting",
-    "documentTitle": "Public Announcement - Worldwide Caution",
-    "subjectLine": "PUBLIC ANNOUNCEMENT - WORLDWIDE CAUTION",
-    "chapter": {
-      "number": 2,
-      "name": "Threat Surge and Domestic Warning"
-    },
-    "releaseStatus": "Declassified",
-    "selectionDecision": "Context candidate",
-    "productionIssues": [
-      "needs-annotation",
-      "needs-index"
-    ],
-    "source": {
-      "repository": "Department of State",
-      "collection": "FOIA Virtual Reading Room",
-      "series": "F-2011-03409ER",
-      "itemTitle": "Public Announcement - Worldwide Caution",
-      "documentId": "C17641032",
-      "caseNumber": "F-2011-03409",
-      "url": "https://foia.state.gov/DOCUMENTS/5-FY2014/F-2011-03409ER/DOC_0C17641032/C17641032.pdf"
-    },
-    "catalogUrl": "https://foia.state.gov/FOIALIBRARY/SearchResults.aspx",
-    "pdfUrl": "https://foia.state.gov/DOCUMENTS/5-FY2014/F-2011-03409ER/DOC_0C17641032/C17641032.pdf",
-    "sourceNote": "Source: Department of State telegram 2001STATE093783, Secretary of State to all diplomatic and consular posts, May 30, 2001, unclassified, subject: \"Public Announcement - Worldwide Caution\"; Department of State FOIA case F-2011-03409, doc. C17641032, released in full.",
-    "sourceNoteStatus": "Draft",
-    "classification": "Unclassified",
-    "declassificationStatus": "Released in full by Department of State FOIA",
-    "documentMarkings": [
-      "UNCLASSIFIED",
-      "Released in Full"
-    ],
-    "communication": {
-      "from": "Secretary of State",
-      "to": "All diplomatic and consular posts",
-      "channel": "Telegram 2001STATE093783"
-    },
-    "summary": "State issued a worldwide caution after learning in early May that American citizens abroad might be the target of terrorist threats from extremist groups with links to Usama Bin Ladin's al-Qaida organization.",
-    "editorialUse": "Public-facing warning candidate that bridges the May 29 intelligence warning lead and the later June worldwide caution.",
-    "frusTopics": [
-      "State Department",
-      "worldwide caution",
-      "public warning",
-      "al Qaeda",
-      "threat surge"
-    ],
-    "indexTerms": [
-      "Worldwide Caution",
-      "Usama Bin Ladin",
-      "al-Qaida",
-      "Public Announcement"
-    ],
-    "countries": [
-      "United States"
-    ],
-    "persons": [
-      "Osama bin Laden"
-    ],
-    "citedBy": [
-      "Department of State FOIA Virtual Reading Room"
-    ],
-    "relatedRecords": [
-      "bin-ladin-network-plans-advancing-2001-05-29",
-      "state-worldwide-caution-2001-06-22"
-    ]
-  },
-  {
-    "id": "faa-information-circular-2001-06-22",
-    "date": "2001-06-22",
-    "sortDate": "2001-06-22",
-    "dateLine": "June 22, 2001",
-    "type": "Warning Lead",
-    "title": "FAA information circular with generalized terrorist threat warning",
-    "documentTitle": "FAA information circular on possible terrorist threats to U.S. airlines",
-    "chapter": {
-      "number": 2,
-      "name": "Threat Surge and Domestic Warning"
-    },
-    "releaseStatus": "Citation Lead",
-    "selectionDecision": "Context candidate",
-    "productionIssues": [
-      "needs-source",
-      "needs-declass",
-      "needs-annotation"
-    ],
-    "source": {
-      "repository": "Federal Aviation Administration",
-      "collection": "National Security Archive Electronic Briefing Book 137 / 9/11 Commission cited aviation security records",
-      "series": "FAA information circulars",
-      "itemTitle": "June 22, 2001 information circular",
-      "url": "https://nsarchive2.gwu.edu/NSAEBB/NSAEBB137/index.htm",
-      "path": [
-        "https://nsarchive2.gwu.edu/NSAEBB/NSAEBB137/6-22%20Chap%208%20Endnotes%20Compare.pdf",
-        "https://www.9-11commission.gov/staff_statements/staff_statement_10.pdf"
-      ]
-    },
-    "catalogUrl": "https://nsarchive2.gwu.edu/NSAEBB/NSAEBB137/index.htm",
-    "pdfUrl": "https://nsarchive2.gwu.edu/NSAEBB/NSAEBB137/6-22%20Chap%208%20Endnotes%20Compare.pdf",
-    "pdfLabel": "TSA release PDF",
-    "citationPdfUrl": "https://www.9-11commission.gov/staff_statements/staff_statement_10.pdf",
-    "citationPdfLabel": "Staff statement PDF",
-    "sourceNote": "Source: Federal Aviation Administration information circular lead, June 22, 2001. National Security Archive EBB 137 posts the TSA release comparison showing the requested circular was withheld in full while the Commission and Joint Inquiry cited its substance; original circular text remains a retrieval target.",
-    "sourceNoteStatus": "Needs verification",
-    "summary": "Aviation-sector warning lead during the summer spike in al Qaeda threat reporting.",
-    "editorialUse": "Context for how threat information reached the aviation community before more specific late-July circulars.",
-    "frusTopics": [
-      "FAA",
-      "aviation security",
-      "threat warning"
-    ],
-    "indexTerms": [
-      "Federal Aviation Administration",
-      "information circular",
-      "airlines"
-    ],
-    "countries": [
-      "United States"
-    ],
-    "citedBy": [
-      "9/11 Commission Staff Statement No. 10"
-    ]
-  },
-  {
-    "id": "state-worldwide-caution-2001-06-22",
-    "date": "2001-06-22",
-    "sortDate": "2001-06-22",
-    "dateLine": "June 22, 2001",
-    "type": "Warning Lead",
-    "title": "State Department worldwide caution on increased terrorist risk",
-    "documentTitle": "Public Announcement - Worldwide Caution",
-    "subjectLine": "PUBLIC ANNOUNCEMENT - WORLDWIDE CAUTION",
-    "chapter": {
-      "number": 2,
-      "name": "Threat Surge and Domestic Warning"
-    },
-    "releaseStatus": "Declassified",
-    "selectionDecision": "Context candidate",
-    "productionIssues": [
-      "needs-annotation",
-      "needs-index"
-    ],
-    "source": {
-      "repository": "Department of State",
-      "collection": "FOIA Virtual Reading Room",
-      "series": "F-2011-03409ER",
-      "itemTitle": "Public Announcement - Worldwide Caution",
-      "documentId": "C17641067",
-      "caseNumber": "F-2011-03409",
-      "url": "https://foia.state.gov/DOCUMENTS/5-FY2014/F-2011-03409ER/DOC_0C17641067/C17641067.pdf"
-    },
-    "catalogUrl": "https://foia.state.gov/FOIALIBRARY/SearchResults.aspx",
-    "pdfUrl": "https://foia.state.gov/DOCUMENTS/5-FY2014/F-2011-03409ER/DOC_0C17641067/C17641067.pdf",
-    "sourceNote": "Source: Department of State telegram 2001STATE109841, Secretary of State to all diplomatic and consular posts and other addressees, June 22, 2001, unclassified, subject: \"Public Announcement - Worldwide Caution\"; Department of State FOIA case F-2011-03409, doc. C17641067, released in full.",
-    "sourceNoteStatus": "Draft",
-    "classification": "Unclassified",
-    "declassificationStatus": "Released in full by Department of State FOIA",
-    "documentMarkings": [
-      "UNCLASSIFIED",
-      "Released in Full"
-    ],
-    "communication": {
-      "from": "Secretary of State",
-      "to": "All diplomatic and consular posts",
-      "channel": "Telegram 2001STATE109841"
-    },
-    "summary": "State warned that Americans and U.S. interests abroad might be at increased risk of terrorist action from extremist groups, building on a May 2001 alert about groups with links to Usama Bin Ladin's al-Qaida organization.",
-    "editorialUse": "Context candidate showing public warning posture during the June threat spike, now tied to the released State ALDAC rather than a secondary citation.",
-    "frusTopics": [
-      "State Department",
-      "worldwide caution",
-      "public warning",
-      "al Qaeda",
-      "threat surge"
-    ],
-    "indexTerms": [
-      "Worldwide Caution",
-      "Usama Bin Ladin",
-      "al-Qaida",
-      "Public Announcement"
-    ],
-    "countries": [
-      "United States"
-    ],
-    "persons": [
-      "Osama bin Laden"
-    ],
-    "citedBy": [
-      "Department of State FOIA Virtual Reading Room",
-      "9/11 Commission Staff Statement No. 10"
-    ],
-    "relatedRecords": [
-      "state-worldwide-caution-2001-05-30",
-      "faa-information-circular-2001-06-22"
+    "retrievalPriority": "P0",
+    "compilerRisk": "blocking",
+    "scopeRole": "citation-lead",
+    "retrievalStatus": "citation-only",
+    "pdfRole": "none",
+    "retrievalNotes": "Blocking selection gap: retrieve or verify the original contemporaneous record before treating this as a selected FRUS document.",
+    "archivalTargets": [
+      "NSC Summary of Conclusions for April 30, 2001 Deputies Committee meeting",
+      "CIA briefing materials, Summary of April 30, 2001 Deputies Committee meeting, May 3, 2001"
     ]
   },
   {
@@ -1392,7 +1155,13 @@ window.SEPT10_RECORDS = [
     "relatedRecords": [
       "state-worldwide-caution-2001-06-22",
       "state-demarche-afghan-based-terrorists-2001-06-27"
-    ]
+    ],
+    "retrievalPriority": "Resolved",
+    "compilerRisk": "low",
+    "scopeRole": "direct-document",
+    "retrievalStatus": "direct-copy-located",
+    "pdfRole": "direct-copy",
+    "retrievalNotes": "Direct public copy or strong public text located; remaining work is annotation, indexing, and source-note verification."
   },
   {
     "id": "state-demarche-afghan-based-terrorists-2001-06-27",
@@ -1458,7 +1227,302 @@ window.SEPT10_RECORDS = [
     "relatedRecords": [
       "state-powell-sattar-lunch-2001-06-22",
       "deputies-al-qaeda-policy-2001-04-30"
+    ],
+    "retrievalPriority": "P1",
+    "compilerRisk": "high",
+    "scopeRole": "citation-lead",
+    "retrievalStatus": "citation-only",
+    "pdfRole": "none",
+    "retrievalNotes": "High-value retrieval or verification target needed for balance, annotation, or source-note confidence.",
+    "archivalTargets": [
+      "State 111711, Demarche on Threat by Afghan-based Terrorists, June 27, 2001"
     ]
+  },
+  {
+    "id": "bin-ladin-network-plans-advancing-2001-05-29",
+    "date": "2001-05-29",
+    "sortDate": "2001-05-29",
+    "dateLine": "May 29, 2001",
+    "type": "Warning Lead",
+    "title": "Intelligence warning: Bin Ladin network's plans advancing",
+    "documentTitle": "PDB/SEIB article lead on Bin Ladin network's plans advancing",
+    "chapter": {
+      "number": 2,
+      "name": "Threat Surge and Domestic Warning"
+    },
+    "releaseStatus": "Citation Lead",
+    "selectionDecision": "Include candidate",
+    "productionIssues": [
+      "needs-source",
+      "needs-declass",
+      "needs-annotation"
+    ],
+    "source": {
+      "repository": "Central Intelligence Agency",
+      "collection": "President's Daily Brief / Senior Executive Intelligence Brief",
+      "series": "2001 Bin Ladin threat reporting",
+      "itemTitle": "Bin Ladin network's plans advancing",
+      "url": "https://www.9-11commission.gov/report/911Report_Ch8.htm"
+    },
+    "catalogUrl": "https://www.9-11commission.gov/report/911Report_Ch8.htm",
+    "citationPdfUrl": "https://govinfo.library.unt.edu/911/report/911Report_Ch8.pdf",
+    "citationPdfLabel": "9/11 chapter 8 PDF",
+    "sourceNote": "Source: Central Intelligence Agency intelligence article lead, \"Bin Ladin network's plans advancing,\" May 29, 2001. Discussed in the 9/11 Commission Report, chapter 8; PDB/SEIB version, distribution, and declassification status require verification.",
+    "sourceNoteStatus": "Needs verification",
+    "summary": "One of the cited spring 2001 warnings that the pace and seriousness of al Qaeda threat reporting had increased.",
+    "editorialUse": "Candidate for the start of the summer threat lane, if a releasable PDB or SEIB version can be identified.",
+    "frusTopics": [
+      "PDB",
+      "SEIB",
+      "threat reporting",
+      "al Qaeda"
+    ],
+    "indexTerms": [
+      "Bin Ladin",
+      "President's Daily Brief",
+      "Senior Executive Intelligence Brief"
+    ],
+    "countries": [
+      "United States",
+      "Afghanistan"
+    ],
+    "persons": [
+      "George W. Bush",
+      "George Tenet",
+      "Osama bin Laden"
+    ],
+    "citedBy": [
+      "9/11 Commission Report, chapter 8"
+    ],
+    "retrievalPriority": "P0",
+    "compilerRisk": "blocking",
+    "scopeRole": "citation-lead",
+    "retrievalStatus": "citation-only",
+    "pdfRole": "none",
+    "retrievalNotes": "Blocking selection gap: retrieve or verify the original contemporaneous record before treating this as a selected FRUS document.",
+    "archivalTargets": [
+      "CIA summary of weekly Rice/Tenet meeting, May 29, 2001",
+      "PDB/SEIB threat item behind Bin Ladin network plans advancing"
+    ]
+  },
+  {
+    "id": "state-worldwide-caution-2001-05-30",
+    "date": "2001-05-30",
+    "sortDate": "2001-05-30",
+    "dateLine": "May 30, 2001",
+    "type": "Warning Lead",
+    "title": "State Department worldwide caution after May al Qaeda threat reporting",
+    "documentTitle": "Public Announcement - Worldwide Caution",
+    "subjectLine": "PUBLIC ANNOUNCEMENT - WORLDWIDE CAUTION",
+    "chapter": {
+      "number": 2,
+      "name": "Threat Surge and Domestic Warning"
+    },
+    "releaseStatus": "Declassified",
+    "selectionDecision": "Context candidate",
+    "productionIssues": [
+      "needs-annotation",
+      "needs-index"
+    ],
+    "source": {
+      "repository": "Department of State",
+      "collection": "FOIA Virtual Reading Room",
+      "series": "F-2011-03409ER",
+      "itemTitle": "Public Announcement - Worldwide Caution",
+      "documentId": "C17641032",
+      "caseNumber": "F-2011-03409",
+      "url": "https://foia.state.gov/DOCUMENTS/5-FY2014/F-2011-03409ER/DOC_0C17641032/C17641032.pdf"
+    },
+    "catalogUrl": "https://foia.state.gov/FOIALIBRARY/SearchResults.aspx",
+    "pdfUrl": "https://foia.state.gov/DOCUMENTS/5-FY2014/F-2011-03409ER/DOC_0C17641032/C17641032.pdf",
+    "sourceNote": "Source: Department of State telegram 2001STATE093783, Secretary of State to all diplomatic and consular posts, May 30, 2001, unclassified, subject: \"Public Announcement - Worldwide Caution\"; Department of State FOIA case F-2011-03409, doc. C17641032, released in full.",
+    "sourceNoteStatus": "Draft",
+    "classification": "Unclassified",
+    "declassificationStatus": "Released in full by Department of State FOIA",
+    "documentMarkings": [
+      "UNCLASSIFIED",
+      "Released in Full"
+    ],
+    "communication": {
+      "from": "Secretary of State",
+      "to": "All diplomatic and consular posts",
+      "channel": "Telegram 2001STATE093783"
+    },
+    "summary": "State issued a worldwide caution after learning in early May that American citizens abroad might be the target of terrorist threats from extremist groups with links to Usama Bin Ladin's al-Qaida organization.",
+    "editorialUse": "Public-facing warning candidate that bridges the May 29 intelligence warning lead and the later June worldwide caution.",
+    "frusTopics": [
+      "State Department",
+      "worldwide caution",
+      "public warning",
+      "al Qaeda",
+      "threat surge"
+    ],
+    "indexTerms": [
+      "Worldwide Caution",
+      "Usama Bin Ladin",
+      "al-Qaida",
+      "Public Announcement"
+    ],
+    "countries": [
+      "United States"
+    ],
+    "persons": [
+      "Osama bin Laden"
+    ],
+    "citedBy": [
+      "Department of State FOIA Virtual Reading Room"
+    ],
+    "relatedRecords": [
+      "bin-ladin-network-plans-advancing-2001-05-29",
+      "state-worldwide-caution-2001-06-22"
+    ],
+    "retrievalPriority": "Resolved",
+    "compilerRisk": "low",
+    "scopeRole": "direct-document",
+    "retrievalStatus": "direct-copy-located",
+    "pdfRole": "direct-copy",
+    "retrievalNotes": "Direct public copy or strong public text located; remaining work is annotation, indexing, and source-note verification."
+  },
+  {
+    "id": "faa-information-circular-2001-06-22",
+    "date": "2001-06-22",
+    "sortDate": "2001-06-22",
+    "dateLine": "June 22, 2001",
+    "type": "Warning Lead",
+    "title": "FAA information circular with generalized terrorist threat warning",
+    "documentTitle": "FAA information circular on possible terrorist threats to U.S. airlines",
+    "chapter": {
+      "number": 2,
+      "name": "Threat Surge and Domestic Warning"
+    },
+    "releaseStatus": "Citation Lead",
+    "selectionDecision": "Context candidate",
+    "productionIssues": [
+      "needs-source",
+      "needs-declass",
+      "needs-annotation"
+    ],
+    "source": {
+      "repository": "Federal Aviation Administration",
+      "collection": "National Security Archive Electronic Briefing Book 137 / 9/11 Commission cited aviation security records",
+      "series": "FAA information circulars",
+      "itemTitle": "June 22, 2001 information circular",
+      "url": "https://nsarchive2.gwu.edu/NSAEBB/NSAEBB137/index.htm",
+      "path": [
+        "https://nsarchive2.gwu.edu/NSAEBB/NSAEBB137/6-22%20Chap%208%20Endnotes%20Compare.pdf",
+        "https://www.9-11commission.gov/staff_statements/staff_statement_10.pdf"
+      ]
+    },
+    "catalogUrl": "https://nsarchive2.gwu.edu/NSAEBB/NSAEBB137/index.htm",
+    "pdfUrl": "https://nsarchive2.gwu.edu/NSAEBB/NSAEBB137/6-22%20Chap%208%20Endnotes%20Compare.pdf",
+    "pdfLabel": "TSA release PDF",
+    "citationPdfUrl": "https://www.9-11commission.gov/staff_statements/staff_statement_10.pdf",
+    "citationPdfLabel": "Staff statement PDF",
+    "sourceNote": "Source: Federal Aviation Administration information circular lead, June 22, 2001. National Security Archive EBB 137 posts the TSA release comparison showing the requested circular was withheld in full while the Commission and Joint Inquiry cited its substance; original circular text remains a retrieval target.",
+    "sourceNoteStatus": "Needs verification",
+    "summary": "Aviation-sector warning lead during the summer spike in al Qaeda threat reporting.",
+    "editorialUse": "Context for how threat information reached the aviation community before more specific late-July circulars.",
+    "frusTopics": [
+      "FAA",
+      "aviation security",
+      "threat warning"
+    ],
+    "indexTerms": [
+      "Federal Aviation Administration",
+      "information circular",
+      "airlines"
+    ],
+    "countries": [
+      "United States"
+    ],
+    "citedBy": [
+      "9/11 Commission Staff Statement No. 10"
+    ],
+    "retrievalPriority": "P1",
+    "compilerRisk": "high",
+    "scopeRole": "citation-lead",
+    "retrievalStatus": "citation-only",
+    "pdfRole": "comparison-copy",
+    "retrievalNotes": "High-value retrieval or verification target needed for balance, annotation, or source-note confidence."
+  },
+  {
+    "id": "state-worldwide-caution-2001-06-22",
+    "date": "2001-06-22",
+    "sortDate": "2001-06-22",
+    "dateLine": "June 22, 2001",
+    "type": "Warning Lead",
+    "title": "State Department worldwide caution on increased terrorist risk",
+    "documentTitle": "Public Announcement - Worldwide Caution",
+    "subjectLine": "PUBLIC ANNOUNCEMENT - WORLDWIDE CAUTION",
+    "chapter": {
+      "number": 2,
+      "name": "Threat Surge and Domestic Warning"
+    },
+    "releaseStatus": "Declassified",
+    "selectionDecision": "Context candidate",
+    "productionIssues": [
+      "needs-annotation",
+      "needs-index"
+    ],
+    "source": {
+      "repository": "Department of State",
+      "collection": "FOIA Virtual Reading Room",
+      "series": "F-2011-03409ER",
+      "itemTitle": "Public Announcement - Worldwide Caution",
+      "documentId": "C17641067",
+      "caseNumber": "F-2011-03409",
+      "url": "https://foia.state.gov/DOCUMENTS/5-FY2014/F-2011-03409ER/DOC_0C17641067/C17641067.pdf"
+    },
+    "catalogUrl": "https://foia.state.gov/FOIALIBRARY/SearchResults.aspx",
+    "pdfUrl": "https://foia.state.gov/DOCUMENTS/5-FY2014/F-2011-03409ER/DOC_0C17641067/C17641067.pdf",
+    "sourceNote": "Source: Department of State telegram 2001STATE109841, Secretary of State to all diplomatic and consular posts and other addressees, June 22, 2001, unclassified, subject: \"Public Announcement - Worldwide Caution\"; Department of State FOIA case F-2011-03409, doc. C17641067, released in full.",
+    "sourceNoteStatus": "Draft",
+    "classification": "Unclassified",
+    "declassificationStatus": "Released in full by Department of State FOIA",
+    "documentMarkings": [
+      "UNCLASSIFIED",
+      "Released in Full"
+    ],
+    "communication": {
+      "from": "Secretary of State",
+      "to": "All diplomatic and consular posts",
+      "channel": "Telegram 2001STATE109841"
+    },
+    "summary": "State warned that Americans and U.S. interests abroad might be at increased risk of terrorist action from extremist groups, building on a May 2001 alert about groups with links to Usama Bin Ladin's al-Qaida organization.",
+    "editorialUse": "Context candidate showing public warning posture during the June threat spike, now tied to the released State ALDAC rather than a secondary citation.",
+    "frusTopics": [
+      "State Department",
+      "worldwide caution",
+      "public warning",
+      "al Qaeda",
+      "threat surge"
+    ],
+    "indexTerms": [
+      "Worldwide Caution",
+      "Usama Bin Ladin",
+      "al-Qaida",
+      "Public Announcement"
+    ],
+    "countries": [
+      "United States"
+    ],
+    "persons": [
+      "Osama bin Laden"
+    ],
+    "citedBy": [
+      "Department of State FOIA Virtual Reading Room",
+      "9/11 Commission Staff Statement No. 10"
+    ],
+    "relatedRecords": [
+      "state-worldwide-caution-2001-05-30",
+      "faa-information-circular-2001-06-22"
+    ],
+    "retrievalPriority": "Resolved",
+    "compilerRisk": "low",
+    "scopeRole": "direct-document",
+    "retrievalStatus": "direct-copy-located",
+    "pdfRole": "direct-copy",
+    "retrievalNotes": "Direct public copy or strong public text located; remaining work is annotation, indexing, and source-note verification."
   },
   {
     "id": "tenet-rice-system-blinking-red-2001-06-28",
@@ -1516,7 +1580,103 @@ window.SEPT10_RECORDS = [
     ],
     "citedBy": [
       "9/11 Commission Report, chapter 8"
+    ],
+    "retrievalPriority": "P0",
+    "compilerRisk": "blocking",
+    "scopeRole": "citation-lead",
+    "retrievalStatus": "citation-only",
+    "pdfRole": "none",
+    "retrievalNotes": "Blocking selection gap: retrieve or verify the original contemporaneous record before treating this as a selected FRUS document.",
+    "archivalTargets": [
+      "CIA/NSC records for late-June Rice-Tenet threat meeting",
+      "PDB/SEIB threat series behind system-blinking-red warning"
     ]
+  },
+  {
+    "id": "state-rocca-lodhi-afghan-terror-alert-2001-06-30",
+    "date": "2001-06-30",
+    "sortDate": "2001-06-30",
+    "dateLine": "June 30, 2001",
+    "type": "Document Lead",
+    "title": "State cable on Rocca's meeting with Pakistan Ambassador Lodhi after Afghan threat alerts",
+    "documentTitle": "A/S Rocca's Meeting with Pakistan Ambassador Lodhi",
+    "subjectLine": "A/S Rocca's Meeting with Pakistan Ambassador Lodhi",
+    "chapter": {
+      "number": 2,
+      "name": "Threat Surge and Domestic Warning"
+    },
+    "releaseStatus": "Declassified",
+    "selectionDecision": "Context candidate",
+    "productionIssues": [
+      "needs-annotation",
+      "needs-index"
+    ],
+    "source": {
+      "repository": "Department of State",
+      "collection": "FOIA Virtual Reading Room",
+      "series": "F-2006-05348ER",
+      "itemTitle": "A/S Rocca's Meeting with Pakistan Ambassador Lodhi",
+      "documentId": "C18605290 / State 114516",
+      "caseNumber": "F-2006-05348",
+      "url": "https://foia.state.gov/DOCUMENTS/NEA/F-2006-05348ER/DOC_0C18605290/C18605290.pdf"
+    },
+    "pdfUrl": "https://foia.state.gov/DOCUMENTS/NEA/F-2006-05348ER/DOC_0C18605290/C18605290.pdf",
+    "pdfLabel": "State FOIA PDF",
+    "pageCount": 4,
+    "sourcePages": "State 114516, pages 1-4",
+    "sourceNote": "Source: Department of State FOIA Virtual Reading Room, C18605290, State 114516, \"A/S Rocca's Meeting with Pakistan Ambassador Lodhi,\" June 30, 2001, case F-2006-05348. Released in part under FOIA; State Department PDF accessed May 23, 2026.",
+    "sourceNoteStatus": "Draft",
+    "classification": "Released in part",
+    "originalClassification": "Confidential",
+    "documentMarkings": [
+      "Confidential",
+      "Released in part",
+      "B1",
+      "1.4(B)",
+      "1.4(D)"
+    ],
+    "communication": {
+      "from": "Secretary of State, Washington",
+      "to": "Embassy Islamabad; Consulates Peshawar and Karachi; Embassy New Delhi",
+      "channel": "State Department cable"
+    },
+    "summary": "Direct State FOIA cable reporting Assistant Secretary Christina Rocca's June 29 meeting with Pakistan Ambassador Maleeha Lodhi after Pakistani Foreign Minister Abdul Sattar's Washington consultations. The releasable text notes that a Pakistani engagement message came just as the United States had issued a worldwide alert for possible terrorist attacks emanating from Afghanistan.",
+    "editorialUse": "Use as direct diplomatic-pressure context adjacent to State 109130 and the still-unlocated State 111711 demarche lead. It does not replace State 111711 but narrows the Pakistan/Afghan threat-warning track.",
+    "declassificationStatus": "State FOIA release in part, posted as C18605290.",
+    "annotationStatus": "Needs annotation against the June 22 State worldwide caution, the June 27 State 111711 demarche lead, and the June 29 Deputies Committee record.",
+    "persons": [
+      "Christina Rocca",
+      "Maleeha Lodhi",
+      "Abdul Sattar"
+    ],
+    "countries": [
+      "United States",
+      "Pakistan",
+      "Afghanistan",
+      "India"
+    ],
+    "frusTopics": [
+      "Pakistan",
+      "Afghanistan",
+      "terrorist warnings",
+      "State Department",
+      "diplomatic pressure"
+    ],
+    "indexTerms": [
+      "Rocca, Christina",
+      "Lodhi, Maleeha",
+      "State 114516",
+      "C18605290"
+    ],
+    "citedBy": [
+      "Department of State FOIA Virtual Reading Room"
+    ],
+    "retrievalPriority": "Resolved",
+    "compilerRisk": "low",
+    "scopeRole": "direct-document",
+    "retrievalStatus": "direct-copy-located",
+    "pdfRole": "direct-copy",
+    "retrievalNotes": "Direct public copy or strong public text located; remaining work is annotation, indexing, and source-note verification."
   },
   {
     "id": "fbi-faa-warning-actions-2001-07-02",
@@ -1567,7 +1727,13 @@ window.SEPT10_RECORDS = [
     ],
     "citedBy": [
       "9/11 Commission Staff Statement No. 10"
-    ]
+    ],
+    "retrievalPriority": "P1",
+    "compilerRisk": "high",
+    "scopeRole": "citation-lead",
+    "retrievalStatus": "citation-only",
+    "pdfRole": "none",
+    "retrievalNotes": "High-value retrieval or verification target needed for balance, annotation, or source-note confidence."
   },
   {
     "id": "csg-domestic-agency-meeting-2001-07-05",
@@ -1633,6 +1799,15 @@ window.SEPT10_RECORDS = [
     "citedBy": [
       "9/11 Commission Report, chapter 8",
       "Richard Clarke 9/11 Commission testimony"
+    ],
+    "retrievalPriority": "P0",
+    "compilerRisk": "blocking",
+    "scopeRole": "citation-lead",
+    "retrievalStatus": "citation-only",
+    "pdfRole": "none",
+    "retrievalNotes": "Blocking selection gap: retrieve or verify the original contemporaneous record before treating this as a selected FRUS document.",
+    "archivalTargets": [
+      "CSG minutes, agenda, briefing papers, and distribution for July 5, 2001 domestic agency meeting"
     ]
   },
   {
@@ -1699,21 +1874,84 @@ window.SEPT10_RECORDS = [
       "fbi-faa-warning-actions-2001-07-02",
       "csg-domestic-agency-meeting-2001-07-05",
       "tenet-rice-system-blinking-red-2001-06-28"
-    ]
+    ],
+    "retrievalPriority": "Reference",
+    "compilerRisk": "reference",
+    "scopeRole": "context-only",
+    "retrievalStatus": "context-only",
+    "pdfRole": "none",
+    "retrievalNotes": "Reference or recollection source only; do not use as a substitute for contemporaneous records."
   },
   {
-    "id": "phoenix-electronic-communication-2001-07-10",
-    "date": "2001-07-10",
-    "sortDate": "2001-07-10",
-    "dateLine": "July 10, 2001",
-    "type": "Document Lead",
-    "title": "Phoenix Electronic Communication on aviation training and Bin Ladin-linked individuals",
-    "documentTitle": "FBI Phoenix EC by Kenneth Williams concerning civil aviation universities and colleges",
+    "id": "state-arabian-peninsula-warning-2001-07-18",
+    "date": "2001-07-18",
+    "sortDate": "2001-07-18",
+    "dateLine": "July 18, 2001",
+    "type": "Warning Lead",
+    "title": "State Department warning on possible terrorist attacks in the Arabian Peninsula",
+    "documentTitle": "State Department public warning regarding possible terrorist attacks in the Arabian Peninsula",
     "chapter": {
-      "number": 3,
-      "name": "Aviation and Border Leads"
+      "number": 2,
+      "name": "Threat Surge and Domestic Warning"
     },
-    "releaseStatus": "Public Characterization",
+    "releaseStatus": "Public",
+    "selectionDecision": "Context candidate",
+    "productionIssues": [
+      "needs-source",
+      "needs-annotation"
+    ],
+    "source": {
+      "repository": "Department of State",
+      "collection": "Public warnings and travel advisories",
+      "series": "Regional terrorist threat warnings",
+      "itemTitle": "Arabian Peninsula warning, July 18, 2001",
+      "url": "https://www.9-11commission.gov/report/911Report_Ch8.htm"
+    },
+    "catalogUrl": "https://www.9-11commission.gov/report/911Report_Ch8.htm",
+    "citationPdfUrl": "https://govinfo.library.unt.edu/911/report/911Report_Ch8.pdf",
+    "citationPdfLabel": "9/11 chapter 8 PDF",
+    "sourceNote": "Source: Department of State public warning lead regarding possible terrorist attacks in the Arabian Peninsula, July 18, 2001. Cited in the 9/11 Commission Report, chapter 8; original advisory text and archive URL require verification.",
+    "sourceNoteStatus": "Needs verification",
+    "summary": "Public regional warning issued while classified threat reporting remained elevated.",
+    "editorialUse": "Context candidate for the external warning track and for contrast with domestic threat handling.",
+    "frusTopics": [
+      "State Department",
+      "Arabian Peninsula",
+      "public warning"
+    ],
+    "indexTerms": [
+      "Arabian Peninsula",
+      "travel warning",
+      "Department of State"
+    ],
+    "countries": [
+      "United States",
+      "Saudi Arabia",
+      "Yemen"
+    ],
+    "citedBy": [
+      "9/11 Commission Report, chapter 8"
+    ],
+    "retrievalPriority": "P1",
+    "compilerRisk": "high",
+    "scopeRole": "citation-lead",
+    "retrievalStatus": "citation-only",
+    "pdfRole": "none",
+    "retrievalNotes": "High-value warning lead; exact State public warning or source cable remains unlocated, so the current link is a Commission citation trail."
+  },
+  {
+    "id": "csg-suspected-terrorist-travel-2001-07-23",
+    "date": "2001-07-23",
+    "sortDate": "2001-07-23",
+    "dateLine": "July 23, 2001",
+    "type": "Meeting Lead",
+    "title": "CSG lead item on al Qaeda threat and suspected terrorist travel to the United States",
+    "documentTitle": "Counterterrorism Security Group meeting lead on suspected terrorist travel",
+    "chapter": {
+      "number": 2,
+      "name": "Threat Surge and Domestic Warning"
+    },
+    "releaseStatus": "Citation Lead",
     "selectionDecision": "Include candidate",
     "productionIssues": [
       "needs-source",
@@ -1721,55 +1959,111 @@ window.SEPT10_RECORDS = [
       "needs-annotation"
     ],
     "source": {
-      "repository": "Federal Bureau of Investigation",
-      "collection": "Joint Inquiry hearing exhibits / DOJ OIG review of FBI handling of pre-September 11 intelligence",
-      "series": "Phoenix Electronic Communication",
-      "itemTitle": "Kenneth Williams EC, July 10, 2001",
-      "url": "https://www.govinfo.gov/content/pkg/CHRG-107jhrg96166/pdf/CHRG-107jhrg96166.pdf",
-      "path": [
-        "https://www.govinfo.gov/content/pkg/CHRG-107jhrg96166/pdf/CHRG-107jhrg96166.pdf",
-        "https://oig.justice.gov/sites/default/files/legacy/special/0506/final.pdf",
-        "https://oig.justice.gov/sites/default/files/archive/special/0506/chapter3.htm"
-      ]
+      "repository": "National Security Council",
+      "collection": "9/11 Commission cited records",
+      "series": "Counterterrorism Security Group records",
+      "itemTitle": "July 23, 2001 CSG lead item",
+      "url": "https://www.9-11commission.gov/report/911Report_Ch8.htm"
     },
-    "catalogUrl": "https://oig.justice.gov/sites/default/files/archive/special/0506/chapter3.htm",
-    "pdfUrl": "https://www.govinfo.gov/content/pkg/CHRG-107jhrg96166/pdf/CHRG-107jhrg96166.pdf",
-    "pdfLabel": "Joint Inquiry PDF",
-    "citationPdfUrl": "https://oig.justice.gov/sites/default/files/legacy/special/0506/final.pdf",
-    "citationPdfLabel": "DOJ OIG PDF",
-    "sourcePages": "Joint Inquiry hearing PDF, supplemental materials beginning near printed page 552; DOJ OIG full report chapter 3.",
-    "sourceNote": "Source: Federal Bureau of Investigation document lead, Phoenix Electronic Communication from Special Agent Kenneth Williams to FBI Headquarters and New York Division, July 10, 2001. The Joint Inquiry hearing PDF includes the Phoenix Electronic Communication in supplemental materials; DOJ OIG chapter 3 supplies the handling narrative. Verify original EC markings and redactions before selection.",
+    "catalogUrl": "https://www.9-11commission.gov/report/911Report_Ch8.htm",
+    "citationPdfUrl": "https://govinfo.library.unt.edu/911/report/911Report_Ch8.pdf",
+    "citationPdfLabel": "9/11 chapter 8 PDF",
+    "sourceNote": "Source: National Security Council Counterterrorism Security Group meeting lead, al Qaeda threat and suspected terrorist travel to the United States, July 23, 2001. Cited in the 9/11 Commission Report, chapter 8; meeting record, briefing text, and distribution require verification.",
     "sourceNoteStatus": "Needs verification",
-    "summary": "The Phoenix EC warned of the possibility that Bin Ladin-linked individuals were attending U.S. civil aviation schools and recommended broader review.",
-    "editorialUse": "Key aviation-warning document candidate and a major example of field-to-headquarters information flow before the attacks.",
+    "summary": "The Commission reported that the CSG's lead discussion item was still the al Qaeda threat and included suspected terrorist travel to the United States.",
+    "editorialUse": "Important connector between the summer threat lane and later watchlisting/search failures.",
     "frusTopics": [
-      "Phoenix memo",
-      "aviation training",
-      "FBI",
-      "al Qaeda"
+      "CSG",
+      "terrorist travel",
+      "al Qaeda",
+      "domestic warning"
     ],
     "indexTerms": [
-      "Williams, Kenneth",
-      "Phoenix EC",
-      "flight schools"
+      "Counterterrorism Security Group",
+      "terrorist travel",
+      "United States"
     ],
     "countries": [
       "United States"
     ],
     "persons": [
-      "Kenneth Williams",
-      "Osama bin Laden"
+      "Richard A. Clarke"
     ],
     "citedBy": [
-      "DOJ OIG Phoenix chapter",
-      "9/11 Commission Staff Statement No. 10",
-      "NARA ISCAP 2012-048 FBI Files source shelf",
-      "NARA ISCAP 2014-089 Joint Inquiry release material"
+      "9/11 Commission Report, chapter 8"
     ],
-    "relatedRecords": [
-      "iscap-2012-048-9-11-fbi-files",
-      "iscap-2014-089-joint-inquiry-ic-activities-9-11"
+    "retrievalPriority": "P0",
+    "compilerRisk": "blocking",
+    "scopeRole": "citation-lead",
+    "retrievalStatus": "citation-only",
+    "pdfRole": "none",
+    "retrievalNotes": "Blocking selection gap: retrieve or verify the original contemporaneous record before treating this as a selected FRUS document.",
+    "archivalTargets": [
+      "CSG agenda, threat item, minutes, and domestic-agency distribution for July 23, 2001"
     ]
+  },
+  {
+    "id": "faa-possible-hijacking-circular-2001-07-31",
+    "date": "2001-07-31",
+    "sortDate": "2001-07-31",
+    "dateLine": "July 31, 2001",
+    "type": "Warning Lead",
+    "title": "FAA circular on possible near-term terrorist operations",
+    "documentTitle": "FAA circular alerting aviation community to possible near-term terrorist operations",
+    "chapter": {
+      "number": 2,
+      "name": "Threat Surge and Domestic Warning"
+    },
+    "releaseStatus": "Citation Lead",
+    "selectionDecision": "Context candidate",
+    "productionIssues": [
+      "needs-source",
+      "needs-declass",
+      "needs-annotation"
+    ],
+    "source": {
+      "repository": "Federal Aviation Administration",
+      "collection": "National Security Archive Electronic Briefing Book 137 / 9/11 Commission cited aviation security records",
+      "series": "FAA information circulars",
+      "itemTitle": "July 31, 2001 circular on possible near-term terrorist operations",
+      "url": "https://nsarchive2.gwu.edu/NSAEBB/NSAEBB137/index.htm",
+      "path": [
+        "https://nsarchive2.gwu.edu/NSAEBB/NSAEBB137/7-31%20Chap%208%20Endnotes%20Compare.pdf",
+        "https://govinfo.library.unt.edu/911/report/911Report_Ch8.pdf"
+      ]
+    },
+    "catalogUrl": "https://nsarchive2.gwu.edu/NSAEBB/NSAEBB137/index.htm",
+    "pdfUrl": "https://nsarchive2.gwu.edu/NSAEBB/NSAEBB137/7-31%20Chap%208%20Endnotes%20Compare.pdf",
+    "pdfLabel": "TSA release PDF",
+    "citationPdfUrl": "https://govinfo.library.unt.edu/911/report/911Report_Ch8.pdf",
+    "citationPdfLabel": "9/11 chapter 8 PDF",
+    "sourceNote": "Source: Federal Aviation Administration circular lead, possible near-term terrorist operations, July 31, 2001. National Security Archive EBB 137 posts the TSA release comparison and 9/11 Commission endnote citation for the circular; original circular text and distribution remain retrieval targets.",
+    "sourceNoteStatus": "Needs verification",
+    "summary": "A late-July aviation warning cited by the Commission as threat reporting continued to indicate possible operations.",
+    "editorialUse": "Context candidate for aviation-community warning posture immediately before the August 6 PDB.",
+    "frusTopics": [
+      "FAA",
+      "aviation security",
+      "hijacking",
+      "threat warning"
+    ],
+    "indexTerms": [
+      "Federal Aviation Administration",
+      "information circular",
+      "hijacking"
+    ],
+    "countries": [
+      "United States"
+    ],
+    "citedBy": [
+      "9/11 Commission Report, chapter 8"
+    ],
+    "retrievalPriority": "P1",
+    "compilerRisk": "high",
+    "scopeRole": "citation-lead",
+    "retrievalStatus": "citation-only",
+    "pdfRole": "comparison-copy",
+    "retrievalNotes": "High-value retrieval or verification target needed for balance, annotation, or source-note confidence."
   },
   {
     "id": "iscap-2012-048-9-11-fbi-files",
@@ -1843,226 +2137,171 @@ window.SEPT10_RECORDS = [
       "phoenix-electronic-communication-2001-07-10",
       "moussaoui-investigation-opened-2001-08-15",
       "mihdhar-hazmi-watchlist-2001-08-23"
-    ]
+    ],
+    "retrievalPriority": "P2",
+    "compilerRisk": "medium",
+    "scopeRole": "source-shelf",
+    "retrievalStatus": "source-shelf-located",
+    "pdfRole": "source-shelf",
+    "retrievalNotes": "Useful source shelf for corroboration or endpoint context; not a core selection driver."
   },
   {
-    "id": "state-arabian-peninsula-warning-2001-07-18",
-    "date": "2001-07-18",
-    "sortDate": "2001-07-18",
-    "dateLine": "July 18, 2001",
-    "type": "Warning Lead",
-    "title": "State Department warning on possible terrorist attacks in the Arabian Peninsula",
-    "documentTitle": "State Department public warning regarding possible terrorist attacks in the Arabian Peninsula",
-    "chapter": {
-      "number": 2,
-      "name": "Threat Surge and Domestic Warning"
-    },
-    "releaseStatus": "Public",
-    "selectionDecision": "Context candidate",
-    "productionIssues": [
-      "needs-source",
-      "needs-annotation"
-    ],
-    "source": {
-      "repository": "Department of State",
-      "collection": "Public warnings and travel advisories",
-      "series": "Regional terrorist threat warnings",
-      "itemTitle": "Arabian Peninsula warning, July 18, 2001",
-      "url": "https://www.9-11commission.gov/report/911Report_Ch8.htm"
-    },
-    "catalogUrl": "https://www.9-11commission.gov/report/911Report_Ch8.htm",
-    "citationPdfUrl": "https://govinfo.library.unt.edu/911/report/911Report_Ch8.pdf",
-    "citationPdfLabel": "9/11 chapter 8 PDF",
-    "sourceNote": "Source: Department of State public warning lead regarding possible terrorist attacks in the Arabian Peninsula, July 18, 2001. Cited in the 9/11 Commission Report, chapter 8; original advisory text and archive URL require verification.",
-    "sourceNoteStatus": "Needs verification",
-    "summary": "Public regional warning issued while classified threat reporting remained elevated.",
-    "editorialUse": "Context candidate for the external warning track and for contrast with domestic threat handling.",
-    "frusTopics": [
-      "State Department",
-      "Arabian Peninsula",
-      "public warning"
-    ],
-    "indexTerms": [
-      "Arabian Peninsula",
-      "travel warning",
-      "Department of State"
-    ],
-    "countries": [
-      "United States",
-      "Saudi Arabia",
-      "Yemen"
-    ],
-    "citedBy": [
-      "9/11 Commission Report, chapter 8"
-    ]
-  },
-  {
-    "id": "csg-suspected-terrorist-travel-2001-07-23",
-    "date": "2001-07-23",
-    "sortDate": "2001-07-23",
-    "dateLine": "July 23, 2001",
-    "type": "Meeting Lead",
-    "title": "CSG lead item on al Qaeda threat and suspected terrorist travel to the United States",
-    "documentTitle": "Counterterrorism Security Group meeting lead on suspected terrorist travel",
-    "chapter": {
-      "number": 2,
-      "name": "Threat Surge and Domestic Warning"
-    },
-    "releaseStatus": "Citation Lead",
-    "selectionDecision": "Include candidate",
-    "productionIssues": [
-      "needs-source",
-      "needs-declass",
-      "needs-annotation"
-    ],
-    "source": {
-      "repository": "National Security Council",
-      "collection": "9/11 Commission cited records",
-      "series": "Counterterrorism Security Group records",
-      "itemTitle": "July 23, 2001 CSG lead item",
-      "url": "https://www.9-11commission.gov/report/911Report_Ch8.htm"
-    },
-    "catalogUrl": "https://www.9-11commission.gov/report/911Report_Ch8.htm",
-    "citationPdfUrl": "https://govinfo.library.unt.edu/911/report/911Report_Ch8.pdf",
-    "citationPdfLabel": "9/11 chapter 8 PDF",
-    "sourceNote": "Source: National Security Council Counterterrorism Security Group meeting lead, al Qaeda threat and suspected terrorist travel to the United States, July 23, 2001. Cited in the 9/11 Commission Report, chapter 8; meeting record, briefing text, and distribution require verification.",
-    "sourceNoteStatus": "Needs verification",
-    "summary": "The Commission reported that the CSG's lead discussion item was still the al Qaeda threat and included suspected terrorist travel to the United States.",
-    "editorialUse": "Important connector between the summer threat lane and later watchlisting/search failures.",
-    "frusTopics": [
-      "CSG",
-      "terrorist travel",
-      "al Qaeda",
-      "domestic warning"
-    ],
-    "indexTerms": [
-      "Counterterrorism Security Group",
-      "terrorist travel",
-      "United States"
-    ],
-    "countries": [
-      "United States"
-    ],
-    "persons": [
-      "Richard A. Clarke"
-    ],
-    "citedBy": [
-      "9/11 Commission Report, chapter 8"
-    ]
-  },
-  {
-    "id": "faa-possible-hijacking-circular-2001-07-31",
-    "date": "2001-07-31",
-    "sortDate": "2001-07-31",
-    "dateLine": "July 31, 2001",
-    "type": "Warning Lead",
-    "title": "FAA circular on possible near-term terrorist operations",
-    "documentTitle": "FAA circular alerting aviation community to possible near-term terrorist operations",
-    "chapter": {
-      "number": 2,
-      "name": "Threat Surge and Domestic Warning"
-    },
-    "releaseStatus": "Citation Lead",
-    "selectionDecision": "Context candidate",
-    "productionIssues": [
-      "needs-source",
-      "needs-declass",
-      "needs-annotation"
-    ],
-    "source": {
-      "repository": "Federal Aviation Administration",
-      "collection": "National Security Archive Electronic Briefing Book 137 / 9/11 Commission cited aviation security records",
-      "series": "FAA information circulars",
-      "itemTitle": "July 31, 2001 circular on possible near-term terrorist operations",
-      "url": "https://nsarchive2.gwu.edu/NSAEBB/NSAEBB137/index.htm",
-      "path": [
-        "https://nsarchive2.gwu.edu/NSAEBB/NSAEBB137/7-31%20Chap%208%20Endnotes%20Compare.pdf",
-        "https://govinfo.library.unt.edu/911/report/911Report_Ch8.pdf"
-      ]
-    },
-    "catalogUrl": "https://nsarchive2.gwu.edu/NSAEBB/NSAEBB137/index.htm",
-    "pdfUrl": "https://nsarchive2.gwu.edu/NSAEBB/NSAEBB137/7-31%20Chap%208%20Endnotes%20Compare.pdf",
-    "pdfLabel": "TSA release PDF",
-    "citationPdfUrl": "https://govinfo.library.unt.edu/911/report/911Report_Ch8.pdf",
-    "citationPdfLabel": "9/11 chapter 8 PDF",
-    "sourceNote": "Source: Federal Aviation Administration circular lead, possible near-term terrorist operations, July 31, 2001. National Security Archive EBB 137 posts the TSA release comparison and 9/11 Commission endnote citation for the circular; original circular text and distribution remain retrieval targets.",
-    "sourceNoteStatus": "Needs verification",
-    "summary": "A late-July aviation warning cited by the Commission as threat reporting continued to indicate possible operations.",
-    "editorialUse": "Context candidate for aviation-community warning posture immediately before the August 6 PDB.",
-    "frusTopics": [
-      "FAA",
-      "aviation security",
-      "hijacking",
-      "threat warning"
-    ],
-    "indexTerms": [
-      "Federal Aviation Administration",
-      "information circular",
-      "hijacking"
-    ],
-    "countries": [
-      "United States"
-    ],
-    "citedBy": [
-      "9/11 Commission Report, chapter 8"
-    ]
-  },
-  {
-    "id": "pdb-bin-ladin-determined-to-strike-2001-08-06",
-    "date": "2001-08-06",
-    "sortDate": "2001-08-06",
-    "dateLine": "August 6, 2001",
-    "type": "Public Document",
-    "title": "Bin Ladin Determined To Strike in US",
-    "documentTitle": "President's Daily Brief: Bin Ladin Determined To Strike in US",
+    "id": "phoenix-electronic-communication-2001-07-10",
+    "date": "2001-07-10",
+    "sortDate": "2001-07-10",
+    "dateLine": "July 10, 2001",
+    "type": "Document Lead",
+    "title": "Phoenix Electronic Communication on aviation training and Bin Ladin-linked individuals",
+    "documentTitle": "FBI Phoenix EC by Kenneth Williams concerning civil aviation universities and colleges",
     "chapter": {
       "number": 3,
       "name": "Aviation and Border Leads"
     },
-    "releaseStatus": "Declassified",
+    "releaseStatus": "Public Characterization",
     "selectionDecision": "Include candidate",
     "productionIssues": [
+      "needs-source",
+      "needs-declass",
       "needs-annotation"
     ],
     "source": {
-      "repository": "Central Intelligence Agency",
-      "collection": "President's Daily Brief",
-      "series": "2001 PDB items",
-      "itemTitle": "Bin Ladin Determined To Strike in US",
-      "url": "https://irp.fas.org/cia/product/pdb080601.pdf"
+      "repository": "Federal Bureau of Investigation",
+      "collection": "Joint Inquiry hearing exhibits / DOJ OIG review of FBI handling of pre-September 11 intelligence",
+      "series": "Phoenix Electronic Communication",
+      "itemTitle": "Kenneth Williams EC, July 10, 2001",
+      "url": "https://www.govinfo.gov/content/pkg/CHRG-107jhrg96166/pdf/CHRG-107jhrg96166.pdf",
+      "path": [
+        "https://www.govinfo.gov/content/pkg/CHRG-107jhrg96166/pdf/CHRG-107jhrg96166.pdf",
+        "https://oig.justice.gov/sites/default/files/legacy/special/0506/final.pdf",
+        "https://oig.justice.gov/sites/default/files/archive/special/0506/chapter3.htm"
+      ]
     },
-    "pdfUrl": "https://irp.fas.org/cia/product/pdb080601.pdf",
-    "pageCount": 2,
-    "sourceNote": "Source: Central Intelligence Agency, President's Daily Brief, \"Bin Ladin Determined To Strike in US,\" August 6, 2001. Declassified copy posted by the Federation of American Scientists Intelligence Resource Program. Redacted material appears in the public copy.",
-    "sourceNoteStatus": "Draft",
-    "classification": "Originally classified; declassified/redacted public copy",
-    "declassificationStatus": "Declassified public copy with redactions",
-    "summary": "The declassified PDB warned that Bin Ladin wanted to conduct attacks in the United States and discussed hijacking-related reporting and suspicious activity.",
-    "editorialUse": "Anchor public document for the pre-September 11 warning record and a likely high-priority FRUS selection candidate.",
+    "catalogUrl": "https://oig.justice.gov/sites/default/files/archive/special/0506/chapter3.htm",
+    "pdfUrl": "https://www.govinfo.gov/content/pkg/CHRG-107jhrg96166/pdf/CHRG-107jhrg96166.pdf",
+    "pdfLabel": "Joint Inquiry PDF",
+    "citationPdfUrl": "https://oig.justice.gov/sites/default/files/legacy/special/0506/final.pdf",
+    "citationPdfLabel": "DOJ OIG PDF",
+    "sourcePages": "Joint Inquiry hearing PDF, supplemental materials beginning near printed page 552; DOJ OIG full report chapter 3.",
+    "sourceNote": "Source: Federal Bureau of Investigation document lead, Phoenix Electronic Communication from Special Agent Kenneth Williams to FBI Headquarters and New York Division, July 10, 2001. The Joint Inquiry hearing PDF includes the Phoenix Electronic Communication in supplemental materials; DOJ OIG chapter 3 supplies the handling narrative. Verify original EC markings and redactions before selection.",
+    "sourceNoteStatus": "Needs verification",
+    "summary": "The Phoenix EC warned of the possibility that Bin Ladin-linked individuals were attending U.S. civil aviation schools and recommended broader review.",
+    "editorialUse": "Key aviation-warning document candidate and a major example of field-to-headquarters information flow before the attacks.",
     "frusTopics": [
-      "President's Daily Brief",
-      "al Qaeda",
-      "aviation security",
-      "domestic warning"
+      "Phoenix memo",
+      "aviation training",
+      "FBI",
+      "al Qaeda"
     ],
     "indexTerms": [
-      "Bin Ladin",
-      "President's Daily Brief",
-      "CIA",
-      "hijacking"
+      "Williams, Kenneth",
+      "Phoenix EC",
+      "flight schools"
     ],
     "countries": [
-      "United States",
-      "Afghanistan"
+      "United States"
     ],
     "persons": [
-      "George W. Bush",
-      "Osama bin Laden",
-      "George Tenet"
+      "Kenneth Williams",
+      "Osama bin Laden"
     ],
     "citedBy": [
-      "9/11 Commission Report, chapter 8",
-      "FAS Intelligence Resource Program"
+      "DOJ OIG Phoenix chapter",
+      "9/11 Commission Staff Statement No. 10",
+      "NARA ISCAP 2012-048 FBI Files source shelf",
+      "NARA ISCAP 2014-089 Joint Inquiry release material"
+    ],
+    "relatedRecords": [
+      "iscap-2012-048-9-11-fbi-files",
+      "iscap-2014-089-joint-inquiry-ic-activities-9-11"
+    ],
+    "retrievalPriority": "P0",
+    "compilerRisk": "blocking",
+    "scopeRole": "citation-lead",
+    "retrievalStatus": "public-summary-only",
+    "pdfRole": "embedded-copy",
+    "retrievalNotes": "Blocking selection gap: retrieve or verify the original contemporaneous record before treating this as a selected FRUS document.",
+    "archivalTargets": [
+      "Original FBI Phoenix Electronic Communication and routing/slip distribution records"
+    ]
+  },
+  {
+    "id": "doj-thompson-intelligence-sharing-2001-08-06",
+    "date": "2001-08-06",
+    "sortDate": "2001-08-06",
+    "dateLine": "August 6, 2001",
+    "type": "Document Lead",
+    "title": "Deputy Attorney General Thompson memorandum on intelligence sharing",
+    "documentTitle": "Memorandum Re: Intelligence Sharing",
+    "subjectLine": "Intelligence Sharing",
+    "chapter": {
+      "number": 3,
+      "name": "Aviation and Border Leads"
+    },
+    "releaseStatus": "Public Characterization",
+    "selectionDecision": "Context candidate",
+    "productionIssues": [
+      "needs-source",
+      "needs-annotation",
+      "needs-index"
+    ],
+    "source": {
+      "repository": "Department of Justice",
+      "collection": "Office of the Deputy Attorney General / FAS public text copy",
+      "series": "FISA and intelligence-sharing procedures",
+      "itemTitle": "Memorandum Re: Intelligence Sharing",
+      "url": "https://irp.fas.org/agency/doj/fisa/dag080601.html"
+    },
+    "catalogUrl": "https://irp.fas.org/agency/doj/fisa/dag080601.html",
+    "transcriptionUrl": "https://irp.fas.org/agency/doj/fisa/dag080601.html",
+    "citationPdfUrl": "https://oig.justice.gov/sites/default/files/legacy/special/s0606/final.pdf",
+    "citationPdfLabel": "DOJ OIG PDF",
+    "sourceNote": "Source: Public text copy of Department of Justice, Office of the Deputy Attorney General, Larry D. Thompson memorandum to the Criminal Division, Office of Intelligence Policy and Review, and FBI, \"Intelligence Sharing,\" August 6, 2001, posted by the Federation of American Scientists. Original DOJ file copy requires repository verification; DOJ OIG full report cites and discusses the memorandum.",
+    "sourceNoteStatus": "Needs verification",
+    "classification": "Public text copy; original markings require verification",
+    "communication": {
+      "from": "Larry D. Thompson, Deputy Attorney General",
+      "to": "Criminal Division; Office of Intelligence Policy and Review; FBI",
+      "channel": "Department of Justice memorandum"
+    },
+    "summary": "Public text of the Deputy Attorney General memorandum restating and clarifying Justice Department rules for intelligence sharing between the FBI, Criminal Division, and OIPR. The document is important for the pre-9/11 legal wall and Moussaoui/FISA context, but the site still needs an official DOJ PDF or archival copy.",
+    "editorialUse": "Use as a legal-process context record for FBI intelligence sharing and FISA handling. Keep it below the Phoenix, Moussaoui, and Mihdhar/Hazmi originals in selection priority until an official copy is verified.",
+    "declassificationStatus": "Public FAS text copy; official DOJ PDF not located in this pass.",
+    "annotationStatus": "Needs annotation against DOJ OIG chapter 2 and the Moussaoui/FISA record trail.",
+    "persons": [
+      "Larry D. Thompson",
+      "Michael Chertoff",
+      "James Baker",
+      "Thomas Pickard",
+      "Dale Watson"
+    ],
+    "countries": [
+      "United States"
+    ],
+    "frusTopics": [
+      "Department of Justice",
+      "FISA",
+      "intelligence sharing",
+      "FBI",
+      "Moussaoui"
+    ],
+    "indexTerms": [
+      "Thompson, Larry D.",
+      "Office of Intelligence Policy and Review",
+      "Criminal Division",
+      "FISA wall"
+    ],
+    "citedBy": [
+      "DOJ OIG special report",
+      "9/11 Commission notes"
+    ],
+    "retrievalPriority": "P1",
+    "compilerRisk": "high",
+    "scopeRole": "citation-lead",
+    "retrievalStatus": "public-summary-only",
+    "pdfRole": "none",
+    "retrievalNotes": "High-value retrieval or verification target needed for balance, annotation, or source-note confidence.",
+    "archivalTargets": [
+      "Official DOJ file copy or PDF of Larry D. Thompson, Intelligence Sharing, August 6, 2001"
     ]
   },
   {
@@ -2119,7 +2358,13 @@ window.SEPT10_RECORDS = [
     "relatedRecords": [
       "pdb-bin-ladin-determined-to-strike-2001-08-06",
       "iscap-2012-163-bush-cheney-commission-mfr"
-    ]
+    ],
+    "retrievalPriority": "Reference",
+    "compilerRisk": "reference",
+    "scopeRole": "context-only",
+    "retrievalStatus": "context-only",
+    "pdfRole": "none",
+    "retrievalNotes": "Reference or recollection source only; do not use as a substitute for contemporaneous records."
   },
   {
     "id": "memoir-rice-august-6-pdb-recollection-2001-08-06",
@@ -2177,7 +2422,77 @@ window.SEPT10_RECORDS = [
     "relatedRecords": [
       "pdb-bin-ladin-determined-to-strike-2001-08-06",
       "memoir-bush-august-6-pdb-recollection-2001-08-06"
-    ]
+    ],
+    "retrievalPriority": "Reference",
+    "compilerRisk": "reference",
+    "scopeRole": "context-only",
+    "retrievalStatus": "context-only",
+    "pdfRole": "none",
+    "retrievalNotes": "Reference or recollection source only; do not use as a substitute for contemporaneous records."
+  },
+  {
+    "id": "pdb-bin-ladin-determined-to-strike-2001-08-06",
+    "date": "2001-08-06",
+    "sortDate": "2001-08-06",
+    "dateLine": "August 6, 2001",
+    "type": "Public Document",
+    "title": "Bin Ladin Determined To Strike in US",
+    "documentTitle": "President's Daily Brief: Bin Ladin Determined To Strike in US",
+    "chapter": {
+      "number": 3,
+      "name": "Aviation and Border Leads"
+    },
+    "releaseStatus": "Declassified",
+    "selectionDecision": "Include candidate",
+    "productionIssues": [
+      "needs-annotation"
+    ],
+    "source": {
+      "repository": "Central Intelligence Agency",
+      "collection": "President's Daily Brief",
+      "series": "2001 PDB items",
+      "itemTitle": "Bin Ladin Determined To Strike in US",
+      "url": "https://irp.fas.org/cia/product/pdb080601.pdf"
+    },
+    "pdfUrl": "https://irp.fas.org/cia/product/pdb080601.pdf",
+    "pageCount": 2,
+    "sourceNote": "Source: Central Intelligence Agency, President's Daily Brief, \"Bin Ladin Determined To Strike in US,\" August 6, 2001. Declassified copy posted by the Federation of American Scientists Intelligence Resource Program. Redacted material appears in the public copy.",
+    "sourceNoteStatus": "Draft",
+    "classification": "Originally classified; declassified/redacted public copy",
+    "declassificationStatus": "Declassified public copy with redactions",
+    "summary": "The declassified PDB warned that Bin Ladin wanted to conduct attacks in the United States and discussed hijacking-related reporting and suspicious activity.",
+    "editorialUse": "Anchor public document for the pre-September 11 warning record and a likely high-priority FRUS selection candidate.",
+    "frusTopics": [
+      "President's Daily Brief",
+      "al Qaeda",
+      "aviation security",
+      "domestic warning"
+    ],
+    "indexTerms": [
+      "Bin Ladin",
+      "President's Daily Brief",
+      "CIA",
+      "hijacking"
+    ],
+    "countries": [
+      "United States",
+      "Afghanistan"
+    ],
+    "persons": [
+      "George W. Bush",
+      "Osama bin Laden",
+      "George Tenet"
+    ],
+    "citedBy": [
+      "9/11 Commission Report, chapter 8",
+      "FAS Intelligence Resource Program"
+    ],
+    "retrievalPriority": "Resolved",
+    "compilerRisk": "low",
+    "scopeRole": "direct-document",
+    "retrievalStatus": "direct-copy-located",
+    "pdfRole": "direct-copy",
+    "retrievalNotes": "Direct public copy or strong public text located; remaining work is annotation, indexing, and source-note verification."
   },
   {
     "id": "moussaoui-investigation-opened-2001-08-15",
@@ -2241,72 +2556,15 @@ window.SEPT10_RECORDS = [
     "relatedRecords": [
       "iscap-2012-048-9-11-fbi-files",
       "iscap-2014-089-joint-inquiry-ic-activities-9-11"
-    ]
-  },
-  {
-    "id": "mihdhar-hazmi-watchlist-2001-08-23",
-    "date": "2001-08-23",
-    "sortDate": "2001-08-23",
-    "dateLine": "August 23, 2001",
-    "type": "Document Lead",
-    "title": "CIA watchlisting cable for Khalid al-Mihdhar and Nawaf al-Hazmi",
-    "documentTitle": "CIA communication to State, INS, Customs, and FBI requesting watchlisting",
-    "chapter": {
-      "number": 3,
-      "name": "Aviation and Border Leads"
-    },
-    "releaseStatus": "Public Characterization",
-    "selectionDecision": "Include candidate",
-    "productionIssues": [
-      "needs-source",
-      "needs-declass",
-      "needs-annotation"
     ],
-    "source": {
-      "repository": "Central Intelligence Agency / Federal Bureau of Investigation / Department of State",
-      "collection": "Joint Inquiry and DOJ OIG cited records",
-      "series": "Mihdhar-Hazmi watchlisting records",
-      "itemTitle": "August 23, 2001 CIA watchlisting communication",
-      "url": "https://irp.fas.org/congress/2002_hr/092002hill.html"
-    },
-    "catalogUrl": "https://irp.fas.org/congress/2002_hr/092002hill.html",
-    "citationPdfUrl": "https://www.govinfo.gov/content/pkg/CHRG-107jhrg96166/pdf/CHRG-107jhrg96166.pdf",
-    "citationPdfLabel": "Joint Inquiry PDF",
-    "sourceNoteAddendum": "For DOJ OIG's narrative on the Mihdhar-Hazmi watchlisting and FBI search trail, use the full OIG PDF: https://oig.justice.gov/sites/default/files/legacy/special/s0606/final.pdf",
-    "sourceNote": "Source: Central Intelligence Agency communication lead to Department of State, INS, Customs, and FBI requesting watchlisting of Khalid al-Mihdhar, Nawaf al-Hazmi, and others, August 23, 2001. Described in Joint Inquiry testimony by Eleanor Hill and in DOJ OIG chapter 5; original cable, addressees, and redactions require verification.",
-    "sourceNoteStatus": "Needs verification",
-    "summary": "The CIA asked multiple agencies to watchlist al-Mihdhar and al-Hazmi after information showed al-Mihdhar had obtained a U.S. visa and was likely in the United States.",
-    "editorialUse": "Core travel/watchlisting candidate and a bridge between intelligence, State visa records, INS, Customs, and FBI field searches.",
-    "frusTopics": [
-      "watchlisting",
-      "terrorist travel",
-      "State Department",
-      "FBI",
-      "CIA"
-    ],
-    "indexTerms": [
-      "al-Mihdhar, Khalid",
-      "al-Hazmi, Nawaf",
-      "watchlist",
-      "visa"
-    ],
-    "countries": [
-      "United States",
-      "Saudi Arabia"
-    ],
-    "persons": [
-      "Khalid al-Mihdhar",
-      "Nawaf al-Hazmi"
-    ],
-    "citedBy": [
-      "Joint Inquiry testimony, September 20, 2002",
-      "DOJ OIG Mihdhar-Hazmi chapter",
-      "NARA ISCAP 2012-048 FBI Files source shelf",
-      "NARA ISCAP 2014-089 Joint Inquiry release material"
-    ],
-    "relatedRecords": [
-      "iscap-2012-048-9-11-fbi-files",
-      "iscap-2014-089-joint-inquiry-ic-activities-9-11"
+    "retrievalPriority": "P0",
+    "compilerRisk": "blocking",
+    "scopeRole": "citation-lead",
+    "retrievalStatus": "public-summary-only",
+    "pdfRole": "citation-volume",
+    "retrievalNotes": "Blocking selection gap: retrieve or verify the original contemporaneous record before treating this as a selected FRUS document.",
+    "archivalTargets": [
+      "Original Minneapolis FBI case-opening ECs, INS detention records, FISA request drafts, field-headquarters communications"
     ]
   },
   {
@@ -2381,7 +2639,234 @@ window.SEPT10_RECORDS = [
       "moussaoui-investigation-opened-2001-08-15",
       "mihdhar-hazmi-watchlist-2001-08-23",
       "iscap-2012-048-9-11-fbi-files"
+    ],
+    "retrievalPriority": "P2",
+    "compilerRisk": "medium",
+    "scopeRole": "source-shelf",
+    "retrievalStatus": "source-shelf-located",
+    "pdfRole": "source-shelf",
+    "retrievalNotes": "Useful source shelf for corroboration or endpoint context; not a core selection driver."
+  },
+  {
+    "id": "mihdhar-hazmi-watchlist-2001-08-23",
+    "date": "2001-08-23",
+    "sortDate": "2001-08-23",
+    "dateLine": "August 23, 2001",
+    "type": "Document Lead",
+    "title": "CIA watchlisting cable for Khalid al-Mihdhar and Nawaf al-Hazmi",
+    "documentTitle": "CIA communication to State, INS, Customs, and FBI requesting watchlisting",
+    "chapter": {
+      "number": 3,
+      "name": "Aviation and Border Leads"
+    },
+    "releaseStatus": "Public Characterization",
+    "selectionDecision": "Include candidate",
+    "productionIssues": [
+      "needs-source",
+      "needs-declass",
+      "needs-annotation"
+    ],
+    "source": {
+      "repository": "Central Intelligence Agency / Federal Bureau of Investigation / Department of State",
+      "collection": "Joint Inquiry and DOJ OIG cited records",
+      "series": "Mihdhar-Hazmi watchlisting records",
+      "itemTitle": "August 23, 2001 CIA watchlisting communication",
+      "url": "https://irp.fas.org/congress/2002_hr/092002hill.html"
+    },
+    "catalogUrl": "https://irp.fas.org/congress/2002_hr/092002hill.html",
+    "citationPdfUrl": "https://www.govinfo.gov/content/pkg/CHRG-107jhrg96166/pdf/CHRG-107jhrg96166.pdf",
+    "citationPdfLabel": "Joint Inquiry PDF",
+    "sourceNoteAddendum": "For DOJ OIG's narrative on the Mihdhar-Hazmi watchlisting and FBI search trail, use the full OIG PDF: https://oig.justice.gov/sites/default/files/legacy/special/s0606/final.pdf",
+    "sourceNote": "Source: Central Intelligence Agency communication lead to Department of State, INS, Customs, and FBI requesting watchlisting of Khalid al-Mihdhar, Nawaf al-Hazmi, and others, August 23, 2001. Described in Joint Inquiry testimony by Eleanor Hill and in DOJ OIG chapter 5; original cable, addressees, and redactions require verification.",
+    "sourceNoteStatus": "Needs verification",
+    "summary": "The CIA asked multiple agencies to watchlist al-Mihdhar and al-Hazmi after information showed al-Mihdhar had obtained a U.S. visa and was likely in the United States.",
+    "editorialUse": "Core travel/watchlisting candidate and a bridge between intelligence, State visa records, INS, Customs, and FBI field searches.",
+    "frusTopics": [
+      "watchlisting",
+      "terrorist travel",
+      "State Department",
+      "FBI",
+      "CIA"
+    ],
+    "indexTerms": [
+      "al-Mihdhar, Khalid",
+      "al-Hazmi, Nawaf",
+      "watchlist",
+      "visa"
+    ],
+    "countries": [
+      "United States",
+      "Saudi Arabia"
+    ],
+    "persons": [
+      "Khalid al-Mihdhar",
+      "Nawaf al-Hazmi"
+    ],
+    "citedBy": [
+      "Joint Inquiry testimony, September 20, 2002",
+      "DOJ OIG Mihdhar-Hazmi chapter",
+      "NARA ISCAP 2012-048 FBI Files source shelf",
+      "NARA ISCAP 2014-089 Joint Inquiry release material"
+    ],
+    "relatedRecords": [
+      "iscap-2012-048-9-11-fbi-files",
+      "iscap-2014-089-joint-inquiry-ic-activities-9-11"
+    ],
+    "retrievalPriority": "P0",
+    "compilerRisk": "blocking",
+    "scopeRole": "citation-lead",
+    "retrievalStatus": "citation-only",
+    "pdfRole": "none",
+    "retrievalNotes": "Blocking selection gap: retrieve or verify the original contemporaneous record before treating this as a selected FRUS document.",
+    "archivalTargets": [
+      "CIA August 23, 2001 watchlisting cable",
+      "State/INS/Customs watchlist entries",
+      "FBI New York lead issued August 28, 2001"
     ]
+  },
+  {
+    "id": "source-fbi-911-review-commission-report-2015-03",
+    "date": "2001-09-10",
+    "sortDate": "2001-09-10",
+    "dateLine": "March 2015 report; source shelf for pre-9/11 FBI leads",
+    "type": "Source Collection",
+    "title": "FBI 9/11 Review Commission chronology and source leads",
+    "documentTitle": "The FBI: Protecting the Homeland in the 21st Century",
+    "chapter": {
+      "number": 3,
+      "name": "Aviation and Border Leads"
+    },
+    "releaseStatus": "Public",
+    "selectionDecision": "Source lead",
+    "productionIssues": [
+      "needs-selection",
+      "needs-annotation",
+      "needs-index"
+    ],
+    "source": {
+      "repository": "Federal Bureau of Investigation",
+      "collection": "Reports and Publications",
+      "series": "9/11 Review Commission",
+      "itemTitle": "The FBI: Protecting the Homeland in the 21st Century",
+      "url": "https://www.fbi.gov/file-repository/reports-and-publications/final-9-11-review-commission-report-unclassified.pdf"
+    },
+    "catalogUrl": "https://www.fbi.gov/file-repository/reports-and-publications/final-9-11-review-commission-report-unclassified.pdf/view",
+    "pdfUrl": "https://www.fbi.gov/file-repository/reports-and-publications/final-9-11-review-commission-report-unclassified.pdf",
+    "transcriptionUrl": "reports/fbi-911-review-commission-chronology.md",
+    "pageCount": 128,
+    "sourceNote": "Source: Federal Bureau of Investigation, \"The FBI: Protecting the Homeland in the 21st Century,\" Report of the Congressionally-directed 9/11 Review Commission to the Director of the Federal Bureau of Investigation, March 2015. Chapter V reviews new information related to the September 11 attacks and identifies FBI briefings, memoranda for the record, interviews, and source files relevant to al-Hazmi, al-Mihdhar, al-Bayoumi, al-Thumairy, Abdullah, Anwar al-Aulaqi, and Sarasota allegations.",
+    "sourceNoteStatus": "Draft",
+    "summary": "Retrospective FBI source shelf identifying underlying investigative files, briefings, MFRs, and interviews that can help trace domestic pre-9/11 aviation and border leads.",
+    "editorialUse": "Use to build a retrieval map for underlying FBI records; do not substitute the retrospective 2015 report for contemporaneous 2000-2001 documents.",
+    "frusTopics": [
+      "FBI",
+      "9/11 Review Commission",
+      "PENTTBOM",
+      "al-Hazmi",
+      "al-Mihdhar",
+      "aviation and border leads"
+    ],
+    "indexTerms": [
+      "9/11 Review Commission",
+      "PENTTBOM",
+      "Omar al-Bayoumi",
+      "Fahad al-Thumairy",
+      "Mohdhar Abdullah",
+      "Sarasota Family"
+    ],
+    "countries": [
+      "United States",
+      "Saudi Arabia"
+    ],
+    "persons": [
+      "Nawaf al-Hazmi",
+      "Khalid al-Mihdhar",
+      "Omar al-Bayoumi",
+      "Fahad al-Thumairy",
+      "Mohdhar Abdullah",
+      "Anwar al-Aulaqi",
+      "Bassem Youssef"
+    ],
+    "citedBy": [
+      "Federal Bureau of Investigation"
+    ],
+    "relatedRecords": [
+      "phoenix-electronic-communication-2001-07-10",
+      "iscap-2012-048-9-11-fbi-files",
+      "moussaoui-investigation-opened-2001-08-15",
+      "mihdhar-hazmi-watchlist-2001-08-23"
+    ],
+    "retrievalPriority": "Reference",
+    "compilerRisk": "reference",
+    "scopeRole": "source-shelf",
+    "retrievalStatus": "source-shelf-located",
+    "pdfRole": "source-shelf",
+    "retrievalNotes": "Reference or recollection source only; do not use as a substitute for contemporaneous records."
+  },
+  {
+    "id": "memoir-rice-september-4-principals-recollection-2001-09-04",
+    "date": "2001-09-04",
+    "sortDate": "2001-09-04",
+    "dateLine": "September 4, 2001",
+    "type": "Context Lead",
+    "title": "Rice recollection of the September 4 Principals review",
+    "documentTitle": "Condoleezza Rice memoir recollection of September 4 al Qaeda strategy Principals meeting",
+    "chapter": {
+      "number": 4,
+      "name": "Strategy Decision and September 10"
+    },
+    "releaseStatus": "Public",
+    "selectionDecision": "Context candidate",
+    "productionIssues": [
+      "needs-annotation"
+    ],
+    "source": {
+      "repository": "Published memoir / Google Drive copy consulted",
+      "collection": "Condoleezza Rice, No Higher Honor",
+      "series": "Retrospective memoir",
+      "itemTitle": "False Alarm"
+    },
+    "sourcePages": "p. 70",
+    "sourceNote": "Source: Condoleezza Rice, No Higher Honor: A Memoir of My Years in Washington (New York: Crown, 2011), p. 70; user's Google Drive PDF consulted. Rice wrote that the al Qaeda strategy was ready for Principals' review on September 4 and that the \"meeting was fruitful,\" producing agreement on covert action in Afghanistan and Predator reconnaissance.",
+    "sourceNoteStatus": "Draft",
+    "summary": "Rice's memoir corroborates the September 4 decision point and highlights two elements: ambitious covert action in Afghanistan and use of Predator for reconnaissance because armed capability was not yet ready.",
+    "editorialUse": "Use as a retrospective annotation for the September 4 meeting lead while prioritizing the meeting minutes, decision memorandum, and directive drafts for selection.",
+    "frusTopics": [
+      "Principals Committee",
+      "al Qaeda strategy",
+      "Afghanistan",
+      "Predator"
+    ],
+    "indexTerms": [
+      "Rice, Condoleezza",
+      "September 4 Principals Committee",
+      "Predator",
+      "covert action"
+    ],
+    "countries": [
+      "United States",
+      "Afghanistan"
+    ],
+    "persons": [
+      "Condoleezza Rice",
+      "George Tenet",
+      "Richard A. Clarke",
+      "Donald Rumsfeld",
+      "Colin Powell"
+    ],
+    "citedBy": [
+      "Google Drive memoir sweep"
+    ],
+    "relatedRecords": [
+      "principals-approve-al-qaeda-directive-2001-09-04",
+      "nspd-9-public-characterization"
+    ],
+    "retrievalPriority": "Reference",
+    "compilerRisk": "reference",
+    "scopeRole": "context-only",
+    "retrievalStatus": "context-only",
+    "pdfRole": "none",
+    "retrievalNotes": "Reference or recollection source only; do not use as a substitute for contemporaneous records."
   },
   {
     "id": "principals-approve-al-qaeda-directive-2001-09-04",
@@ -2444,131 +2929,16 @@ window.SEPT10_RECORDS = [
       "9/11 Commission Report, chapter 8",
       "Donald Rumsfeld 9/11 Commission testimony",
       "FAS NSPD-9 public characterization"
-    ]
-  },
-  {
-    "id": "memoir-rice-september-4-principals-recollection-2001-09-04",
-    "date": "2001-09-04",
-    "sortDate": "2001-09-04",
-    "dateLine": "September 4, 2001",
-    "type": "Context Lead",
-    "title": "Rice recollection of the September 4 Principals review",
-    "documentTitle": "Condoleezza Rice memoir recollection of September 4 al Qaeda strategy Principals meeting",
-    "chapter": {
-      "number": 4,
-      "name": "Strategy Decision and September 10"
-    },
-    "releaseStatus": "Public",
-    "selectionDecision": "Context candidate",
-    "productionIssues": [
-      "needs-annotation"
     ],
-    "source": {
-      "repository": "Published memoir / Google Drive copy consulted",
-      "collection": "Condoleezza Rice, No Higher Honor",
-      "series": "Retrospective memoir",
-      "itemTitle": "False Alarm"
-    },
-    "sourcePages": "p. 70",
-    "sourceNote": "Source: Condoleezza Rice, No Higher Honor: A Memoir of My Years in Washington (New York: Crown, 2011), p. 70; user's Google Drive PDF consulted. Rice wrote that the al Qaeda strategy was ready for Principals' review on September 4 and that the \"meeting was fruitful,\" producing agreement on covert action in Afghanistan and Predator reconnaissance.",
-    "sourceNoteStatus": "Draft",
-    "summary": "Rice's memoir corroborates the September 4 decision point and highlights two elements: ambitious covert action in Afghanistan and use of Predator for reconnaissance because armed capability was not yet ready.",
-    "editorialUse": "Use as a retrospective annotation for the September 4 meeting lead while prioritizing the meeting minutes, decision memorandum, and directive drafts for selection.",
-    "frusTopics": [
-      "Principals Committee",
-      "al Qaeda strategy",
-      "Afghanistan",
-      "Predator"
-    ],
-    "indexTerms": [
-      "Rice, Condoleezza",
-      "September 4 Principals Committee",
-      "Predator",
-      "covert action"
-    ],
-    "countries": [
-      "United States",
-      "Afghanistan"
-    ],
-    "persons": [
-      "Condoleezza Rice",
-      "George Tenet",
-      "Richard A. Clarke",
-      "Donald Rumsfeld",
-      "Colin Powell"
-    ],
-    "citedBy": [
-      "Google Drive memoir sweep"
-    ],
-    "relatedRecords": [
-      "principals-approve-al-qaeda-directive-2001-09-04",
-      "nspd-9-public-characterization"
-    ]
-  },
-  {
-    "id": "massoud-assassination-context-2001-09-09",
-    "date": "2001-09-10",
-    "sortDate": "2001-09-10",
-    "dateLine": "September 10, 2001; assesses assassination reported September 9",
-    "type": "Document Lead",
-    "title": "INR assessment of implications of Ahmad Shah Massoud's assassination",
-    "documentTitle": "Afghanistan: Implications of Masood's Death",
-    "chapter": {
-      "number": 4,
-      "name": "Strategy Decision and September 10"
-    },
-    "releaseStatus": "Declassified",
-    "selectionDecision": "Context candidate",
-    "productionIssues": [
-      "needs-annotation",
-      "needs-index"
-    ],
-    "source": {
-      "repository": "Department of State",
-      "collection": "FOIA Virtual Reading Room",
-      "series": "F-2010-03412",
-      "itemTitle": "Afghanistan: Implications of Masood's Death",
-      "documentId": "C05192734",
-      "caseNumber": "F-2010-03412",
-      "url": "https://foia.state.gov/DOCUMENTS/5-FY2014/F-2010-03412/DOC_0C05192734/C05192734.pdf"
-    },
-    "catalogUrl": "https://foia.state.gov/FOIALIBRARY/SearchResults.aspx",
-    "pdfUrl": "https://foia.state.gov/DOCUMENTS/5-FY2014/F-2010-03412/DOC_0C05192734/C05192734.pdf",
-    "sourceNote": "Source: Department of State, Bureau of Intelligence and Research, Intelligence Assessment, \"Afghanistan: Implications of Masood's Death,\" September 10, 2001; Department of State FOIA case F-2010-03412, doc. C05192734, released in full.",
-    "sourceNoteStatus": "Draft",
-    "classification": "Declassified public copy",
-    "declassificationStatus": "Released in full by Department of State FOIA",
-    "documentMarkings": [
-      "Released in Full"
-    ],
-    "summary": "INR assessed that the assassination of Ahmad Shah Massoud would weaken the Northern Alliance, reduce prospects for a broad-based Afghan government, and leave the Taliban less inclined to compromise with the United States on Usama Bin Ladin and al-Qaida.",
-    "editorialUse": "Direct U.S. intelligence assessment for the September 10 Afghanistan context, replacing the earlier secondary context lead.",
-    "frusTopics": [
-      "Afghanistan",
-      "Northern Alliance",
-      "al Qaeda context",
-      "State INR",
-      "Taliban"
-    ],
-    "indexTerms": [
-      "Massoud, Ahmad Shah",
-      "Masood, Ahmad Shah",
-      "Northern Alliance",
-      "Bureau of Intelligence and Research"
-    ],
-    "countries": [
-      "Afghanistan",
-      "United States"
-    ],
-    "persons": [
-      "Ahmad Shah Massoud",
-      "Osama bin Laden"
-    ],
-    "citedBy": [
-      "Department of State FOIA Virtual Reading Room"
-    ],
-    "relatedRecords": [
-      "deputies-al-qaeda-strategy-2001-09-10"
+    "retrievalPriority": "P0",
+    "compilerRisk": "blocking",
+    "scopeRole": "citation-lead",
+    "retrievalStatus": "citation-only",
+    "pdfRole": "none",
+    "retrievalNotes": "Blocking selection gap: retrieve or verify the original contemporaneous record before treating this as a selected FRUS document.",
+    "archivalTargets": [
+      "CIA Maher memorandum on September 4 Principals Committee meeting",
+      "PC agenda, decision papers, and draft directive package"
     ]
   },
   {
@@ -2627,7 +2997,13 @@ window.SEPT10_RECORDS = [
     "relatedRecords": [
       "massoud-assassination-context-2001-09-09",
       "deputies-al-qaeda-strategy-2001-09-10"
-    ]
+    ],
+    "retrievalPriority": "Reference",
+    "compilerRisk": "reference",
+    "scopeRole": "context-only",
+    "retrievalStatus": "context-only",
+    "pdfRole": "none",
+    "retrievalNotes": "Reference or recollection source only; do not use as a substitute for contemporaneous records."
   },
   {
     "id": "deputies-al-qaeda-strategy-2001-09-10",
@@ -2687,67 +3063,88 @@ window.SEPT10_RECORDS = [
     ],
     "citedBy": [
       "9/11 Commission Report notes"
+    ],
+    "retrievalPriority": "P0",
+    "compilerRisk": "blocking",
+    "scopeRole": "citation-lead",
+    "retrievalStatus": "citation-only",
+    "pdfRole": "none",
+    "retrievalNotes": "Blocking selection gap: retrieve or verify the original contemporaneous record before treating this as a selected FRUS document.",
+    "archivalTargets": [
+      "Biegun Summary of Conclusions for September 10 Deputies Committee meeting",
+      "Hadley-to-Tenet September 10 covert-authorities memorandum",
+      "September 7 agenda and draft NSPD-9 package"
     ]
   },
   {
-    "id": "memoir-rice-september-10-strategy-forwarded-2001-09-10",
+    "id": "iscap-2012-163-bush-cheney-commission-mfr",
     "date": "2001-09-10",
     "sortDate": "2001-09-10",
-    "dateLine": "September 10, 2001",
-    "type": "Context Lead",
-    "title": "Rice recollection of forwarding the al Qaeda strategy to Bush",
-    "documentTitle": "Condoleezza Rice memoir recollection of September 10 strategy forwarding",
+    "dateLine": "Interview conducted April 29, 2004; source lead for pre-September 11 presidential recollection",
+    "type": "Document Lead",
+    "title": "Bush and Cheney 9/11 Commission meeting memorandum for the record",
+    "documentTitle": "Commission Meeting with the President and Vice President of the United States, 29 April 2004, 9:25-12:40",
     "chapter": {
       "number": 4,
       "name": "Strategy Decision and September 10"
     },
-    "releaseStatus": "Public",
-    "selectionDecision": "Context candidate",
+    "releaseStatus": "Declassified",
+    "selectionDecision": "Source lead",
     "productionIssues": [
+      "needs-selection",
       "needs-annotation"
     ],
     "source": {
-      "repository": "Published memoir / Google Drive copy consulted",
-      "collection": "Condoleezza Rice, No Higher Honor",
-      "series": "Retrospective memoir",
-      "itemTitle": "False Alarm"
+      "repository": "NARA Center for Legislative Archives",
+      "collection": "ISCAP release 2012-163",
+      "series": "9/11 Commission records",
+      "itemTitle": "Commission Meeting with the President and Vice President of the United States, 29 April 2004, 9:25-12:40",
+      "documentId": "2012-163-doc1",
+      "url": "https://www.archives.gov/files/declassification/iscap/pdf/2012-163-doc-1-release-material.pdf"
     },
-    "sourcePages": "p. 70",
-    "sourceNote": "Source: Condoleezza Rice, No Higher Honor: A Memoir of My Years in Washington (New York: Crown, 2011), p. 70; user's Google Drive PDF consulted. Rice wrote that she \"forwarded the strategy\" to President Bush for approval on September 10 after the September 4 Principals agreement.",
+    "catalogUrl": "https://www.archives.gov/declassification/iscap/releases",
+    "pdfUrl": "https://www.archives.gov/files/declassification/iscap/pdf/2012-163-doc-1-release-material.pdf",
+    "sourceNote": "Source: NARA Center for Legislative Archives, ISCAP Appeal 2012-163-doc1, 9/11 Commission memorandum for the record, \"Commission Meeting with the President and Vice President of the United States, 29 April 2004, 9:25-12:40,\" declassified/released by the National Archives. Use as post-hoc primary interview evidence for presidential and vice-presidential recollection; do not treat as a contemporaneous 2001 decision record.",
     "sourceNoteStatus": "Draft",
-    "summary": "Rice's memoir supplies a retrospective endpoint for the pre-attack strategy chain: Principals agreed on September 4, and Rice sent the package to the President on September 10.",
-    "editorialUse": "Use as annotation for the September 10 Deputies/strategy lead and NSPD-9 lineage; retrieve the actual forwarding memorandum, decision package, and draft directive if available.",
+    "declassificationStatus": "Declassified ISCAP PDF release",
+    "summary": "Officially declassified Commission MFR of the April 29, 2004 meeting with President George W. Bush and Vice President Richard Cheney, useful for later testimony and recollection about pre-attack warning and decision context.",
+    "editorialUse": "Annotation/corroboration source for the warning and strategy-decision records, especially when comparing later recollection with contemporaneous NSC and intelligence documents.",
     "frusTopics": [
-      "al Qaeda strategy",
-      "NSC",
-      "September 10",
-      "NSPD-9"
+      "9/11 Commission",
+      "presidential recollection",
+      "warning",
+      "counterterrorism policy"
     ],
     "indexTerms": [
-      "Rice, Condoleezza",
-      "September 10, 2001",
-      "NSPD-9",
-      "strategy directive"
+      "ISCAP 2012-163",
+      "George W. Bush",
+      "Richard B. Cheney",
+      "Philip Zelikow",
+      "memorandum for the record"
     ],
     "countries": [
-      "United States",
-      "Afghanistan",
-      "Pakistan"
+      "United States"
     ],
     "persons": [
-      "Condoleezza Rice",
       "George W. Bush",
-      "Richard A. Clarke",
-      "George Tenet"
+      "Richard B. Cheney",
+      "Philip Zelikow",
+      "Alberto Gonzales"
     ],
     "citedBy": [
-      "Google Drive memoir sweep"
+      "National Archives ISCAP Releases"
     ],
     "relatedRecords": [
-      "deputies-al-qaeda-strategy-2001-09-10",
+      "pdb-bin-ladin-determined-to-strike-2001-08-06",
       "principals-approve-al-qaeda-directive-2001-09-04",
-      "nspd-9-public-characterization"
-    ]
+      "deputies-al-qaeda-strategy-2001-09-10"
+    ],
+    "retrievalPriority": "Reference",
+    "compilerRisk": "reference",
+    "scopeRole": "source-shelf",
+    "retrievalStatus": "direct-copy-located",
+    "pdfRole": "direct-copy",
+    "retrievalNotes": "Reference or recollection source only; do not use as a substitute for contemporaneous records."
   },
   {
     "id": "iscap-2013-002-air-force-sept10-surveillance-vigilant-guardian",
@@ -2809,7 +3206,13 @@ window.SEPT10_RECORDS = [
     ],
     "citedBy": [
       "National Archives ISCAP Releases"
-    ]
+    ],
+    "retrievalPriority": "P2",
+    "compilerRisk": "medium",
+    "scopeRole": "source-shelf",
+    "retrievalStatus": "source-shelf-located",
+    "pdfRole": "source-shelf",
+    "retrievalNotes": "Useful source shelf for corroboration or endpoint context; not a core selection driver."
   },
   {
     "id": "iscap-commission-defense-interviews-2011-048-2012-042-2012-047",
@@ -2880,71 +3283,151 @@ window.SEPT10_RECORDS = [
     ],
     "citedBy": [
       "National Archives ISCAP Releases"
-    ]
+    ],
+    "retrievalPriority": "Reference",
+    "compilerRisk": "reference",
+    "scopeRole": "source-shelf",
+    "retrievalStatus": "source-shelf-located",
+    "pdfRole": "source-shelf",
+    "retrievalNotes": "Reference or recollection source only; do not use as a substitute for contemporaneous records."
   },
   {
-    "id": "iscap-2012-163-bush-cheney-commission-mfr",
+    "id": "massoud-assassination-context-2001-09-09",
     "date": "2001-09-10",
     "sortDate": "2001-09-10",
-    "dateLine": "Interview conducted April 29, 2004; source lead for pre-September 11 presidential recollection",
+    "dateLine": "September 10, 2001; assesses assassination reported September 9",
     "type": "Document Lead",
-    "title": "Bush and Cheney 9/11 Commission meeting memorandum for the record",
-    "documentTitle": "Commission Meeting with the President and Vice President of the United States, 29 April 2004, 9:25-12:40",
+    "title": "INR assessment of implications of Ahmad Shah Massoud's assassination",
+    "documentTitle": "Afghanistan: Implications of Masood's Death",
     "chapter": {
       "number": 4,
       "name": "Strategy Decision and September 10"
     },
     "releaseStatus": "Declassified",
-    "selectionDecision": "Source lead",
+    "selectionDecision": "Context candidate",
     "productionIssues": [
-      "needs-selection",
-      "needs-annotation"
+      "needs-annotation",
+      "needs-index"
     ],
     "source": {
-      "repository": "NARA Center for Legislative Archives",
-      "collection": "ISCAP release 2012-163",
-      "series": "9/11 Commission records",
-      "itemTitle": "Commission Meeting with the President and Vice President of the United States, 29 April 2004, 9:25-12:40",
-      "documentId": "2012-163-doc1",
-      "url": "https://www.archives.gov/files/declassification/iscap/pdf/2012-163-doc-1-release-material.pdf"
+      "repository": "Department of State",
+      "collection": "FOIA Virtual Reading Room",
+      "series": "F-2010-03412",
+      "itemTitle": "Afghanistan: Implications of Masood's Death",
+      "documentId": "C05192734",
+      "caseNumber": "F-2010-03412",
+      "url": "https://foia.state.gov/DOCUMENTS/5-FY2014/F-2010-03412/DOC_0C05192734/C05192734.pdf"
     },
-    "catalogUrl": "https://www.archives.gov/declassification/iscap/releases",
-    "pdfUrl": "https://www.archives.gov/files/declassification/iscap/pdf/2012-163-doc-1-release-material.pdf",
-    "sourceNote": "Source: NARA Center for Legislative Archives, ISCAP Appeal 2012-163-doc1, 9/11 Commission memorandum for the record, \"Commission Meeting with the President and Vice President of the United States, 29 April 2004, 9:25-12:40,\" declassified/released by the National Archives. Use as post-hoc primary interview evidence for presidential and vice-presidential recollection; do not treat as a contemporaneous 2001 decision record.",
+    "catalogUrl": "https://foia.state.gov/FOIALIBRARY/SearchResults.aspx",
+    "pdfUrl": "https://foia.state.gov/DOCUMENTS/5-FY2014/F-2010-03412/DOC_0C05192734/C05192734.pdf",
+    "sourceNote": "Source: Department of State, Bureau of Intelligence and Research, Intelligence Assessment, \"Afghanistan: Implications of Masood's Death,\" September 10, 2001; Department of State FOIA case F-2010-03412, doc. C05192734, released in full.",
     "sourceNoteStatus": "Draft",
-    "declassificationStatus": "Declassified ISCAP PDF release",
-    "summary": "Officially declassified Commission MFR of the April 29, 2004 meeting with President George W. Bush and Vice President Richard Cheney, useful for later testimony and recollection about pre-attack warning and decision context.",
-    "editorialUse": "Annotation/corroboration source for the warning and strategy-decision records, especially when comparing later recollection with contemporaneous NSC and intelligence documents.",
+    "classification": "Declassified public copy",
+    "declassificationStatus": "Released in full by Department of State FOIA",
+    "documentMarkings": [
+      "Released in Full"
+    ],
+    "summary": "INR assessed that the assassination of Ahmad Shah Massoud would weaken the Northern Alliance, reduce prospects for a broad-based Afghan government, and leave the Taliban less inclined to compromise with the United States on Usama Bin Ladin and al-Qaida.",
+    "editorialUse": "Direct U.S. intelligence assessment for the September 10 Afghanistan context, replacing the earlier secondary context lead.",
     "frusTopics": [
-      "9/11 Commission",
-      "presidential recollection",
-      "warning",
-      "counterterrorism policy"
+      "Afghanistan",
+      "Northern Alliance",
+      "al Qaeda context",
+      "State INR",
+      "Taliban"
     ],
     "indexTerms": [
-      "ISCAP 2012-163",
-      "George W. Bush",
-      "Richard B. Cheney",
-      "Philip Zelikow",
-      "memorandum for the record"
+      "Massoud, Ahmad Shah",
+      "Masood, Ahmad Shah",
+      "Northern Alliance",
+      "Bureau of Intelligence and Research"
     ],
     "countries": [
+      "Afghanistan",
       "United States"
     ],
     "persons": [
-      "George W. Bush",
-      "Richard B. Cheney",
-      "Philip Zelikow",
-      "Alberto Gonzales"
+      "Ahmad Shah Massoud",
+      "Osama bin Laden"
     ],
     "citedBy": [
-      "National Archives ISCAP Releases"
+      "Department of State FOIA Virtual Reading Room"
     ],
     "relatedRecords": [
-      "pdb-bin-ladin-determined-to-strike-2001-08-06",
-      "principals-approve-al-qaeda-directive-2001-09-04",
       "deputies-al-qaeda-strategy-2001-09-10"
-    ]
+    ],
+    "retrievalPriority": "Resolved",
+    "compilerRisk": "low",
+    "scopeRole": "direct-document",
+    "retrievalStatus": "direct-copy-located",
+    "pdfRole": "direct-copy",
+    "retrievalNotes": "Direct public copy or strong public text located; remaining work is annotation, indexing, and source-note verification."
+  },
+  {
+    "id": "memoir-rice-september-10-strategy-forwarded-2001-09-10",
+    "date": "2001-09-10",
+    "sortDate": "2001-09-10",
+    "dateLine": "September 10, 2001",
+    "type": "Context Lead",
+    "title": "Rice recollection of forwarding the al Qaeda strategy to Bush",
+    "documentTitle": "Condoleezza Rice memoir recollection of September 10 strategy forwarding",
+    "chapter": {
+      "number": 4,
+      "name": "Strategy Decision and September 10"
+    },
+    "releaseStatus": "Public",
+    "selectionDecision": "Context candidate",
+    "productionIssues": [
+      "needs-annotation"
+    ],
+    "source": {
+      "repository": "Published memoir / Google Drive copy consulted",
+      "collection": "Condoleezza Rice, No Higher Honor",
+      "series": "Retrospective memoir",
+      "itemTitle": "False Alarm"
+    },
+    "sourcePages": "p. 70",
+    "sourceNote": "Source: Condoleezza Rice, No Higher Honor: A Memoir of My Years in Washington (New York: Crown, 2011), p. 70; user's Google Drive PDF consulted. Rice wrote that she \"forwarded the strategy\" to President Bush for approval on September 10 after the September 4 Principals agreement.",
+    "sourceNoteStatus": "Draft",
+    "summary": "Rice's memoir supplies a retrospective endpoint for the pre-attack strategy chain: Principals agreed on September 4, and Rice sent the package to the President on September 10.",
+    "editorialUse": "Use as annotation for the September 10 Deputies/strategy lead and NSPD-9 lineage; retrieve the actual forwarding memorandum, decision package, and draft directive if available.",
+    "frusTopics": [
+      "al Qaeda strategy",
+      "NSC",
+      "September 10",
+      "NSPD-9"
+    ],
+    "indexTerms": [
+      "Rice, Condoleezza",
+      "September 10, 2001",
+      "NSPD-9",
+      "strategy directive"
+    ],
+    "countries": [
+      "United States",
+      "Afghanistan",
+      "Pakistan"
+    ],
+    "persons": [
+      "Condoleezza Rice",
+      "George W. Bush",
+      "Richard A. Clarke",
+      "George Tenet"
+    ],
+    "citedBy": [
+      "Google Drive memoir sweep"
+    ],
+    "relatedRecords": [
+      "deputies-al-qaeda-strategy-2001-09-10",
+      "principals-approve-al-qaeda-directive-2001-09-04",
+      "nspd-9-public-characterization"
+    ],
+    "retrievalPriority": "Reference",
+    "compilerRisk": "reference",
+    "scopeRole": "context-only",
+    "retrievalStatus": "context-only",
+    "pdfRole": "none",
+    "retrievalNotes": "Reference or recollection source only; do not use as a substitute for contemporaneous records."
   },
   {
     "id": "nspd-9-public-characterization",
@@ -3002,6 +3485,12 @@ window.SEPT10_RECORDS = [
     "citedBy": [
       "FAS NSPD-9 public characterization",
       "Donald Rumsfeld 9/11 Commission testimony"
-    ]
+    ],
+    "retrievalPriority": "P1",
+    "compilerRisk": "high",
+    "scopeRole": "citation-lead",
+    "retrievalStatus": "citation-only",
+    "pdfRole": "none",
+    "retrievalNotes": "High-value retrieval or verification target needed for balance, annotation, or source-note confidence."
   }
 ];

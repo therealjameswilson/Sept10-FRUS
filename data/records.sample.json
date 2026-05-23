@@ -13,6 +13,12 @@
     },
     "releaseStatus": "Declassified",
     "selectionDecision": "Include candidate",
+    "retrievalPriority": "Resolved",
+    "compilerRisk": "low",
+    "scopeRole": "direct-document",
+    "retrievalStatus": "direct-copy-located",
+    "pdfRole": "direct-copy",
+    "retrievalNotes": "Direct public copy located; remaining work is annotation and source-note verification.",
     "source": {
       "repository": "Central Intelligence Agency",
       "collection": "President's Daily Brief",

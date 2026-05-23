@@ -10,10 +10,11 @@ reading: records live in `data/records.json`, the browser mirror is
 `data/records.js`, and the public page renders a searchable chronology with
 source-note stubs, production gaps, local review state, and CSV export.
 
-Version 2.0 adds a computed source-intelligence layer: retrieval priority
-scoring, readiness counts, repository mix, production-gate counts, direct links
-to source-sweep reports, public PDF/citation-PDF links, a compiler gap
-assessment, and a priority sort for the chronology.
+Version 2.1 adds record-level compiler-risk controls: retrieval priority,
+compiler risk, scope role, retrieval status, PDF role, archival targets, a
+retrieval matrix, and UI filters for priority and scope role. It also adds two
+new public-source controls: State FOIA C18605290 and the public text of the
+August 6, 2001 DOJ intelligence-sharing memorandum.
 
 No public Office of the Historian volume number is assigned in this site. The
 scope is named from the working brief: counterterrorism before the September 11
@@ -56,10 +57,11 @@ The site supports:
 - source-intelligence panels for readiness, repository mix, and production-gate
   pressure
 - filters for lane, record type, release status, selection decision, production
-  issue, and local review state
+  issue, retrieval priority, scope role, and local review state
 - direct links to the Avalon, State FOIA, ISCAP, and FBI Review source-sweep
   reports
 - a compiler gap assessment that identifies blocking retrieval and scope risks
+- a retrieval matrix that turns those gaps into record-level next actions
 - a reference section for GovInfo Public Papers keyword indexes
 - direct PDF and citation-PDF fields, with a public PDF audit for records where
   the original cited document is still not publicly located
@@ -79,6 +81,7 @@ against the underlying record.
 - Avalon Project full PDF of the 9/11 Commission Report: <https://avalon.law.yale.edu/sept11/911report.pdf>
 - Official 9/11 Commission full report PDF: <https://www.9-11commission.gov/report/911Report.pdf>
 - Compiler gap assessment: <reports/compiler-gap-assessment.md>
+- Retrieval matrix: <reports/retrieval-matrix.md>
 - Avalon 9/11 Commission Report chronology notes: <reports/avalon-911-report-source-chronology.md>
 - Public PDF link audit notes: <reports/public-pdf-link-audit.md>
 - 9/11 Commission Report, Chapter 8, "The System Was Blinking Red": <https://govinfo.library.unt.edu/911/report/911Report_Ch8.pdf>
@@ -95,6 +98,7 @@ against the underlying record.
 - Department of State FOIA Virtual Reading Room search: <https://foia.state.gov/FOIALIBRARY/SearchResults.aspx>
 - State FOIA C05252373, April 20 Deputies Committee briefing memorandum: <https://foia.state.gov/DOCUMENTS/9-FY2013/F-2006-02981/DOC_0C05252373/C05252373.pdf>
 - State FOIA C17641067, June 22 Worldwide Caution ALDAC: <https://foia.state.gov/DOCUMENTS/5-FY2014/F-2011-03409ER/DOC_0C17641067/C17641067.pdf>
+- State FOIA C18605290, June 30 Rocca-Lodhi Pakistan cable: <https://foia.state.gov/DOCUMENTS/NEA/F-2006-05348ER/DOC_0C18605290/C18605290.pdf>
 - State FOIA C05192734, September 10 INR Massoud assessment: <https://foia.state.gov/DOCUMENTS/5-FY2014/F-2010-03412/DOC_0C05192734/C05192734.pdf>
 - National Security Archive, State 109130 Powell-Sattar lunch PDF: <https://nsarchive2.gwu.edu/NSAEBB/NSAEBB325/doc02.pdf>
 - National Security Archive FAA/TSA warning comparisons: <https://nsarchive2.gwu.edu/NSAEBB/NSAEBB137/index.htm>
@@ -107,6 +111,7 @@ against the underlying record.
 - FBI 9/11 Review Commission Report, March 2015: <https://www.fbi.gov/file-repository/reports-and-publications/final-9-11-review-commission-report-unclassified.pdf>
 - FBI 9/11 Review Commission chronology notes: <reports/fbi-911-review-commission-chronology.md>
 - Declassified August 6, 2001 PDB, "Bin Ladin Determined To Strike in US": <https://irp.fas.org/cia/product/pdb080601.pdf>
+- DOJ/FAS public text, August 6 intelligence-sharing memorandum: <https://irp.fas.org/agency/doj/fisa/dag080601.html>
 - NARA ISCAP Releases index: <https://www.archives.gov/declassification/iscap/releases>
 - NARA ISCAP 2013-003, Presidential Decision Directive 62: <https://www.archives.gov/files/declassification/iscap/pdf/2013-003-doc1.pdf>
 - NARA ISCAP 2012-048, 9/11 FBI Files: <https://www.archives.gov/declassification/iscap/pdf/2012-048.html>

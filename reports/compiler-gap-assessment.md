@@ -15,19 +15,49 @@ records are often represented by Commission citations, later investigations,
 finding aids, memoirs, or source shelves rather than the underlying original
 records.
 
+## Version 2.1 Controls Added
+
+The May 23 gap pass is now reflected in the site data. Every record has
+machine-readable fields for `retrievalPriority`, `compilerRisk`, `scopeRole`,
+`retrievalStatus`, `pdfRole`, and `retrievalNotes`; P0 records also carry
+specific `archivalTargets` where the blocker is known. The public page now has
+priority and scope-role filters, expanded source-intelligence counters, and a
+record-level retrieval matrix.
+
+Two public-source controls were added:
+
+- State FOIA C18605290, `A/S Rocca's Meeting with Pakistan Ambassador Lodhi`,
+  State 114516, June 30, 2001:
+  <https://foia.state.gov/DOCUMENTS/NEA/F-2006-05348ER/DOC_0C18605290/C18605290.pdf>
+- Public text copy of Larry D. Thompson, `Intelligence Sharing`, August 6, 2001:
+  <https://irp.fas.org/agency/doj/fisa/dag080601.html>
+
+These additions improve the diplomatic-pressure and intelligence-sharing tracks.
+They do not resolve the P0 blockers because the original NSC, CIA, CSG, FBI, and
+watchlisting records still need repository verification.
+
 Current data snapshot:
 
 | Measure | Count |
 | --- | ---: |
-| Total records | 47 |
+| Total records | 49 |
 | Source leads | 10 |
-| Context candidates | 24 |
+| Context candidates | 26 |
 | Include candidates | 13 |
 | Include candidates with unresolved source or declassification gaps | 10 |
-| Records flagged for annotation | 47 |
+| P0 blocking retrieval targets | 10 |
+| P1 high-value retrieval targets | 13 |
+| P2 supporting source shelves | 3 |
+| Resolved public-copy/public-text controls | 11 |
+| Reference-only controls | 12 |
+| Direct-document scope roles | 11 |
+| Citation-lead scope roles | 19 |
+| Source-shelf scope roles | 10 |
+| Context-only scope roles | 9 |
+| Records flagged for annotation | 49 |
 | Records flagged for declassification accounting | 20 |
-| Records flagged for source-note verification | 17 |
-| Records flagged for index terms | 15 |
+| Records flagged for source-note verification | 18 |
+| Records flagged for index terms | 17 |
 | Records flagged for selection review | 10 |
 | Records flagged for chronology work | 2 |
 
@@ -197,21 +227,29 @@ P2, useful but not selection drivers:
 - Bush 41 public statement index.
 - Broad counterterrorism public-statement background.
 
-## Site/Data Gaps To Close
+## Site/Data Gaps Closed In Version 2.1
 
-- Add a `retrievalPriority` or `compilerRisk` field so the P0/P1/P2 distinction
-  is machine-readable.
-- Add a `scopeRole` field for `direct-document`, `citation-lead`,
-  `source-shelf`, `context-only`, and `reference-only`.
-- Add a field separating `directPdf` from `citationPdf` for every record.
-- Track exact archival target fields: repository, collection, file unit, title,
-  date, page span, classification markings, release authority, and excisions.
-- Split records that currently combine an event with a source shelf.
-- Add a "not public yet" marker distinct from "not searched."
+- Added `retrievalPriority` and `compilerRisk` so P0/P1/P2 distinctions are
+  machine-readable.
+- Added `scopeRole` for `direct-document`, `citation-lead`, `source-shelf`,
+  `context-only`, and `reference-only`.
+- Added `pdfRole` so direct PDFs, finding aids, source shelves, comparison PDFs,
+  embedded copies, and citation volumes are not collapsed into one category.
+- Added `retrievalStatus` to distinguish located direct copies, citation-only
+  leads, public summaries, source shelves, finding aids, context-only records,
+  and not-publicly-located targets.
+- Added `archivalTargets` on known blockers so retrieval next actions can be
+  surfaced in the UI, CSV export, source-stub copy, and retrieval matrix.
+- Added a public [retrieval matrix](retrieval-matrix.md) with record-level next
+  actions.
+
+Remaining data-model work: add page-span level release/excision accounting after
+the original archival copies are obtained.
 
 ## Existing Reports To Use
 
 - Public PDF audit: [public-pdf-link-audit.md](public-pdf-link-audit.md)
+- Retrieval matrix: [retrieval-matrix.md](retrieval-matrix.md)
 - Avalon source chronology: [avalon-911-report-source-chronology.md](avalon-911-report-source-chronology.md)
 - State FOIA sweep: [state-foia-primary-source-sweep.md](state-foia-primary-source-sweep.md)
 - ISCAP sweep: [iscap-primary-source-sweep.md](iscap-primary-source-sweep.md)

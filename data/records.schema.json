@@ -69,6 +69,37 @@
       "type": "string",
       "enum": ["Pending", "Include candidate", "Context candidate", "Source lead", "Exclude", "Ready for editor"]
     },
+    "retrievalPriority": {
+      "type": "string",
+      "enum": ["P0", "P1", "P2", "Resolved", "Reference"]
+    },
+    "compilerRisk": {
+      "type": "string",
+      "enum": ["blocking", "high", "medium", "low", "reference"]
+    },
+    "scopeRole": {
+      "type": "string",
+      "enum": ["direct-document", "citation-lead", "source-shelf", "context-only", "reference-only"]
+    },
+    "retrievalStatus": {
+      "type": "string",
+      "enum": [
+        "direct-copy-located",
+        "finding-aid-located",
+        "source-shelf-located",
+        "citation-only",
+        "public-summary-only",
+        "context-only",
+        "not-public-located",
+        "not-searched"
+      ]
+    },
+    "pdfRole": {
+      "type": "string",
+      "enum": ["direct-copy", "finding-aid", "source-shelf", "comparison-copy", "embedded-copy", "citation-volume", "none"]
+    },
+    "retrievalNotes": { "type": "string" },
+    "archivalTargets": { "type": "array", "items": { "type": "string" } },
     "productionIssues": {
       "type": "array",
       "items": {

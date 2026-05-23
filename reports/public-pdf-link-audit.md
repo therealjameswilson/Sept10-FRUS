@@ -1,6 +1,6 @@
 # Public PDF Link Audit
 
-Prepared May 21, 2026.
+Prepared May 21, 2026; updated May 23, 2026.
 
 This audit separates direct public PDFs from citation PDFs. A direct PDF is a released copy of the document or source shelf item. A citation PDF is a public report or hearing volume that identifies, quotes, embeds, or discusses an underlying record that still requires archival retrieval.
 
@@ -12,6 +12,7 @@ This audit separates direct public PDFs from citation PDFs. A direct PDF is a re
 | Clarke to Rice al Qaeda review memorandum, January 25, 2001 | <https://nsarchive2.gwu.edu/NSAEBB/NSAEBB147/clarke%20memo.pdf> | Direct declassified PDF |
 | Clarke Tab A strategy attachment, December 2000 | <https://nsarchive2.gwu.edu/NSAEBB/NSAEBB147/clarke%20attachment.pdf> | Direct declassified PDF |
 | State 109130, "The Secretary's Lunch With Pakistani Foreign Minister Abdul Sattar," June 22, 2001 | <https://nsarchive2.gwu.edu/NSAEBB/NSAEBB325/doc02.pdf> | Direct declassified PDF |
+| State 114516, "A/S Rocca's Meeting with Pakistan Ambassador Lodhi," June 30, 2001 | <https://foia.state.gov/DOCUMENTS/NEA/F-2006-05348ER/DOC_0C18605290/C18605290.pdf> | Direct State FOIA PDF |
 | FAA June 22 information circular comparison | <https://nsarchive2.gwu.edu/NSAEBB/NSAEBB137/6-22%20Chap%208%20Endnotes%20Compare.pdf> | TSA release comparison PDF; original circular withheld |
 | FAA July 18 information circular comparison | <https://nsarchive2.gwu.edu/NSAEBB/NSAEBB137/7-18%20Chap%208%20Endnotes%20Compare.pdf> | TSA release comparison PDF; useful for Arabian Peninsula warning trail |
 | FAA July 31 information circular comparison | <https://nsarchive2.gwu.edu/NSAEBB/NSAEBB137/7-31%20Chap%208%20Endnotes%20Compare.pdf> | TSA release comparison PDF; original circular withheld |
@@ -22,6 +23,12 @@ This audit separates direct public PDFs from citation PDFs. A direct PDF is a re
 | August 6 PDB, "Bin Ladin Determined To Strike in US" | <https://irp.fas.org/cia/product/pdb080601.pdf> | Public declassified PDF copy |
 | Bush/Cheney 9/11 Commission MFR | <https://www.archives.gov/files/declassification/iscap/pdf/2012-163-doc-1-release-material.pdf> | Official ISCAP PDF |
 | Joint Inquiry intelligence-community release material, ISCAP 2014-089 | <https://www.archives.gov/files/declassification/iscap/pdf/2014-089-doc01.pdf> | Official ISCAP PDF |
+
+## Public Text Added Or Confirmed
+
+| Site record or source lead | Link | Status |
+| --- | --- | --- |
+| DOJ intelligence-sharing memorandum, August 6, 2001 | <https://irp.fas.org/agency/doj/fisa/dag080601.html> | Public text copy; official DOJ file PDF still not located |
 
 ## Citation PDFs Added
 
@@ -40,6 +47,7 @@ This audit separates direct public PDFs from citation PDFs. A direct PDF is a re
 | September 4 Principals al Qaeda directive meeting | <https://govinfo.library.unt.edu/911/report/911Report_Ch8.pdf> | Chapter 8 summarizes the meeting; original minutes and decision papers not located |
 | September 10 Deputies al Qaeda strategy meeting | <https://govinfo.library.unt.edu/911/report/911Report_Notes.pdf> | Commission notes cite the Biegun Summary of Conclusions; original PDF not located |
 | NSPD-9 public characterization and pre-9/11 draft lineage | <https://govinfo.library.unt.edu/911/report/911Report_Notes.pdf> | Commission notes are the public source trail for the pre-September 11 draft directive |
+| DOJ intelligence-sharing memorandum, August 6, 2001 | <https://oig.justice.gov/sites/default/files/legacy/special/s0606/final.pdf> | The public text is linked separately through FAS; the OIG PDF is attached for official DOJ narrative and citation control |
 
 ## ISCAP PDF Shelves
 

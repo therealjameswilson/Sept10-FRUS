@@ -17,6 +17,9 @@ const includeCandidates = document.querySelector("#include-candidates");
 const releasedRecords = document.querySelector("#released-records");
 const citationLeads = document.querySelector("#citation-leads");
 const sourceGapCount = document.querySelector("#source-gap-count");
+const p0Blockers = document.querySelector("#p0-blockers");
+const p1Targets = document.querySelector("#p1-targets");
+const directCopyCount = document.querySelector("#direct-copy-count");
 const priorityRoot = document.querySelector("#priority-root");
 const priorityTotal = document.querySelector("#priority-total");
 const repositoryRoot = document.querySelector("#repository-root");
@@ -26,6 +29,8 @@ const chapterFilter = document.querySelector("#filter-chapter");
 const typeFilter = document.querySelector("#filter-type");
 const statusFilter = document.querySelector("#filter-status");
 const decisionFilter = document.querySelector("#filter-decision");
+const priorityFilter = document.querySelector("#filter-priority");
+const scopeFilter = document.querySelector("#filter-scope");
 const issueFilter = document.querySelector("#filter-issue");
 const reviewFilter = document.querySelector("#filter-review");
 const sortSelect = document.querySelector("#sort-records");
@@ -35,6 +40,67 @@ const exportButton = document.querySelector("#export-csv");
 let allRecords = [];
 let visibleRecords = [];
 let reviewedRecords = new Set(readReviewedRecords());
+
+const PRIORITY_ORDER = {
+  P0: 0,
+  P1: 1,
+  P2: 2,
+  Resolved: 3,
+  Reference: 4
+};
+
+const PRIORITY_SCORE = {
+  P0: 100,
+  P1: 68,
+  P2: 32,
+  Resolved: 0,
+  Reference: 0
+};
+
+function priorityLabel(priority) {
+  return {
+    P0: "P0 - blocking",
+    P1: "P1 - high-value",
+    P2: "P2 - supporting",
+    Resolved: "Resolved",
+    Reference: "Reference"
+  }[priority] || priority;
+}
+
+function scopeLabel(scopeRole) {
+  return {
+    "direct-document": "Direct document",
+    "citation-lead": "Citation lead",
+    "source-shelf": "Source shelf",
+    "context-only": "Context only",
+    "reference-only": "Reference only"
+  }[scopeRole] || scopeRole;
+}
+
+function retrievalStatusLabel(status) {
+  return {
+    "direct-copy-located": "direct copy located",
+    "finding-aid-located": "finding aid located",
+    "source-shelf-located": "source shelf located",
+    "citation-only": "citation only",
+    "public-summary-only": "public summary only",
+    "context-only": "context only",
+    "not-public-located": "not publicly located",
+    "not-searched": "not searched"
+  }[status] || status;
+}
+
+function pdfRoleLabel(pdfRole) {
+  return {
+    "direct-copy": "direct copy",
+    "finding-aid": "finding aid",
+    "source-shelf": "source shelf",
+    "comparison-copy": "comparison copy",
+    "embedded-copy": "embedded copy",
+    "citation-volume": "citation volume",
+    none: "none"
+  }[pdfRole] || pdfRole;
+}
 
 function chapterId(chapterName) {
   return `chapter-${chapterName.toLowerCase().replaceAll(" ", "-").replaceAll("/", "")}`;
@@ -190,6 +256,19 @@ function repositoryLabel(repository = "") {
 }
 
 function priorityScore(record) {
+  if (record.retrievalPriority && Object.prototype.hasOwnProperty.call(PRIORITY_SCORE, record.retrievalPriority)) {
+    if (PRIORITY_SCORE[record.retrievalPriority] === 0) return 0;
+    let score = PRIORITY_SCORE[record.retrievalPriority];
+    const issues = getProductionIssues(record);
+    if (record.compilerRisk === "blocking") score += 8;
+    if (issues.includes("needs-source")) score += 5;
+    if (issues.includes("needs-declass")) score += 4;
+    if (record.type === "Meeting Lead") score += 3;
+    if (record.type === "Document Lead") score += 2;
+    if (record.pdfRole === "direct-copy") score -= 5;
+    return Math.max(score, 0);
+  }
+
   if (record.type === "Source Collection" || record.selectionDecision === "Exclude") return 0;
 
   let score = 0;
@@ -226,11 +305,27 @@ function setOptions(select, values, allLabel) {
   if (values.includes(current)) select.value = current;
 }
 
+function setLabeledOptions(select, values, allLabel, labeler) {
+  if (!select) return;
+  const current = select.value;
+  const options = [new Option(allLabel, "")];
+  for (const value of values) options.push(new Option(labeler(value), value));
+  select.replaceChildren(...options);
+  if (values.includes(current)) select.value = current;
+}
+
 function setWorkbenchOptions(records) {
   setOptions(chapterFilter, CHAPTER_ORDER, "All lanes");
   setOptions(typeFilter, uniqueValues(records, (record) => record.type), "All types");
   setOptions(statusFilter, uniqueValues(records, (record) => record.releaseStatus), "All statuses");
   setOptions(decisionFilter, uniqueValues(records, (record) => record.selectionDecision), "All decisions");
+  setLabeledOptions(
+    priorityFilter,
+    uniqueValues(records, (record) => record.retrievalPriority).sort((a, b) => (PRIORITY_ORDER[a] ?? 99) - (PRIORITY_ORDER[b] ?? 99)),
+    "All priorities",
+    priorityLabel
+  );
+  setLabeledOptions(scopeFilter, uniqueValues(records, (record) => record.scopeRole), "All scope roles", scopeLabel);
 }
 
 function searchableText(record) {
@@ -241,6 +336,12 @@ function searchableText(record) {
     record.type,
     record.releaseStatus,
     record.selectionDecision,
+    record.retrievalPriority,
+    record.compilerRisk,
+    record.scopeRole,
+    record.retrievalStatus,
+    record.pdfRole,
+    record.retrievalNotes,
     record.summary,
     record.editorialUse,
     record.dateLine,
@@ -260,7 +361,8 @@ function searchableText(record) {
     joinValues(record.countries),
     joinValues(record.frusTopics),
     joinValues(record.indexTerms),
-    joinValues(record.citedBy)
+    joinValues(record.citedBy),
+    joinValues(record.archivalTargets)
   ]
     .filter(Boolean)
     .join(" ")
@@ -291,6 +393,9 @@ function setIntelligenceCounts(records) {
   if (releasedRecords) releasedRecords.textContent = records.filter(releasedOrPublic).length.toString();
   if (citationLeads) citationLeads.textContent = records.filter((record) => record.releaseStatus === "Citation Lead").length.toString();
   if (sourceGapCount) sourceGapCount.textContent = records.filter((record) => getProductionIssues(record).includes("needs-source")).length.toString();
+  if (p0Blockers) p0Blockers.textContent = records.filter((record) => record.retrievalPriority === "P0").length.toString();
+  if (p1Targets) p1Targets.textContent = records.filter((record) => record.retrievalPriority === "P1").length.toString();
+  if (directCopyCount) directCopyCount.textContent = records.filter((record) => record.retrievalStatus === "direct-copy-located").length.toString();
 }
 
 function groupedCounts(records, selector) {
@@ -353,11 +458,11 @@ function renderPriorityQueue(records) {
     link.textContent = record.documentTitle || record.title;
 
     const meta = document.createElement("p");
-    meta.textContent = `${formatDate(record.date)} · ${record.type} · ${record.releaseStatus}`;
+    meta.textContent = `${record.retrievalPriority || "Priority pending"} · ${record.compilerRisk || "risk pending"} · ${formatDate(record.date)} · ${record.type}`;
 
     const badge = document.createElement("span");
-    badge.textContent = `${score}`;
-    badge.setAttribute("aria-label", `Priority score ${score}`);
+    badge.textContent = record.retrievalPriority || `${score}`;
+    badge.setAttribute("aria-label", `Retrieval priority ${priorityLabel(record.retrievalPriority || String(score))}`);
 
     item.append(link, meta, badge);
     priorityRoot.append(item);
@@ -371,6 +476,8 @@ function selectedFilters() {
     type: typeFilter?.value || "",
     status: statusFilter?.value || "",
     decision: decisionFilter?.value || "",
+    priority: priorityFilter?.value || "",
+    scope: scopeFilter?.value || "",
     issue: issueFilter?.value || "",
     review: reviewFilter?.value || ""
   };
@@ -382,6 +489,8 @@ function recordMatchesFilters(record, filters) {
   if (filters.type && record.type !== filters.type) return false;
   if (filters.status && record.releaseStatus !== filters.status) return false;
   if (filters.decision && record.selectionDecision !== filters.decision) return false;
+  if (filters.priority && record.retrievalPriority !== filters.priority) return false;
+  if (filters.scope && record.scopeRole !== filters.scope) return false;
   if (filters.issue && !getProductionIssues(record).includes(filters.issue)) return false;
   if (filters.review === "open" && reviewedRecords.has(record.id)) return false;
   if (filters.review === "reviewed" && !reviewedRecords.has(record.id)) return false;
@@ -432,6 +541,9 @@ function createMeta(record) {
     record.type,
     record.selectionDecision,
     record.releaseStatus,
+    record.retrievalPriority ? priorityLabel(record.retrievalPriority) : "",
+    record.compilerRisk,
+    record.scopeRole ? scopeLabel(record.scopeRole) : "",
     record.source?.repository,
     record.source?.caseNumber,
     record.naid && record.naid !== "not-applicable" ? `NAID ${record.naid}` : "",
@@ -486,7 +598,10 @@ function createProductionBlock(record) {
     ["People", joinValues(record.persons) || joinValues(record.participants) || "Pending"],
     ["Countries", joinValues(record.countries) || "Pending"],
     ["Cited by", joinValues(record.citedBy) || "Pending"],
-    ["Declass", record.declassificationStatus || record.releaseStatus || "Pending"]
+    ["Declass", record.declassificationStatus || record.releaseStatus || "Pending"],
+    ["Retrieval", record.retrievalStatus ? retrievalStatusLabel(record.retrievalStatus) : "Pending"],
+    ["PDF role", record.pdfRole ? pdfRoleLabel(record.pdfRole) : "Pending"],
+    ["Targets", joinValues(record.archivalTargets) || record.retrievalNotes || "Pending"]
   ];
 
   for (const [term, value] of rows) {
@@ -625,7 +740,7 @@ function renderRecords(records) {
 }
 
 function resetFilters() {
-  for (const control of [searchInput, chapterFilter, typeFilter, statusFilter, decisionFilter, issueFilter, reviewFilter]) {
+  for (const control of [searchInput, chapterFilter, typeFilter, statusFilter, decisionFilter, priorityFilter, scopeFilter, issueFilter, reviewFilter]) {
     if (control) control.value = "";
   }
   if (sortSelect) sortSelect.value = "chapter-date";
@@ -644,6 +759,11 @@ function exportVisibleRecords() {
     "type",
     "selection_decision",
     "release_status",
+    "retrieval_priority",
+    "compiler_risk",
+    "scope_role",
+    "retrieval_status",
+    "pdf_role",
     "reviewed",
     "title",
     "source_path",
@@ -651,6 +771,7 @@ function exportVisibleRecords() {
     "catalog_url",
     "pdf_url",
     "citation_pdf_url",
+    "archival_targets",
     "issues",
     "topics"
   ];
@@ -662,6 +783,11 @@ function exportVisibleRecords() {
       record.type,
       record.selectionDecision,
       record.releaseStatus,
+      record.retrievalPriority,
+      record.compilerRisk,
+      record.scopeRole,
+      record.retrievalStatus,
+      record.pdfRole,
       reviewedRecords.has(record.id) ? "yes" : "no",
       record.documentTitle || record.title,
       sourcePathParts(record).join(" / "),
@@ -669,6 +795,7 @@ function exportVisibleRecords() {
       record.catalogUrl,
       record.pdfUrl,
       record.citationPdfUrl,
+      joinValues(record.archivalTargets),
       getProductionIssues(record).join("; "),
       [...listValues(record.frusTopics), ...listValues(record.indexTerms)].join("; ")
     ]
@@ -693,7 +820,13 @@ function compilerStub(record) {
     `Type: ${record.type}`,
     `Decision: ${record.selectionDecision || "Pending"}`,
     `Release: ${record.releaseStatus || "Pending"}`,
+    `Retrieval priority: ${record.retrievalPriority ? priorityLabel(record.retrievalPriority) : "Pending"}`,
+    `Compiler risk: ${record.compilerRisk || "Pending"}`,
+    `Scope role: ${record.scopeRole ? scopeLabel(record.scopeRole) : "Pending"}`,
+    `Retrieval status: ${record.retrievalStatus ? retrievalStatusLabel(record.retrievalStatus) : "Pending"}`,
+    `PDF role: ${record.pdfRole ? pdfRoleLabel(record.pdfRole) : "Pending"}`,
     `Source path: ${sourcePathParts(record).join(" / ") || "Pending"}`,
+    `Archival targets: ${joinValues(record.archivalTargets) || record.retrievalNotes || "Pending"}`,
     `Source-note stub: ${createSourceNoteDraft(record)}`,
     `Source URL: ${record.catalogUrl || record.source?.url || ""}`,
     `PDF: ${record.pdfUrl || ""}`,
