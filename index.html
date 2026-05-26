@@ -15,9 +15,10 @@
       <a class="brand" href="#top" aria-label="Sept10 FRUS assist home">
         <span class="brand-mark">9/10</span>
         <span>Sept10 FRUS Assist</span>
-        <span class="version-chip">v2.1</span>
+        <span class="version-chip">v2.2</span>
       </a>
       <nav aria-label="Primary navigation">
+        <a href="#declassified-chronology">Declassified</a>
         <a href="#workbench">Workbench</a>
         <a href="#priorities">Priorities</a>
         <a href="#lanes">Lanes</a>
@@ -40,9 +41,9 @@
             September 10, 2001.
           </p>
           <div class="hero-actions" aria-label="Primary actions">
-            <a class="button primary" href="#records">Browse Records</a>
+            <a class="button primary" href="#declassified-chronology">Declassified Chronology</a>
+            <a class="button secondary" href="#records">Browse Records</a>
             <a class="button secondary" href="#priorities">Priority Queue</a>
-            <a class="button secondary" href="#workbench">Open Workbench</a>
           </div>
         </div>
         <aside class="brief" aria-label="Archive scope">
@@ -67,6 +68,24 @@
             </div>
           </dl>
         </aside>
+      </section>
+
+      <section class="section declassified-chronology" id="declassified-chronology" aria-labelledby="declassified-title">
+        <div class="section-heading">
+          <div>
+            <p class="kicker">Declassified Document Chronology</p>
+            <h2 id="declassified-title">Start with the Released Records</h2>
+          </div>
+          <p class="section-note">
+            Direct public copies first: declassified documents and released State,
+            NSC, CIA, and INR records, arranged by the chronology they support.
+          </p>
+        </div>
+        <div class="chronology-toolbar">
+          <p><span id="declassified-count">0</span> declassified direct-document records</p>
+          <a href="#workbench">Open full workbench</a>
+        </div>
+        <div id="declassified-root" class="declassified-list" aria-live="polite"></div>
       </section>
 
       <section class="stats" aria-label="Archive summary">

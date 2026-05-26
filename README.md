@@ -10,11 +10,13 @@ reading: records live in `data/records.json`, the browser mirror is
 `data/records.js`, and the public page renders a searchable chronology with
 source-note stubs, production gaps, local review state, and CSV export.
 
-Version 2.1 adds record-level compiler-risk controls: retrieval priority,
-compiler risk, scope role, retrieval status, PDF role, archival targets, a
-retrieval matrix, and UI filters for priority and scope role. It also adds two
-new public-source controls: State FOIA C18605290 and the public text of the
-August 6, 2001 DOJ intelligence-sharing memorandum.
+Version 2.2 promotes the declassified direct-document chronology to the first
+public section of the page, ahead of the compiler workbench. Version 2.1 added
+record-level compiler-risk controls: retrieval priority, compiler risk, scope
+role, retrieval status, PDF role, archival targets, a retrieval matrix, and UI
+filters for priority and scope role. It also added two public-source controls:
+State FOIA C18605290 and the public text of the August 6, 2001 DOJ
+intelligence-sharing memorandum.
 
 No public Office of the Historian volume number is assigned in this site. The
 scope is named from the working brief: counterterrorism before the September 11
@@ -52,6 +54,8 @@ verification.
 The site supports:
 
 - search across titles, summaries, source paths, people, topics, URLs, and notes
+- first-section chronology of declassified direct-document PDFs, ordered by the
+  events and records they document
 - computed retrieval-priority scoring for high-value records still needing
   original source verification
 - source-intelligence panels for readiness, repository mix, and production-gate

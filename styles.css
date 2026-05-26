@@ -52,7 +52,9 @@ a {
 .brand,
 nav,
 .hero-actions,
+.chronology-toolbar,
 .record-links,
+.declassified-links,
 .record-meta,
 .record-actions,
 .tag-list,
@@ -255,6 +257,7 @@ dd {
 .chapter-card,
 .source-grid a,
 .record-row,
+.declassified-item,
 .ingest,
 .intelligence-panel,
 .sweep-grid a {
@@ -304,6 +307,105 @@ dd {
   margin: 0;
   color: var(--muted);
   line-height: 1.5;
+}
+
+.declassified-chronology {
+  scroll-margin-top: 84px;
+}
+
+.chronology-toolbar {
+  justify-content: space-between;
+  gap: 14px;
+  margin-bottom: 14px;
+  padding-bottom: 12px;
+  border-bottom: 1px solid var(--line);
+}
+
+.chronology-toolbar p {
+  margin: 0;
+  color: var(--muted);
+  font-weight: 800;
+}
+
+.chronology-toolbar span {
+  color: var(--navy);
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 1.35rem;
+  font-weight: 850;
+}
+
+.chronology-toolbar a {
+  color: var(--navy);
+  font-weight: 850;
+  text-underline-offset: 3px;
+}
+
+.declassified-list {
+  display: grid;
+  gap: 10px;
+}
+
+.declassified-item {
+  display: grid;
+  grid-template-columns: 124px minmax(0, 1fr) 112px;
+  gap: 18px;
+  align-items: start;
+  padding: 16px 18px;
+}
+
+.declassified-date {
+  color: var(--red);
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 1.02rem;
+  font-weight: 850;
+}
+
+.declassified-title {
+  display: inline-block;
+  color: var(--ink);
+  font-weight: 900;
+  text-decoration-thickness: 2px;
+  text-underline-offset: 3px;
+}
+
+.declassified-meta {
+  margin: 5px 0 8px;
+  color: var(--muted);
+  font-size: 0.87rem;
+  font-weight: 780;
+}
+
+.declassified-summary {
+  margin: 0;
+  color: #3d4a51;
+  line-height: 1.5;
+}
+
+.declassified-links {
+  align-items: stretch;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.declassified-links a {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 34px;
+  padding: 0 10px;
+  color: var(--navy);
+  font-size: 0.84rem;
+  font-weight: 850;
+  text-align: center;
+  text-decoration: none;
+  border: 1px solid var(--navy);
+  border-radius: 6px;
+}
+
+.declassified-links a:hover,
+.declassified-links a:focus-visible {
+  background: rgba(23, 61, 79, 0.08);
+  outline: none;
 }
 
 .workbench {
@@ -867,7 +969,8 @@ footer p {
 
 @media (max-width: 980px) {
   .hero,
-  .record-row {
+  .record-row,
+  .declassified-item {
     grid-template-columns: 1fr;
   }
 
@@ -888,7 +991,8 @@ footer p {
     grid-template-columns: 1fr;
   }
 
-  .record-links {
+  .record-links,
+  .declassified-links {
     flex-direction: row;
     flex-wrap: wrap;
   }
@@ -897,6 +1001,7 @@ footer p {
 @media (max-width: 660px) {
   .site-header,
   .section-heading,
+  .chronology-toolbar,
   .workbench-actions,
   .record-chapter-header {
     align-items: stretch;

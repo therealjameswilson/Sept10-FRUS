@@ -8,6 +8,8 @@ const CHAPTER_ORDER = [
 const REVIEW_STORAGE_KEY = "sept10-frus-reviewed-records";
 
 const recordsRoot = document.querySelector("#records-root");
+const declassifiedRoot = document.querySelector("#declassified-root");
+const declassifiedCount = document.querySelector("#declassified-count");
 const totalRecords = document.querySelector("#total-records");
 const publicRecords = document.querySelector("#public-records");
 const sourceGaps = document.querySelector("#source-gaps");
@@ -241,6 +243,10 @@ function releasedOrPublic(record) {
   return /public|declassified|released|full|citation/i.test(record.releaseStatus || "") || Boolean(record.pdfUrl || record.citationPdfUrl);
 }
 
+function isDeclassifiedDirectRecord(record) {
+  return record.scopeRole === "direct-document" && record.retrievalStatus === "direct-copy-located" && Boolean(record.pdfUrl);
+}
+
 function repositoryLabel(repository = "") {
   if (/state/i.test(repository)) return "State";
   if (/national security council|white house/i.test(repository)) return "NSC/White House";
@@ -383,6 +389,7 @@ function setCounts(records) {
   }
 
   setIntelligenceCounts(records);
+  renderDeclassifiedChronology(records);
   renderPriorityQueue(records);
   renderMeterList(repositoryRoot, groupedCounts(records, (record) => repositoryLabel(record.source?.repository)));
   renderMeterList(issueRoot, issueCounts(records));
@@ -466,6 +473,75 @@ function renderPriorityQueue(records) {
 
     item.append(link, meta, badge);
     priorityRoot.append(item);
+  }
+}
+
+function renderDeclassifiedChronology(records) {
+  if (!declassifiedRoot) return;
+
+  const documents = records.filter(isDeclassifiedDirectRecord).sort(byDate);
+  declassifiedRoot.replaceChildren();
+  if (declassifiedCount) declassifiedCount.textContent = documents.length.toString();
+
+  if (!documents.length) {
+    const empty = createEmptyState();
+    empty.textContent = "No declassified direct-document records are currently available.";
+    declassifiedRoot.append(empty);
+    return;
+  }
+
+  for (const record of documents) {
+    const item = document.createElement("article");
+    item.className = "declassified-item";
+
+    const date = document.createElement("time");
+    date.className = "declassified-date";
+    date.dateTime = record.date || "";
+    date.textContent = formatDate(record.date);
+
+    const body = document.createElement("div");
+    body.className = "declassified-body";
+
+    const title = document.createElement("a");
+    title.className = "declassified-title";
+    title.href = record.pdfUrl;
+    title.rel = "noreferrer";
+    title.textContent = record.documentTitle || record.title;
+
+    const metadata = [
+      repositoryLabel(record.source?.repository),
+      record.pdfLabel || "Open PDF",
+      record.pageCount ? `${record.pageCount} pages` : "",
+      record.retrievalPriority ? priorityLabel(record.retrievalPriority) : ""
+    ].filter(Boolean);
+
+    body.append(title, createParagraph("declassified-meta", metadata.join(" · ")));
+    if (record.summary) body.append(createParagraph("declassified-summary", record.summary));
+
+    const links = document.createElement("div");
+    links.className = "declassified-links";
+
+    const pdfLink = document.createElement("a");
+    pdfLink.href = record.pdfUrl;
+    pdfLink.rel = "noreferrer";
+    pdfLink.textContent = record.pdfLabel || "Open PDF";
+    links.append(pdfLink);
+
+    if (record.catalogUrl && record.catalogUrl !== record.pdfUrl) {
+      const sourceLink = document.createElement("a");
+      sourceLink.href = record.catalogUrl;
+      sourceLink.rel = "noreferrer";
+      sourceLink.textContent = "Source";
+      links.append(sourceLink);
+    }
+
+    const detailsLink = document.createElement("a");
+    detailsLink.href = `#record-${record.id}`;
+    detailsLink.textContent = "Details";
+    links.append(detailsLink);
+
+    item.append(date, body, links);
+    declassifiedRoot.append(item);
   }
 }
 
@@ -900,7 +976,7 @@ function enableChapterCards() {
 }
 
 function bindWorkbench() {
-  for (const control of [searchInput, chapterFilter, typeFilter, statusFilter, decisionFilter, issueFilter, reviewFilter, sortSelect]) {
+  for (const control of [searchInput, chapterFilter, typeFilter, statusFilter, decisionFilter, priorityFilter, scopeFilter, issueFilter, reviewFilter, sortSelect]) {
     control?.addEventListener("input", applyFilters);
     control?.addEventListener("change", applyFilters);
   }
